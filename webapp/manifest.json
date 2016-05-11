@@ -1,21 +1,20 @@
 {
-	"_version": "1.1.0",
+	"_version": "1.3.0",
 	"sap.app": {
 		"_version": "1.1.0",
-		"id": "evaluation-widget",
+		"id": "hcp://evaluationwidget/manifest.json",
 		"type": "application",
 		"i18n": "i18n/i18n.properties",
 		"applicationVersion": {
 			"version": "1.0.0"
 		},
-		"title": "{{appTitle}}",
+		"title": "ShortPoint Trial",
 		"description": "{{appDescription}}",
 		"sourceTemplate": {
 			"id": "ui5template.basicSAPUI5ApplicationProject",
 			"version": "1.32.0"
 		}
 	},
-
 	"sap.ui": {
 		"_version": "1.1.0",
 		"technology": "UI5",
@@ -37,13 +36,11 @@
 			"sap_bluecrystal"
 		]
 	},
-
 	"sap.ui5": {
-		"_version": "1.1.0",
-		"rootView": {
-			"viewName": "evaluation-widget.view.View1",
-			"type": "XML"
+	    "config": {
+			"shortpoint": {}
 		},
+		"_version": "1.1.0",
 		"dependencies": {
 			"minUI5Version": "1.30.0",
 			"libs": {
@@ -65,9 +62,53 @@
 			}
 		},
 		"resources": {
-			"css": [{
-				"uri": "css/style.css"
-			}]
+			"css": [
+				{
+					"uri": "css/style.css"
+				}
+			]
+		},
+		"routing": {
+			"config": {
+				"routerClass": "sap.hana.uis.flp.routing.Router"
+			}
+		},
+		"componentName": "evaluation-widget"
+	},
+	"sap.flp": {
+		"appType": "SAP_UI5_Component",
+		"config": {
+			"editable": true,
+			"deletable": true
+		}
+	},
+	"sap.platform.hcp": {
+		"uri": "/",
+		"appName": "evaluationwidget"
+	},
+	"sap.cloud.portal": {
+	    "show.portal.settings": false,
+		"settings": {
+			"markup": {
+				"isRequired": false,
+				"storage_type": "html",
+				"value": "[info color=&quot;gray&quot; icon=&quot;info&quot;]<div>Press the Edit icon to start designing with ShortPoint</div>[/info]",
+				"displayName": "HTML",
+				"id": "markup"
+			}
+		},
+		"menu": {
+			"actions": {
+				"properties": {
+					"events": {
+						"press": "onEditButtonPress"
+					},
+					"attributes": {
+						"icon": "sap-icon://edit",
+						"tooltip": "Opens ShortPoint Editor"
+					}
+				}
+			}
 		}
 	}
 }
