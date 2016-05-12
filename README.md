@@ -2,7 +2,6 @@
 > Design Sites & Site Templates Like A Pro
 No Coding, external tools, customizations. It works everywhere. Just install and start designing your modern SAP HCP sites.
 
-===
 
 ## Documentation
 
