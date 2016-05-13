@@ -1,10 +1,1 @@
-sap.ui.define([
-	"sap/ui/core/mvc/Controller"
-], function(Controller) {
-	"use strict";
-
-	return Controller.extend("evaluation-widget.controller.View1", {
-
-	});
-
-});
+sap.ui.define(["sap/ui/core/mvc/Controller"],function(a){"use strict";return a.extend("evaluation-widget.controller.View1",{})});
