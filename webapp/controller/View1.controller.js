@@ -1,10 +1,1 @@
-sap.ui.define([
-	"sap/ui/core/mvc/Controller"
-], function(Controller) {
-	"use strict";
-
-	return Controller.extend("shortpoint-widget-beta.controller.View1", {
-
-	});
-
-});
+sap.ui.define(["sap/ui/core/mvc/Controller"],function(a){"use strict";return a.extend("shortpoint-widget-beta.controller.View1",{})});
