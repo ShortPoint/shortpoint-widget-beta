@@ -1,21 +1,20 @@
 {
-	"_version": "1.1.0",
+	"_version": "1.3.0",
 	"sap.app": {
 		"_version": "1.1.0",
-		"id": "shortpoint-widget-beta",
+		"id": "hcp://shortpointwidgetbeta/manifest.json",
 		"type": "application",
 		"i18n": "i18n/i18n.properties",
 		"applicationVersion": {
 			"version": "1.0.0"
 		},
-		"title": "{{appTitle}}",
+		"title": "ShortPoint Widget BETA",
 		"description": "{{appDescription}}",
 		"sourceTemplate": {
 			"id": "ui5template.basicSAPUI5ApplicationProject",
 			"version": "1.32.0"
 		}
 	},
-
 	"sap.ui": {
 		"_version": "1.1.0",
 		"technology": "UI5",
@@ -37,7 +36,6 @@
 			"sap_bluecrystal"
 		]
 	},
-
 	"sap.ui5": {
 		"_version": "1.1.0",
 		"rootView": {
@@ -65,9 +63,29 @@
 			}
 		},
 		"resources": {
-			"css": [{
-				"uri": "css/style.css"
-			}]
+			"css": [
+				{
+					"uri": "css/style.css"
+				}
+			]
+		},
+		"routing": {
+			"config": {
+				"routerClass": "sap.hana.uis.flp.routing.Router"
+			}
+		},
+		"componentName": "shortpoint-widget-beta"
+	},
+	"sap.flp": {
+		"appType": "SAP_UI5_Component",
+		"config": {
+			"editable": true,
+			"deletable": true
 		}
-	}
+	},
+	"sap.platform.hcp": {
+		"uri": "/",
+		"appName": "shortpointwidgetbeta"
+	},
+	"sap.cloud.portal": {}
 }
