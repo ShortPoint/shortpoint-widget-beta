@@ -1,0 +1,6 @@
+<mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="shortpoint-widget-beta.controller.RenderMode"
+	xmlns:html="http://www.w3.org/1999/xhtml">
+    <VBox id="shortpoint" class="shortpoint-root-view">
+        <html:div id="shortpointViewer" class="shortpoint-viewer"></html:div>
+    </VBox>
+</mvc:View>
