@@ -37,11 +37,10 @@
 		]
 	},
 	"sap.ui5": {
-		"_version": "1.1.0",
-		"rootView": {
-			"viewName": "shortpoint-widget-beta.view.View1",
-			"type": "XML"
+		"config": {
+			"shortpoint": {}
 		},
+		"_version": "1.1.0",
 		"dependencies": {
 			"minUI5Version": "1.30.0",
 			"libs": {
@@ -84,8 +83,33 @@
 		}
 	},
 	"sap.platform.hcp": {
-		"uri": "/",
-		"appName": "shortpointwidgetbeta"
+		"uri": "webapp",
+		"appName": "shortpointwidgetbeta",
+		"_version": "1.1.0"
 	},
-	"sap.cloud.portal": {}
+	"sap.cloud.portal": {
+		"show.portal.settings": false,
+		"settings": {
+			"markup": {
+				"isRequired": false,
+				"storage_type": "html",
+				"value": "[info color=&quot;warning&quot; icon=&quot;info&quot;]<div>Press the Edit icon to start designing with ShortPoint</div>[/info]",
+				"displayName": "HTML",
+				"id": "markup"
+			}
+		},
+		"menu": {
+			"actions": {
+				"properties": {
+					"events": {
+						"press": "onEditButtonPress"
+					},
+					"attributes": {
+						"icon": "sap-icon://edit",
+						"tooltip": "Opens ShortPoint Editor"
+					}
+				}
+			}
+		}
+	}
 }

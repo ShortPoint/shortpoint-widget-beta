@@ -6,7 +6,8 @@
   "build": {
     "targetFolder": "dist",
     "sourceFolder": "webapp",
-    "buildRequired": true
+    "buildRequired": false,
+    "lastBuildDateTime": "Sat, 14 May 2016 10:37:57 GMT"
   },
   "generation": [
     {
@@ -33,5 +34,10 @@
       "xml": "fioriXmlAnalysis",
       "js": "fioriJsValidator"
     }
+  },
+  "hcpdeploy": {
+    "account": "aa0b9ee94",
+    "name": "shortpointwidgetbeta",
+    "lastVersionWeTriedToDeploy": "1.0.0"
   }
 }
