@@ -6,7 +6,7 @@
   "build": {
     "targetFolder": "dist",
     "sourceFolder": "webapp",
-    "buildRequired": false,
+    "buildRequired": true,
     "lastBuildDateTime": "Sat, 14 May 2016 10:37:57 GMT"
   },
   "generation": [
@@ -33,7 +33,212 @@
     "services": {
       "xml": "fioriXmlAnalysis",
       "js": "fioriJsValidator"
-    }
+    },
+    "validators": [
+      {
+        "validatorID": "fioriJsValidator",
+        "configuration": {
+          "rules": {
+            "valid-jsdoc": [
+              0,
+              {
+                "requireReturn": false
+              }
+            ],
+            "no-unreachable": 0,
+            "no-regex-spaces": 0,
+            "no-shadow": 0,
+            "sap-no-localstorage": 0,
+            "quotes": [
+              0,
+              "double",
+              "avoid-escape"
+            ],
+            "no-return-assign": 0,
+            "max-len": [
+              0,
+              200
+            ],
+            "sap-no-ui5base-prop": 0,
+            "no-param-reassign": 0,
+            "sap-no-location-reload": 0,
+            "no-new-func": 0,
+            "no-eval": 0,
+            "new-parens": 0,
+            "yoda": [
+              0,
+              "never"
+            ],
+            "no-reserved-keys": 0,
+            "no-delete-var": 0,
+            "sap-usage-basemastercontroller": 0,
+            "no-nested-ternary": 0,
+            "no-dupe-args": 0,
+            "complexity": [
+              0,
+              15
+            ],
+            "no-control-regex": 0,
+            "no-invalid-regexp": 0,
+            "sap-no-ui5-prop-warning": 0,
+            "no-catch-shadow": 0,
+            "no-iterator": 0,
+            "no-with": 0,
+            "sap-no-absolute-component-path": 0,
+            "no-spaced-func": 0,
+            "curly": [
+              0,
+              "all"
+            ],
+            "no-debugger": 0,
+            "no-extend-native": 0,
+            "no-constant-condition": 0,
+            "no-redeclare": 0,
+            "radix": 0,
+            "no-new": 0,
+            "no-obj-calls": 0,
+            "sap-no-br-on-return": 0,
+            "sap-no-override-rendering": 0,
+            "sap-no-override-storage-prototype": 0,
+            "sap-no-proprietary-browser-api": 0,
+            "sap-no-element-creation": 0,
+            "space-return-throw-case": 0,
+            "wrap-iife": [
+              0,
+              "any"
+            ],
+            "sap-no-global-selection": 0,
+            "no-alert": 0,
+            "sap-no-global-variable": 0,
+            "no-script-url": 0,
+            "max-depth": [
+              0,
+              4
+            ],
+            "sap-no-dom-access": 0,
+            "no-dupe-keys": 0,
+            "no-loop-func": 0,
+            "no-shadow-restricted-names": 0,
+            "sap-no-jquery-device-api": 0,
+            "guard-for-in": 0,
+            "no-extra-semi": 0,
+            "sap-message-toast": 0,
+            "no-native-reassign": 0,
+            "sap-no-global-define": 0,
+            "sap-ui5-no-private-prop": 0,
+            "comma-dangle": 0,
+            "no-wrap-func": 0,
+            "no-array-constructor": 0,
+            "use-isnan": 0,
+            "sap-no-location-usage": 0,
+            "no-multi-str": 0,
+            "sap-no-encode-file-service": 0,
+            "no-throw-literal": 0,
+            "sap-timeout-usage": 0,
+            "consistent-return": 0,
+            "no-func-assign": 0,
+            "no-self-compare": 0,
+            "no-new-wrappers": 0,
+            "no-negated-in-lhs": 0,
+            "global-strict": [
+              0,
+              "never"
+            ],
+            "sap-no-history-manipulation": 0,
+            "no-implied-eval": 0,
+            "sap-no-dom-insertion": 0,
+            "no-extra-bind": 0,
+            "no-ex-assign": 0,
+            "no-inner-declarations": [
+              0,
+              "functions"
+            ],
+            "max-statements": [
+              0,
+              40
+            ],
+            "valid-typeof": 0,
+            "sap-no-navigator": 0,
+            "semi": 0,
+            "no-empty-character-class": 0,
+            "no-empty": 0,
+            "no-proto": 0,
+            "sap-forbidden-window-property": 0,
+            "sap-no-hardcoded-url": 0,
+            "sap-no-dynamic-style-insertion": 0,
+            "no-cond-assign": 0,
+            "sap-cross-application-navigation": 0,
+            "sap-no-exec-command": 0,
+            "no-octal": 0,
+            "no-new-object": 0,
+            "sap-no-sessionstorage": 0,
+            "no-irregular-whitespace": 0,
+            "consistent-this": [
+              0,
+              "that"
+            ],
+            "camelcase": 0,
+            "space-infix-ops": 0,
+            "no-fallthrough": 0,
+            "no-warning-comments": [
+              0,
+              {
+                "terms": [
+                  "todo",
+                  "fixme",
+                  "xxx"
+                ],
+                "location": "start"
+              }
+            ],
+            "no-octal-escape": 0,
+            "no-unused-vars": [
+              0,
+              {
+                "args": "none",
+                "vars": "all"
+              }
+            ],
+            "no-sparse-arrays": 0,
+            "no-sequences": 0,
+            "no-undef": 0,
+            "eqeqeq": 0,
+            "sap-no-localhost": 0,
+            "sap-no-hardcoded-color": 0,
+            "new-cap": [
+              0,
+              {
+                "capIsNew": false
+              }
+            ],
+            "no-console": 0,
+            "sap-no-global-event": 0,
+            "no-extra-boolean-cast": 0,
+            "no-labels": 0,
+            "no-eq-null": 0,
+            "no-label-var": 0,
+            "no-use-before-define": 0,
+            "semi-spacing": 0,
+            "linebreak-style": [
+              0,
+              "unix"
+            ],
+            "no-empty-label": 0,
+            "max-params": [
+              0,
+              8
+            ],
+            "no-caller": 0,
+            "no-lone-blocks": 0,
+            "no-unused-expressions": 0,
+            "dot-notation": 0,
+            "no-undef-init": 0,
+            "no-duplicate-case": 0
+          },
+          "additionalRuleMetadata": {}
+        }
+      }
+    ]
   },
   "hcpdeploy": {
     "account": "aa0b9ee94",
