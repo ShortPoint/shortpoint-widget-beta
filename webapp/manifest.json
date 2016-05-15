@@ -93,7 +93,7 @@
 			"markup": {
 				"isRequired": false,
 				"storage_type": "html",
-				"value": "[info color=&quot;warning&quot; icon=&quot;info&quot;]<div>Press the Edit icon to start designing with ShortPoint</div>[/info]",
+				"value": "[info color=\"warning\" icon=\"info\"]<div>Press the Edit icon to start designing with ShortPoint</div>[/info]",
 				"displayName": "HTML",
 				"id": "markup"
 			}
