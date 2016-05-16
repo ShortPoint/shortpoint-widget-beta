@@ -32,3 +32,23 @@
     word-wrap: break-word;
     overflow-wrap: break-word;
 }
+
+/* fixing eraser icon */
+.fa.fa-eraser {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    transform: translate(0,0);
+}
+
+.fa.fa-eraser:after {
+    content: "\f12d";
+}
+
+.shortpoint-feedback-cmd {
+    text-decoration: none;
+    display: block;
+}

@@ -8,7 +8,7 @@
 		"applicationVersion": {
 			"version": "1.0.0"
 		},
-		"title": "ShortPoint Widget BETA",
+		"title": "ShortPoint Widget Beta",
 		"description": "{{appDescription}}",
 		"sourceTemplate": {
 			"id": "ui5template.basicSAPUI5ApplicationProject",
