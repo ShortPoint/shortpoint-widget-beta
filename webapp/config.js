@@ -1,1 +1,53 @@
-sap.ui.define([],function(){"use strict";var a=[{name:"SharePoint List",adapter:"sharePointList",id:"sharePointList"},{name:"Yammer Group Funny Kittens",adapter:"rest",data:{url:"..."},id:"rest_1"},{name:"Some Posts",adapter:"rest",data:{url:"http://jsonplaceholder.typicode.com/posts"},id:"rest_2"}],b={autoInit:!1,scrollWrapperSelector:".shortpoint-scroll-container",platform:"sap",connectionTypes:a};return window.shortpoint_pre_config=b,{namespace:"shortpoint-widget-beta",shortpointPreConfig:b}});
+var version = '3.1.0';
+var sNamespace = "shortpoint-widget-beta";
+
+var versionBuster = version.replace(/\./g, '00');
+var prefix = jQuery.sap.getModulePath( sNamespace );
+if (prefix === ".") {
+    prefix = "";
+}
+
+var webapp = '';
+if(!sap.ushell || !sap.ushell.Container){
+    // required only in Web IDE testing
+    webapp = 'webapp';
+}
+
+var root = prefix + '/~' + versionBuster + '~/' + webapp;
+jQuery.sap.registerModulePath('shortpoint-root', root);
+jQuery.sap.registerModulePath('shortpoint-libs', root + '/libs');
+
+sap.ui.define(['./connections'], function (connections) {
+	"use strict";
+	
+	// map connections
+	var oConnectionTypes = connections.map(function (item) {
+		return {
+			name: item.name,
+			adapter: "rest",
+			data: { url: prefix + item.url },
+			id: item.id
+		};
+	});
+
+	/**
+	 * ShortPoint configuration
+	 */
+	var oShortpointPreConfig = { 
+		autoInit: false,
+		scrollWrapperSelector: ".shortpoint-scroll-container",
+		platform: "sap",
+		connectionTypes: oConnectionTypes
+	};
+
+	window.shortpoint_pre_config = oShortpointPreConfig; // eslint-disable-line camelcase
+
+	/**
+	 * expose all configurations
+	 */
+	return {
+		namespace: sNamespace,
+		shortpointPreConfig: oShortpointPreConfig,
+		appVersion: version
+	};
+});
