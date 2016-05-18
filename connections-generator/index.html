@@ -3,7 +3,7 @@
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
 	<meta charset="utf-8" />
-	<title>SAP Connect</title>
+	<title>Connection Generator for ShortPoint Widget Beta</title>
 	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
 
 	<style type="text/css">
@@ -40,30 +40,62 @@
 <body>
 	<nav class="navbar navbar-default navbar-static-top">
 		<div class="container">
+			<a class="navbar-brand" href="http://www.shortpoint.com/" target="_blank">
+				<img src="assets/img/logo.png" style="position: relative; top: -5px;">
+			</a>
 			<div class="navbar-header">
-				<a class="navbar-brand" href="#">SAP Connect</a>
+				<a class="navbar-brand" href="#">Connection Generator for ShortPoint Widget Beta</a>
 			</div>
 		</div>
 	</nav>
 
 	<div class="container">
-		<h4><b>Destination Connections</b></h4>
 
+		<h4><b>Destination Connections</b></h4>
+		<p>If the data that you wish to connect with, is not available publicly, and requires authentication to be accessed, then SAP Destinations is used here to provide the authentication details, and to securly connect with your external data source.<br>
+		To add a destination in ShortPoint that is configured in your Cockpit, then you need to provide the Destination name as written in the Cockpit, followed by a coma (<code>,</code>), then the name that you wish to appear in ShortPoint for this kind of connection wrapped within double quotes (<code>"</code>)</p>
+
+		<br />
+		<div class="alert alert-info"> 
+			<p>Example: if you have two Destinations configured in your cockpit, one for <b>Latest News</b> that is is named in the Cockpit as <code>latest-news</code>, and the other for <b>Team Members</b> that is named in the Cockpit as <code>team-members</code>, you would write them as follows: <br /><br />
+				<figure class="highlight">
+					<pre><code>latest-news, "Latest News"
+team-members, "Team Members"</code></pre>
+				</figure>
+			</p>
+		</div>
+
+		</p>
 		<textarea id="txtBoxDestinations" class="form-control text-editor" rows="5" data-forget-placeholder="Destination-1,&quot;My Connection 1&quot;\nDestination-2,&quot;My Connection 2&quot;">Destination-1,"My Connection 1"
 Destination-2,"My Connection 2"</textarea>
+		
+		<hr />
+
 		<h4><b>Other REST Connections</b></h4>
+		<p>If the data that you wish to connect with, is available publicly through a REST web service, without authentication, you can write here the URL for your REST web service, no need to configure any Destinations from the Cockpit for this kind of connections.<br/> 
+		If you have multiple connections that you wish to connect with, provide each connection URL on a separate line, followed by a coma (<code>,</code>), then the name that you wish to appear in ShortPoint for this kind of connection wrapped within double quotes (<code>"</code>)</p>
+
+		<div class="alert alert-info"> 
+			<p>Example: if you have two REST URL connections, one for <b>Latest News</b> that is available on the URL <code>http://yoursite.com/news</code>, and the other for <b>Team Members</b> and is available on the URL <code>http://yoursite.com/team</code>, you would write them as follows: <br /><br />
+				<figure class="highlight">
+					<pre><code>http://yoursite.com/news, "Latest News"
+http://yoursite.com/team, "Team Members"</code></pre>
+				</figure>
+			</p>
+		</div>
+
+
 		<textarea id="txtBoxRest" class="form-control text-editor" rows="5" data-forget-placeholder="http://jsonplaceholder.typicode.com/posts, &quot;My Posts&quot;">http://jsonplaceholder.typicode.com/posts, "My Posts"</textarea>
 		<br />
 		<button type="button" class="btn btn-primary btn-lg btn-generate-files">Generate</button>
-		<br /><br />
-
+		<hr />
 		<div data-shortpoint="'row': {}" class="row" style="visibility: visible;">
 			<div class="child col col-md col-md-6">
 				<h4>Generated <a href="https://github.com/ShortPoint/shortpoint-widget-beta/blob/master/neo-app.json" target="_blank"><code>shortpoint-widget-beta/<b>neo-app.json</b></code></a></h4>
 				<textarea id="txtBoxResultNeoApp" class="form-control text-editor" rows="20"></textarea>
 				<br/>
 				<p>
-					Copy this text to <b>shortpoint-widget-beta\neo-app.json</b> file in <i>SAP Web IDE</i> &nbsp;
+					Copy this text to <a href="https://github.com/ShortPoint/shortpoint-widget-beta/blob/master/neo-app.json" target="_blank"><code>shortpoint-widget-beta/<b>neo-app.json</b></code></a> file in <i>SAP Web IDE</i> &nbsp;
 					<button type="button" class="btn btn-primary btn-xs btn-neo-app-example"
 					        data-toggle="modal" data-target="#neoAppExampleModal">Example</button>
 				</p>
@@ -73,14 +105,15 @@ Destination-2,"My Connection 2"</textarea>
 				<textarea id="txtBoxResultConnectionTypes" class="form-control text-editor" rows="20"></textarea>
 				<br/>
 				<p>
-					Copy this text to <b>shortpoint-widget-beta\connections.js</b> file in <i>SAP Web IDE</i> &nbsp;
+					Copy this text to <a href="https://github.com/ShortPoint/shortpoint-widget-beta/blob/master/webapp/connections.js" target="_blank"><code>shortpoint-widget-beta/webapp/<b>connections.js</b></code></a> file in <i>SAP Web IDE</i> &nbsp;
 					<button type="button" class="btn btn-primary btn-xs btn-connections-example"
 					        data-toggle="modal" data-target="#connectionsExampleModal">Example</button>
 				</p>
 			</div>
 		</div>
 
-		<br />
+		<hr />
+		<p>© Shortpoint FZCO 2016. All rights reserved.</p>
 	</div>
 
 	<div id="neoAppExampleModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
