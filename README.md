@@ -13,6 +13,7 @@ To get started with ShortPoint Widget Beta, follow these artciles one by one, to
 3. [Step 3: Add ShortPoint Widget Beta to a blank site](http://support.shortpoint.com/support/solutions/articles/1000231415-step-3-add-shortpoint-widget-beta-to-a-blank-site) 
 
 **How to use ShortPoint Widget Beta:**
+
 1. [First thing to do after adding ShortPoint Widget Beta](#) 
 2. [Apply your branding colors to ShortPoint elements](#) 
 
