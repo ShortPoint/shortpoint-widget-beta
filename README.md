@@ -1,4 +1,4 @@
-# ShortPoint Widget Beta ![Expiry Date](https://img.shields.io/badge/expiry%20date-2016--07--31-yellow.svg)
+# ShortPoint Widget Beta ![Expiry Date](https://img.shields.io/badge/Expires%20On-2016--07--31-yellow.svg)
 > Design Sites & Site Templates Like A Pro
 No Coding, external tools, customizations. It works everywhere. Just install and start designing your modern SAP HCP sites.
 
