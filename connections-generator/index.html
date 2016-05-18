@@ -1,0 +1,309 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta charset="utf-8" />
+	<title>SAP Connect</title>
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+
+	<style type="text/css">
+		.panel-heading {
+			cursor: pointer;
+		}
+
+		.panel-heading h4:after {
+			font-family: 'Glyphicons Halflings';
+			content: "\e114";
+			float: right;
+			color: grey;
+		}
+
+		.panel-heading.collapsed h4:after {
+			content: "\e080";
+		}
+
+		body .form-control {
+			font-size: 12px;
+		}
+
+		.text-editor {
+			font-family: "Lucida Console", "Courier New";
+		}
+
+		@media screen and (min-width: 1200px) {
+			.modal-lg {
+				width: 1200px;
+			}
+		}
+	</style>
+</head>
+<body>
+	<nav class="navbar navbar-default navbar-static-top">
+		<div class="container">
+			<div class="navbar-header">
+				<a class="navbar-brand" href="#">SAP Connect</a>
+			</div>
+		</div>
+	</nav>
+
+	<div class="container">
+		<h4><b>Destination Connections</b></h4>
+
+		<textarea id="txtBoxDestinations" class="form-control text-editor" rows="5" data-forget-placeholder="Destination-1,&quot;My Connection 1&quot;\nDestination-2,&quot;My Connection 2&quot;">Destination-1,"My Connection 1"
+Destination-2,"My Connection 2"</textarea>
+		<h4><b>Other REST Connections</b></h4>
+		<textarea id="txtBoxRest" class="form-control text-editor" rows="5" data-forget-placeholder="http://jsonplaceholder.typicode.com/posts, &quot;My Posts&quot;">http://jsonplaceholder.typicode.com/posts, "My Posts"</textarea>
+		<br />
+		<button type="button" class="btn btn-primary btn-lg btn-generate-files">Generate</button>
+		<br /><br />
+
+		<div data-shortpoint="'row': {}" class="row" style="visibility: visible;">
+			<div class="child col col-md col-md-6">
+				<h4>Generated <a href="https://github.com/ShortPoint/shortpoint-widget-beta/blob/master/neo-app.json" target="_blank"><code>shortpoint-widget-beta/<b>neo-app.json</b></code></a></h4>
+				<textarea id="txtBoxResultNeoApp" class="form-control text-editor" rows="20"></textarea>
+				<br/>
+				<p>
+					Copy this text to <b>shortpoint-widget-beta\neo-app.json</b> file in <i>SAP Web IDE</i> &nbsp;
+					<button type="button" class="btn btn-primary btn-xs btn-neo-app-example"
+					        data-toggle="modal" data-target="#neoAppExampleModal">Example</button>
+				</p>
+			</div>
+			<div class="child col col-md col-md-6">
+				<h4>Generated <a href="https://github.com/ShortPoint/shortpoint-widget-beta/blob/master/webapp/connections.js" target="_blank"><code>shortpoint-widget-beta/webapp/<b>connections.js</b></code></a></h4>
+				<textarea id="txtBoxResultConnectionTypes" class="form-control text-editor" rows="20"></textarea>
+				<br/>
+				<p>
+					Copy this text to <b>shortpoint-widget-beta\connections.js</b> file in <i>SAP Web IDE</i> &nbsp;
+					<button type="button" class="btn btn-primary btn-xs btn-connections-example"
+					        data-toggle="modal" data-target="#connectionsExampleModal">Example</button>
+				</p>
+			</div>
+		</div>
+
+		<br />
+	</div>
+
+	<div id="neoAppExampleModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		<div class="modal-dialog modal-lg">
+			<div class="modal-content">
+				<div class="modal-body">
+					<img src="assets/img/neo-app.json.gif" class="img-responsive">
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="connectionsExampleModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		<div class="modal-dialog modal-lg">
+			<div class="modal-content">
+				<div class="modal-body">
+					<img src="assets/img/connections.js.gif" class="img-responsive">
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script src="https://code.jquery.com/jquery-1.12.1.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+
+	<script type="text/javascript">
+		$(function() {
+			var destinationUrlPrefix = '/destinations/shortpoint-';
+
+			var txtDestNames = $('#txtBoxDestinations');
+			var txtBoxRest = $('#txtBoxRest');
+			var txtResultNeoApp = $('#txtBoxResultNeoApp');
+			var txtResultConnectionTypes = $('#txtBoxResultConnectionTypes');
+
+			$('.btn-generate-files').click(function() {
+				var neoJsonRoutes = [{
+					path: "/resources",
+					target: {
+						type: "service",
+						name: "sapui5",
+						entryPath: "/resources"
+					},
+					description: "SAPUI5 Resources"
+				}, {
+					path: "/test-resources",
+					target: {
+						type: "service",
+						name: "sapui5",
+						entryPath: "/test-resources"
+					},
+					description: "SAPUI5 Test Resources"
+				}];
+				var connectionTypes = [];
+
+				txtResultNeoApp.text('');
+				txtResultConnectionTypes.text('');
+
+				var destinationsAreGood = true;
+				var destinations = txtDestNames.customVal().trim();
+				var destinationsCount = 0;
+
+				if (destinations) {
+					destinations = destinations.split(/[\n]+/);
+					destinationsCount = destinations.length;
+					destinationsAreGood = destinations.every(function(n, i) {
+						var value = n.trim();
+						if (!value) {
+							return false;
+						}
+
+						var splitted = value.split(',');
+						if (splitted.length !== 2) {
+							alert('Not valid Destunation Name\\Connection Name value pair:\n ' + value +
+								'\nIt should contain Destination Name and Connection Name separated by comma');
+							return false;
+						}
+
+						var destinationName = splitted[0].trim();
+						if (!destinationName) {
+							alert('Destunation Name can\'t be empty. Destunation Name\\Connection Name value pair:\n ' + value);
+							return false;
+						}
+
+						var nameUrl = encodeURIComponent(destinationName);
+						var fullUrl = destinationUrlPrefix + nameUrl;
+
+						neoJsonRoutes.push({
+							path: fullUrl,
+							target: {
+								type: 'destination',
+								name: destinationName
+							}
+						});
+
+						// trim start\end quotes and whitespace
+						var connectionName = splitted[1].replace(/^[\s|"]+|[\s|"]+$/g, '');
+						if (!connectionName) {
+							alert('Connection Name can\'t be empty. Destunation Name\\Connection Name value pair:\n ' + value);
+							return false;
+						}
+						connectionTypes.push({
+							name: connectionName,
+							url: fullUrl,
+							id: 'rest_dest_' + i
+						});
+
+						return true;
+					});
+				}
+
+				if (!destinationsAreGood) {
+					return;
+				}
+
+				txtBoxRest.customVal().split(/[\n]+/).every(function(n, i) {
+					var value = n.trim();
+					if (!value) {
+						return false;
+					}
+
+					var splitted = value.split(',');
+					if (splitted.length !== 2) {
+						alert('Not valid URL\\Connection Name value pair:\n ' + value +
+							'\nIt should contain URL and Connection Name separated by comma');
+						return false;
+					}
+
+					var url = splitted[0].trim();
+					if (!url) {
+						alert('URL can\'t be empty. URL\\Connection Name value pair:\n ' + value);
+						return false;
+					}
+
+					// trim start\end quotes and whitespace
+					var connectionName = splitted[1].replace(/^[\s|"]+|[\s|"]+$/g, '');
+					if (!connectionName) {
+						alert('Connection Name can\'t be empty. URL\\Connection Name value pair:\n ' + value);
+						return false;
+					}
+
+					connectionTypes.push({
+						name: connectionName,
+						url: url,
+						id: 'rest_other_' + i
+					});
+
+					return true;
+				});
+
+				var neoAppTemplate = $('#neoAppTemplate').html();
+				var connectionTypesTemplate = $('#connectionTypesTemplate').html();
+
+				txtResultNeoApp.val(toStr(neoAppTemplate, neoJsonRoutes));
+				txtResultConnectionTypes.val(toStr(connectionTypesTemplate, connectionTypes));
+			});
+
+			$('textarea').focus(function() {
+				var placeholder = $(this).placeholder();
+
+				if ($(this).val() === placeholder) {
+					$(this).val('');
+				}
+			});
+
+			$('textarea').blur(function() {
+				var placeholder = $(this).placeholder();
+
+				if ($(this).val() === '' && placeholder) {
+					$(this).val(placeholder);
+				}
+			}).blur();
+
+			function toStr(template, obj) {
+				var replacement = JSON.stringify(obj, null, "\t");
+				return template.replace('[REPLACE_ME]', replacement);
+			}
+		});
+
+		$.fn.placeholder = function() {
+			return ($(this).attr('data-placeholder') || '').replace(/\\n/g, '\n');
+		};
+
+		$.fn.customVal = function() {
+			return $(this).val() === $(this).placeholder() ? '' : $(this).val();
+		};
+	</script>
+
+	<script id="neoAppTemplate" type="text/template">
+		{
+			"welcomeFile": "index.html",
+			"routes": [REPLACE_ME],
+			"cacheControl": [
+				{
+					"directive": "private",
+					"maxAge": 0,
+					"path": "*html"
+				},
+				{
+					"directive": "private",
+					"maxAge": 0,
+					"path": "*js"
+				},
+				{
+					"directive": "private",
+					"maxAge": 0,
+					"path": "*json"
+				},
+				{
+					"directive": "private",
+					"maxAge": 0,
+					"path": "sap-ui-cachebuster-info.json"
+				},
+				{
+					"directive": "public",
+					"maxAge": 0
+				}
+			]
+		}
+	</script>
+
+	<script id="connectionTypesTemplate" type="text/template">sap.ui.define([], function () {
+	return [REPLACE_ME];
+});</script>
+</body>
+</html>
