@@ -12,13 +12,14 @@ If you would like to know more about ShortPoint, you can check our [Documentatio
 
 ## Questions & Reporting Issues
 
-If you have any questions, or found some issues with our Beta Widget, please [contact us here](http://support.shortpoint.com/support/tickets/new)
+If you have any questions, or found some issues with our Beta Widget, please [send email](mailto:support@shortpoint.com) or [submit support ticket](http://support.shortpoint.com/support/tickets/new)
 
 
 ## Useful Links
 
-* [Official Website](http://www.shortpoint.com/)
-* [Support Portal](http://support.shortpoint.com/)
+* [Official Website](http://www.shortpoint.com/sap)
+* [Support Portal](http://support.shortpoint.com/support/solutions/1000130588)
+* [Contact us](mailto:support@shortpoint.com)
 * [Connections Generator](http://shortpoint.github.io/shortpoint-widget-beta/connections-generator/)
 
 *And you may want to [follow us on Twitter](http://twitter.com/shortpoint_tw)
