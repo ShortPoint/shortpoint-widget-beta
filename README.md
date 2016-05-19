@@ -1,4 +1,4 @@
-# ShortPoint Widget Beta ![Updated On 18-05-2016](https://img.shields.io/badge/Updated%20On-18--05--2016-brightgreen.svg) ![v3.1.0 Beta](https://img.shields.io/badge/version-3.1.0-brightgreen.svg) ![Beta Release](https://img.shields.io/badge/Beta-Release-red.svg)
+# ShortPoint Widget Beta ![Updated On 19-05-2016](https://img.shields.io/badge/Updated%20On-19--05--2016-brightgreen.svg) ![v3.2.3 Beta](https://img.shields.io/badge/version-3.2.3-brightgreen.svg) ![Beta Release](https://img.shields.io/badge/Beta-Release-red.svg)
 
 **Note: The current version of ShortPoint Widget Beta will expire after 31-07-2016, the expiry date will be extended on upcoming versions of the Widget. If we have your email, we will send you update notification. Otherwise, make sure to sync the code from repository before 31-07-2016**
 
