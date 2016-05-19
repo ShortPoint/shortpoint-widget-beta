@@ -6,7 +6,7 @@
 		"type": "application",
 		"i18n": "i18n/i18n.properties",
 		"applicationVersion": {
-			"version": "3.2.3"
+			"version": "3.3.0"
 		},
 		"title": "ShortPoint Widget Beta",
 		"description": "{{appDescription}}",
@@ -95,7 +95,7 @@
 			"markup": {
 				"isRequired": false,
 				"storage_type": "html",
-				"value": "[info color=\"warning\" icon=\"info\"]<div>Press the Edit icon to start designing with ShortPoint</div>[/info]",
+				"value": "[info color=\"warning\" icon=\"info\"]<div>Press the Edit icon to start designing with ShortPoint, If you want to add a new ShortPoint element, you need to delete this element first.</div>[/info]",
 				"displayName": "HTML",
 				"id": "markup"
 			}
