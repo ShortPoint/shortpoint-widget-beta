@@ -1,6 +1,6 @@
 # ShortPoint Widget Beta ![Updated On 19-05-2016](https://img.shields.io/badge/Updated%20On-19--05--2016-brightgreen.svg) ![v3.3.0 Beta](https://img.shields.io/badge/version-3.3.0-brightgreen.svg) ![Beta Release](https://img.shields.io/badge/Beta-Release-red.svg)
 
-**Note: The current version of ShortPoint Widget Beta will expire after 31-07-2016, the expiry date will be extended on upcoming versions of the Widget. If we have your email, we will send you update notification. Otherwise, make sure to sync the code from repository before 31-07-2016**
+**Note: ShortPoint Widget for SAP HANA Cloud Portal is still in beta. Just make sure to get latest updates. This version need an update before 31-07-2016. If we have your email, we will send you update notification. Otherwise, make sure to sync the code from the repository before 31-07-2016**
 
 
 > Design Sites & Site Templates Like A Pro
