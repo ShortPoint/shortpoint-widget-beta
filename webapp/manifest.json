@@ -6,9 +6,9 @@
 		"type": "application",
 		"i18n": "i18n/i18n.properties",
 		"applicationVersion": {
-			"version": "3.4.4"
+			"version": "3.4.5"
 		},
-		"title": "ShortPoint Widget Beta",
+		"title": "ShortPoint Widget",
 		"description": "{{appDescription}}",
 		"sourceTemplate": {
 			"id": "ui5template.basicSAPUI5ApplicationProject",
