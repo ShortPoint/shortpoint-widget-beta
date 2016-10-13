@@ -1,5 +1,7 @@
 <mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="shortpoint-widget-beta.controller.App"
 	xmlns:html="http://www.w3.org/1999/xhtml">
-	<mvc:XMLView id="renderMode" viewName="shortpoint-widget-beta.view.RenderMode" />
-    <mvc:XMLView id="editMode" viewName="shortpoint-widget-beta.view.EditMode" />
+	<VBox id="sp-app">
+		<mvc:XMLView id="renderMode" viewName="shortpoint-widget-beta.view.RenderMode" />
+	    <mvc:XMLView id="editMode" viewName="shortpoint-widget-beta.view.EditMode" />
+    </VBox>
 </mvc:View>
