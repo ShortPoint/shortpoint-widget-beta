@@ -105,6 +105,16 @@
 	display: block;
 }
 
+/* fixes section not fully-white */
+.shortpoint-editor .fr-element {
+	overflow-x: visible;
+}
+
+/* hotfix SP-1459 only for FF */
+[data-sap-ui-browser*="ff"] .shortpoint-display2[data-display-type="section"] > .shortpoint-display-toolbar-wrap {
+	margin-bottom: 0;
+}
+
 /**
  * because all demo content is designed on SharePoint 
  * platform, colors are not applied inline, 
