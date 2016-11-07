@@ -6,8 +6,8 @@
   "build": {
     "targetFolder": "dist",
     "sourceFolder": "webapp",
-    "buildRequired": true,
-    "lastBuildDateTime": "Sat, 05 Nov 2016 09:30:37 GMT"
+    "buildRequired": false,
+    "lastBuildDateTime": "Mon, 07 Nov 2016 20:33:26 GMT"
   },
   "generation": [
     {
@@ -241,8 +241,8 @@
     ]
   },
   "hcpdeploy": {
-    "account": "aa0b9ee94",
+    "account": "a76336e4e",
     "name": "shortpointwidgetbeta",
-    "lastVersionWeTriedToDeploy": "1.0.40"
+    "lastVersionWeTriedToDeploy": "1.0.2"
   }
 }
