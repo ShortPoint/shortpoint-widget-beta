@@ -6,7 +6,7 @@
 		"type": "application",
 		"i18n": "i18n/i18n.properties",
 		"applicationVersion": {
-			"version": "3.4.6"
+			"version": "4.3.0"
 		},
 		"title": "ShortPoint Widget Beta",
 		"description": "{{appDescription}}",
@@ -38,7 +38,9 @@
 	},
 	"sap.ui5": {
 		"config": {
-			"shortpoint": {}
+			"shortpoint": {
+				"buyLicenseUrl": "https://www.sapstore.com/solutions/30015/ShortPoint-for-SAP-HANA-Cloud-Portal"
+			}
 		},
 		"_version": "1.1.0",
 		"dependencies": {
