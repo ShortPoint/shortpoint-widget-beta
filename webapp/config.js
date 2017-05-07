@@ -13,7 +13,15 @@
 	    // required only in Web IDE testing
 	    webapp = "webapp";
 	}
+	
+	// debugging only
+	// --------------
+	// var root = prefix + "/" + webapp;
+	// jQuery.sap.registerModulePath("shortpoint-root", root);
+	// jQuery.sap.registerModulePath("shortpoint-libs", "//localhost:8080");
 
+	// production only
+	// ---------------
 	var root = prefix + "/~" + versionBuster + "~/" + webapp;
 	jQuery.sap.registerModulePath("shortpoint-root", root);
 	jQuery.sap.registerModulePath("shortpoint-libs", root + "/libs");

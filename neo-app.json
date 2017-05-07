@@ -21,12 +21,18 @@
 		"description": "SAPUI5 Test Resources"
 	},
 	{
-		"path": "/destinations/shortpoint-sharepoint_announcements",
-		"target": {
-			"type": "destination",
-			"name": "sharepoint_announcements"
-		}
-	}
+        "path": "/destinations/shortpoint-sharepoint2013server",
+        "target": {
+            "type": "destination",
+            "name": "sharepoint2013server"
+        }
+    },{
+        "path": "/destinations/shortpoint-demos_shortpoint_com",
+        "target": {
+            "type": "destination",
+            "name": "demos_shortpoint_com"
+        }
+    }
 ],
 			"cacheControl": [
 				{
