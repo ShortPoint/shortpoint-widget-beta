@@ -115,6 +115,11 @@
 	margin-bottom: 0;
 }
 
+/* hotfix for SP-2164, to be fixed later */
+.shortpoint-dynamic {
+    opacity: 1;
+}
+
 /**
  * because all demo content is designed on SharePoint 
  * platform, colors are not applied inline, 
