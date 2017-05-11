@@ -5704,7 +5704,7 @@ input[type="button"].shortpoint-btn-block {
   text-align: center;
 }
 .shortpoint-divider.shortpoint-divider-vintage:after {
-  content: '┬з';
+  content: '┬º';
   display: inline-block;
   position: relative;
   top: -14px;
@@ -7591,7 +7591,7 @@ th {
 
 /* Slider */
 .slick-loading .slick-list {
-  background: #fff url('/images/ajax-loader.gif?1478787435') center center no-repeat;
+  background: #fff url('/images/ajax-loader.gif?1478707132') center center no-repeat;
 }
 
 /* Icons */
