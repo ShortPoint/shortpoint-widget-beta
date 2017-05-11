@@ -116,11 +116,11 @@
 }
 
 /* making editor fixed */
-.fr-box .fr-toolbar {
+.shortpoint-editor .fr-toolbar {
     position: fixed;
 }
 
-.fr-box .fr-wrapper {
+.shortpoint-editor .fr-wrapper {
     padding-top: 67px;
 }
 
