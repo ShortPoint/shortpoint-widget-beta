@@ -3,7 +3,7 @@
  * inserter 0.9.0
  * -------------------------
  * Copyright 2017, all rights reserved
- * build timestamp Tuesday, May 9th, 2017, 11:52:21 AM
+ * build timestamp Thursday, May 11th, 2017, 5:26:36 PM
  * -------------------------
  */
 /*
@@ -793,21 +793,15 @@ html[dir="rtl"] .sp-inserter-select2-container-multi .sp-inserter-select2-search
 
 /*! normalize.css v3.0.0 | MIT License | git.io/normalize */
 
-/* line 9, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_normalize.scss */
-
 html .sp-inserter-root {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
 
-/* line 19, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_normalize.scss */
-
 body .sp-inserter-root {
   margin: 0;
 }
-
-/* line 30, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_normalize.scss */
 
 .sp-inserter-root article,
 .sp-inserter-root aside,
@@ -824,8 +818,6 @@ body .sp-inserter-root {
   display: block;
 }
 
-/* line 50, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_normalize.scss */
-
 .sp-inserter-root audio,
 .sp-inserter-root canvas,
 .sp-inserter-root progress,
@@ -834,73 +826,51 @@ body .sp-inserter-root {
   vertical-align: baseline;
 }
 
-/* line 63, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_normalize.scss */
-
 .sp-inserter-root audio:not([controls]) {
   display: none;
   height: 0;
 }
-
-/* line 73, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_normalize.scss */
 
 .sp-inserter-root [hidden],
 .sp-inserter-root template {
   display: none;
 }
 
-/* line 85, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_normalize.scss */
-
 .sp-inserter-root a {
   background: transparent;
 }
-
-/* line 93, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_normalize.scss */
 
 .sp-inserter-root a:active,
 .sp-inserter-root a:hover {
   outline: 0;
 }
 
-/* line 105, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_normalize.scss */
-
 .sp-inserter-root abbr[title] {
   border-bottom: 1px dotted;
 }
-
-/* line 113, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_normalize.scss */
 
 .sp-inserter-root b,
 .sp-inserter-root strong {
   font-weight: bold;
 }
 
-/* line 122, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_normalize.scss */
-
 .sp-inserter-root dfn {
   font-style: italic;
 }
-
-/* line 131, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_normalize.scss */
 
 .sp-inserter-root h1 {
   font-size: 2em;
   margin: 0.67em 0;
 }
 
-/* line 140, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_normalize.scss */
-
 .sp-inserter-root mark {
   background: #ff0;
   color: #000;
 }
 
-/* line 149, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_normalize.scss */
-
 .sp-inserter-root small {
   font-size: 80%;
 }
-
-/* line 157, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_normalize.scss */
 
 .sp-inserter-root sub,
 .sp-inserter-root sup {
@@ -910,37 +880,25 @@ body .sp-inserter-root {
   vertical-align: baseline;
 }
 
-/* line 165, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_normalize.scss */
-
 .sp-inserter-root sup {
   top: -0.5em;
 }
-
-/* line 169, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_normalize.scss */
 
 .sp-inserter-root sub {
   bottom: -0.25em;
 }
 
-/* line 180, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_normalize.scss */
-
 .sp-inserter-root img {
   border: 0;
 }
-
-/* line 188, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_normalize.scss */
 
 .sp-inserter-root svg:not(:root) {
   overflow: hidden;
 }
 
-/* line 199, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_normalize.scss */
-
 .sp-inserter-root figure {
   margin: 1em 40px;
 }
-
-/* line 207, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_normalize.scss */
 
 .sp-inserter-root hr {
   -moz-box-sizing: content-box;
@@ -948,13 +906,9 @@ body .sp-inserter-root {
   height: 0;
 }
 
-/* line 217, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_normalize.scss */
-
 .sp-inserter-root pre {
   overflow: auto;
 }
-
-/* line 225, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_normalize.scss */
 
 .sp-inserter-root code,
 .sp-inserter-root kbd,
@@ -963,8 +917,6 @@ body .sp-inserter-root {
   font-family: monospace, monospace;
   font-size: 1em;
 }
-
-/* line 248, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_normalize.scss */
 
 .sp-inserter-root button,
 .sp-inserter-root input,
@@ -976,20 +928,14 @@ body .sp-inserter-root {
   margin: 0;
 }
 
-/* line 262, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_normalize.scss */
-
 .sp-inserter-root button {
   overflow: visible;
 }
-
-/* line 273, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_normalize.scss */
 
 .sp-inserter-root button,
 .sp-inserter-root select {
   text-transform: none;
 }
-
-/* line 286, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_normalize.scss */
 
 .sp-inserter-root button,
 .sp-inserter-root html input[type="button"],
@@ -999,14 +945,10 @@ body .sp-inserter-root {
   cursor: pointer;
 }
 
-/* line 298, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_normalize.scss */
-
 .sp-inserter-root button[disabled],
 .sp-inserter-root html input[disabled] {
   cursor: default;
 }
-
-/* line 307, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_normalize.scss */
 
 .sp-inserter-root button::-moz-focus-inner,
 .sp-inserter-root input::-moz-focus-inner {
@@ -1014,13 +956,9 @@ body .sp-inserter-root {
   padding: 0;
 }
 
-/* line 318, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_normalize.scss */
-
 .sp-inserter-root input {
   line-height: normal;
 }
-
-/* line 330, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_normalize.scss */
 
 .sp-inserter-root input[type="checkbox"],
 .sp-inserter-root input[type="radio"] {
@@ -1028,14 +966,10 @@ body .sp-inserter-root {
   padding: 0;
 }
 
-/* line 342, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_normalize.scss */
-
 .sp-inserter-root input[type="number"]::-webkit-inner-spin-button,
 .sp-inserter-root input[type="number"]::-webkit-outer-spin-button {
   height: auto;
 }
-
-/* line 353, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_normalize.scss */
 
 .sp-inserter-root input[type="search"] {
   -webkit-appearance: textfield;
@@ -1044,14 +978,10 @@ body .sp-inserter-root {
   box-sizing: content-box;
 }
 
-/* line 366, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_normalize.scss */
-
 .sp-inserter-root input[type="search"]::-webkit-search-cancel-button,
 .sp-inserter-root input[type="search"]::-webkit-search-decoration {
   -webkit-appearance: none;
 }
-
-/* line 375, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_normalize.scss */
 
 .sp-inserter-root fieldset {
   border: 1px solid #c0c0c0;
@@ -1059,48 +989,34 @@ body .sp-inserter-root {
   padding: 0.35em 0.625em 0.75em;
 }
 
-/* line 386, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_normalize.scss */
-
 .sp-inserter-root legend {
   border: 0;
   padding: 0;
 }
 
-/* line 395, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_normalize.scss */
-
 .sp-inserter-root textarea {
   overflow: auto;
 }
 
-/* line 404, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_normalize.scss */
-
 .sp-inserter-root optgroup {
   font-weight: bold;
 }
-
-/* line 415, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_normalize.scss */
 
 .sp-inserter-root table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 420, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_normalize.scss */
-
 .sp-inserter-root td,
 .sp-inserter-root th {
   padding: 0;
 }
-
-/* line 11, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_scaffolding.scss */
 
 .sp-inserter-root * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-
-/* line 14, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_scaffolding.scss */
 
 .sp-inserter-root *:before,
 .sp-inserter-root *:after {
@@ -1109,14 +1025,10 @@ body .sp-inserter-root {
   box-sizing: border-box;
 }
 
-/* line 22, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_scaffolding.scss */
-
 html .sp-inserter-root {
   font-size: 62.5%;
   -webkit-tap-highlight-color: transparent;
 }
-
-/* line 27, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_scaffolding.scss */
 
 body .sp-inserter-root {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -1125,8 +1037,6 @@ body .sp-inserter-root {
   color: #333333;
   background-color: #fff;
 }
-
-/* line 36, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_scaffolding.scss */
 
 .sp-inserter-root input,
 .sp-inserter-root button,
@@ -1137,14 +1047,10 @@ body .sp-inserter-root {
   line-height: inherit;
 }
 
-/* line 48, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_scaffolding.scss */
-
 .sp-inserter-root a {
   color: #428bca;
   text-decoration: none;
 }
-
-/* line 52, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_scaffolding.scss */
 
 .sp-inserter-root a:hover,
 .sp-inserter-root a:focus {
@@ -1152,27 +1058,19 @@ body .sp-inserter-root {
   text-decoration: underline;
 }
 
-/* line 58, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_scaffolding.scss */
-
 .sp-inserter-root a:focus {
   outline: thin dotted;
   outline: 5px auto -webkit-focus-ring-color;
   outline-offset: -2px;
 }
 
-/* line 69, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_scaffolding.scss */
-
 .sp-inserter-root figure {
   margin: 0;
 }
 
-/* line 76, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_scaffolding.scss */
-
 .sp-inserter-root img {
   vertical-align: middle;
 }
-
-/* line 81, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_scaffolding.scss */
 
 .sp-inserter-img-responsive {
   display: block;
@@ -1180,13 +1078,9 @@ body .sp-inserter-root {
   height: auto;
 }
 
-/* line 86, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_scaffolding.scss */
-
 .sp-inserter-img-rounded {
   border-radius: 6px;
 }
-
-/* line 93, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_scaffolding.scss */
 
 .sp-inserter-img-thumbnail {
   padding: 4px;
@@ -1201,13 +1095,9 @@ body .sp-inserter-root {
   height: auto;
 }
 
-/* line 106, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_scaffolding.scss */
-
 .sp-inserter-img-circle {
   border-radius: 50%;
 }
-
-/* line 113, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_scaffolding.scss */
 
 .sp-inserter-root hr {
   margin-top: 20px;
@@ -1215,8 +1105,6 @@ body .sp-inserter-root {
   border: 0;
   border-top: 1px solid #eeeeee;
 }
-
-/* line 125, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_scaffolding.scss */
 
 .sp-inserter-sr-only {
   position: absolute;
@@ -1229,16 +1117,12 @@ body .sp-inserter-root {
   border: 0;
 }
 
-/* line 7, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_code.scss */
-
 .sp-inserter-root code,
 .sp-inserter-root kbd,
 .sp-inserter-root pre,
 .sp-inserter-root samp {
   font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
 }
-
-/* line 15, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_code.scss */
 
 .sp-inserter-root code {
   padding: 2px 4px;
@@ -1249,8 +1133,6 @@ body .sp-inserter-root {
   border-radius: 4px;
 }
 
-/* line 25, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_code.scss */
-
 .sp-inserter-root kbd {
   padding: 2px 4px;
   font-size: 90%;
@@ -1259,8 +1141,6 @@ body .sp-inserter-root {
   border-radius: 3px;
   box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.25);
 }
-
-/* line 35, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_code.scss */
 
 .sp-inserter-root pre {
   display: block;
@@ -1276,8 +1156,6 @@ body .sp-inserter-root {
   border-radius: 4px;
 }
 
-/* line 49, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_code.scss */
-
 .sp-inserter-root pre code {
   padding: 0;
   font-size: inherit;
@@ -1287,14 +1165,10 @@ body .sp-inserter-root {
   border-radius: 0;
 }
 
-/* line 60, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_code.scss */
-
 .sp-inserter-pre-scrollable {
   max-height: 340px;
   overflow-y: scroll;
 }
-
-/* line 10, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_grid.scss */
 
 .sp-inserter-container {
   margin-left: auto;
@@ -1303,22 +1177,17 @@ body .sp-inserter-root {
   padding-left: 15px;
 }
 
-/* line 20, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
-
 .sp-inserter-container:before,
 .sp-inserter-container:after {
   content: " ";
   display: table;
 }
 
-/* line 25, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
-
 .sp-inserter-container:after {
   clear: both;
 }
 
 @media (min-width: 768px) {
-  /* line 10, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_grid.scss */
 
   .sp-inserter-container {
     width: 750px;
@@ -1326,7 +1195,6 @@ body .sp-inserter-root {
 }
 
 @media (min-width: 992px) {
-  /* line 10, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_grid.scss */
 
   .sp-inserter-container {
     width: 970px;
@@ -1334,14 +1202,11 @@ body .sp-inserter-root {
 }
 
 @media (min-width: 1200px) {
-  /* line 10, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_grid.scss */
 
   .sp-inserter-container {
     width: 1170px;
   }
 }
-
-/* line 30, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_grid.scss */
 
 .sp-inserter-container-fluid {
   margin-left: auto;
@@ -1350,28 +1215,20 @@ body .sp-inserter-root {
   padding-left: 15px;
 }
 
-/* line 20, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
-
 .sp-inserter-container-fluid:before,
 .sp-inserter-container-fluid:after {
   content: " ";
   display: table;
 }
 
-/* line 25, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
-
 .sp-inserter-container-fluid:after {
   clear: both;
 }
-
-/* line 39, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_grid.scss */
 
 .sp-inserter-row {
   margin-right: -15px;
   margin-left: -15px;
 }
-
-/* line 20, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
 
 .sp-inserter-row:before,
 .sp-inserter-row:after {
@@ -1379,13 +1236,9 @@ body .sp-inserter-root {
   display: table;
 }
 
-/* line 25, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
-
 .sp-inserter-row:after {
   clear: both;
 }
-
-/* line 798, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
 
 .sp-inserter-col-xs-1,
 .sp-inserter-col-sm-1,
@@ -1441,8 +1294,6 @@ body .sp-inserter-root {
   padding-left: 15px;
 }
 
-/* line 817, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
-
 .sp-inserter-col-xs-1,
 .sp-inserter-col-xs-2,
 .sp-inserter-col-xs-3,
@@ -1458,314 +1309,211 @@ body .sp-inserter-root {
   float: right;
 }
 
-/* line 825, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
-
 .sp-inserter-col-xs-1 {
   width: 8.33333%;
 }
-
-/* line 825, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
 
 .sp-inserter-col-xs-2 {
   width: 16.66667%;
 }
 
-/* line 825, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
-
 .sp-inserter-col-xs-3 {
   width: 25%;
 }
-
-/* line 825, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
 
 .sp-inserter-col-xs-4 {
   width: 33.33333%;
 }
 
-/* line 825, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
-
 .sp-inserter-col-xs-5 {
   width: 41.66667%;
 }
-
-/* line 825, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
 
 .sp-inserter-col-xs-6 {
   width: 50%;
 }
 
-/* line 825, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
-
 .sp-inserter-col-xs-7 {
   width: 58.33333%;
 }
-
-/* line 825, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
 
 .sp-inserter-col-xs-8 {
   width: 66.66667%;
 }
 
-/* line 825, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
-
 .sp-inserter-col-xs-9 {
   width: 75%;
 }
-
-/* line 825, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
 
 .sp-inserter-col-xs-10 {
   width: 83.33333%;
 }
 
-/* line 825, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
-
 .sp-inserter-col-xs-11 {
   width: 91.66667%;
 }
-
-/* line 825, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
 
 .sp-inserter-col-xs-12 {
   width: 100%;
 }
 
-/* line 835, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
-
 .sp-inserter-col-xs-pull-0 {
   left: 0%;
 }
-
-/* line 835, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
 
 .sp-inserter-col-xs-pull-1 {
   left: 8.33333%;
 }
 
-/* line 835, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
-
 .sp-inserter-col-xs-pull-2 {
   left: 16.66667%;
 }
-
-/* line 835, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
 
 .sp-inserter-col-xs-pull-3 {
   left: 25%;
 }
 
-/* line 835, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
-
 .sp-inserter-col-xs-pull-4 {
   left: 33.33333%;
 }
-
-/* line 835, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
 
 .sp-inserter-col-xs-pull-5 {
   left: 41.66667%;
 }
 
-/* line 835, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
-
 .sp-inserter-col-xs-pull-6 {
   left: 50%;
 }
-
-/* line 835, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
 
 .sp-inserter-col-xs-pull-7 {
   left: 58.33333%;
 }
 
-/* line 835, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
-
 .sp-inserter-col-xs-pull-8 {
   left: 66.66667%;
 }
-
-/* line 835, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
 
 .sp-inserter-col-xs-pull-9 {
   left: 75%;
 }
 
-/* line 835, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
-
 .sp-inserter-col-xs-pull-10 {
   left: 83.33333%;
 }
-
-/* line 835, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
 
 .sp-inserter-col-xs-pull-11 {
   left: 91.66667%;
 }
 
-/* line 835, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
-
 .sp-inserter-col-xs-pull-12 {
   left: 100%;
 }
-
-/* line 830, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
 
 .sp-inserter-col-xs-push-0 {
   right: 0%;
 }
 
-/* line 830, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
-
 .sp-inserter-col-xs-push-1 {
   right: 8.33333%;
 }
-
-/* line 830, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
 
 .sp-inserter-col-xs-push-2 {
   right: 16.66667%;
 }
 
-/* line 830, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
-
 .sp-inserter-col-xs-push-3 {
   right: 25%;
 }
-
-/* line 830, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
 
 .sp-inserter-col-xs-push-4 {
   right: 33.33333%;
 }
 
-/* line 830, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
-
 .sp-inserter-col-xs-push-5 {
   right: 41.66667%;
 }
-
-/* line 830, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
 
 .sp-inserter-col-xs-push-6 {
   right: 50%;
 }
 
-/* line 830, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
-
 .sp-inserter-col-xs-push-7 {
   right: 58.33333%;
 }
-
-/* line 830, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
 
 .sp-inserter-col-xs-push-8 {
   right: 66.66667%;
 }
 
-/* line 830, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
-
 .sp-inserter-col-xs-push-9 {
   right: 75%;
 }
-
-/* line 830, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
 
 .sp-inserter-col-xs-push-10 {
   right: 83.33333%;
 }
 
-/* line 830, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
-
 .sp-inserter-col-xs-push-11 {
   right: 91.66667%;
 }
-
-/* line 830, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
 
 .sp-inserter-col-xs-push-12 {
   right: 100%;
 }
 
-/* line 840, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
-
 .sp-inserter-col-xs-offset-0 {
   margin-right: 0%;
 }
-
-/* line 840, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
 
 .sp-inserter-col-xs-offset-1 {
   margin-right: 8.33333%;
 }
 
-/* line 840, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
-
 .sp-inserter-col-xs-offset-2 {
   margin-right: 16.66667%;
 }
-
-/* line 840, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
 
 .sp-inserter-col-xs-offset-3 {
   margin-right: 25%;
 }
 
-/* line 840, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
-
 .sp-inserter-col-xs-offset-4 {
   margin-right: 33.33333%;
 }
-
-/* line 840, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
 
 .sp-inserter-col-xs-offset-5 {
   margin-right: 41.66667%;
 }
 
-/* line 840, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
-
 .sp-inserter-col-xs-offset-6 {
   margin-right: 50%;
 }
-
-/* line 840, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
 
 .sp-inserter-col-xs-offset-7 {
   margin-right: 58.33333%;
 }
 
-/* line 840, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
-
 .sp-inserter-col-xs-offset-8 {
   margin-right: 66.66667%;
 }
-
-/* line 840, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
 
 .sp-inserter-col-xs-offset-9 {
   margin-right: 75%;
 }
 
-/* line 840, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
-
 .sp-inserter-col-xs-offset-10 {
   margin-right: 83.33333%;
 }
 
-/* line 840, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
-
 .sp-inserter-col-xs-offset-11 {
   margin-right: 91.66667%;
 }
-
-/* line 840, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
 
 .sp-inserter-col-xs-offset-12 {
   margin-right: 100%;
 }
 
 @media (min-width: 768px) {
-  /* line 817, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
 
   .sp-inserter-col-sm-1,
   .sp-inserter-col-sm-2,
@@ -1782,307 +1530,205 @@ body .sp-inserter-root {
     float: right;
   }
 
-  /* line 825, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
-
   .sp-inserter-col-sm-1 {
     width: 8.33333%;
   }
-
-  /* line 825, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
 
   .sp-inserter-col-sm-2 {
     width: 16.66667%;
   }
 
-  /* line 825, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
-
   .sp-inserter-col-sm-3 {
     width: 25%;
   }
-
-  /* line 825, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
 
   .sp-inserter-col-sm-4 {
     width: 33.33333%;
   }
 
-  /* line 825, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
-
   .sp-inserter-col-sm-5 {
     width: 41.66667%;
   }
-
-  /* line 825, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
 
   .sp-inserter-col-sm-6 {
     width: 50%;
   }
 
-  /* line 825, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
-
   .sp-inserter-col-sm-7 {
     width: 58.33333%;
   }
-
-  /* line 825, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
 
   .sp-inserter-col-sm-8 {
     width: 66.66667%;
   }
 
-  /* line 825, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
-
   .sp-inserter-col-sm-9 {
     width: 75%;
   }
-
-  /* line 825, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
 
   .sp-inserter-col-sm-10 {
     width: 83.33333%;
   }
 
-  /* line 825, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
-
   .sp-inserter-col-sm-11 {
     width: 91.66667%;
   }
-
-  /* line 825, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
 
   .sp-inserter-col-sm-12 {
     width: 100%;
   }
 
-  /* line 835, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
-
   .sp-inserter-col-sm-pull-0 {
     left: 0%;
   }
-
-  /* line 835, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
 
   .sp-inserter-col-sm-pull-1 {
     left: 8.33333%;
   }
 
-  /* line 835, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
-
   .sp-inserter-col-sm-pull-2 {
     left: 16.66667%;
   }
-
-  /* line 835, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
 
   .sp-inserter-col-sm-pull-3 {
     left: 25%;
   }
 
-  /* line 835, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
-
   .sp-inserter-col-sm-pull-4 {
     left: 33.33333%;
   }
-
-  /* line 835, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
 
   .sp-inserter-col-sm-pull-5 {
     left: 41.66667%;
   }
 
-  /* line 835, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
-
   .sp-inserter-col-sm-pull-6 {
     left: 50%;
   }
-
-  /* line 835, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
 
   .sp-inserter-col-sm-pull-7 {
     left: 58.33333%;
   }
 
-  /* line 835, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
-
   .sp-inserter-col-sm-pull-8 {
     left: 66.66667%;
   }
-
-  /* line 835, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
 
   .sp-inserter-col-sm-pull-9 {
     left: 75%;
   }
 
-  /* line 835, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
-
   .sp-inserter-col-sm-pull-10 {
     left: 83.33333%;
   }
-
-  /* line 835, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
 
   .sp-inserter-col-sm-pull-11 {
     left: 91.66667%;
   }
 
-  /* line 835, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
-
   .sp-inserter-col-sm-pull-12 {
     left: 100%;
   }
-
-  /* line 830, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
 
   .sp-inserter-col-sm-push-0 {
     right: 0%;
   }
 
-  /* line 830, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
-
   .sp-inserter-col-sm-push-1 {
     right: 8.33333%;
   }
-
-  /* line 830, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
 
   .sp-inserter-col-sm-push-2 {
     right: 16.66667%;
   }
 
-  /* line 830, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
-
   .sp-inserter-col-sm-push-3 {
     right: 25%;
   }
-
-  /* line 830, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
 
   .sp-inserter-col-sm-push-4 {
     right: 33.33333%;
   }
 
-  /* line 830, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
-
   .sp-inserter-col-sm-push-5 {
     right: 41.66667%;
   }
-
-  /* line 830, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
 
   .sp-inserter-col-sm-push-6 {
     right: 50%;
   }
 
-  /* line 830, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
-
   .sp-inserter-col-sm-push-7 {
     right: 58.33333%;
   }
-
-  /* line 830, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
 
   .sp-inserter-col-sm-push-8 {
     right: 66.66667%;
   }
 
-  /* line 830, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
-
   .sp-inserter-col-sm-push-9 {
     right: 75%;
   }
-
-  /* line 830, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
 
   .sp-inserter-col-sm-push-10 {
     right: 83.33333%;
   }
 
-  /* line 830, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
-
   .sp-inserter-col-sm-push-11 {
     right: 91.66667%;
   }
-
-  /* line 830, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
 
   .sp-inserter-col-sm-push-12 {
     right: 100%;
   }
 
-  /* line 840, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
-
   .sp-inserter-col-sm-offset-0 {
     margin-right: 0%;
   }
-
-  /* line 840, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
 
   .sp-inserter-col-sm-offset-1 {
     margin-right: 8.33333%;
   }
 
-  /* line 840, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
-
   .sp-inserter-col-sm-offset-2 {
     margin-right: 16.66667%;
   }
-
-  /* line 840, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
 
   .sp-inserter-col-sm-offset-3 {
     margin-right: 25%;
   }
 
-  /* line 840, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
-
   .sp-inserter-col-sm-offset-4 {
     margin-right: 33.33333%;
   }
-
-  /* line 840, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
 
   .sp-inserter-col-sm-offset-5 {
     margin-right: 41.66667%;
   }
 
-  /* line 840, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
-
   .sp-inserter-col-sm-offset-6 {
     margin-right: 50%;
   }
-
-  /* line 840, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
 
   .sp-inserter-col-sm-offset-7 {
     margin-right: 58.33333%;
   }
 
-  /* line 840, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
-
   .sp-inserter-col-sm-offset-8 {
     margin-right: 66.66667%;
   }
-
-  /* line 840, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
 
   .sp-inserter-col-sm-offset-9 {
     margin-right: 75%;
   }
 
-  /* line 840, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
-
   .sp-inserter-col-sm-offset-10 {
     margin-right: 83.33333%;
   }
 
-  /* line 840, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
-
   .sp-inserter-col-sm-offset-11 {
     margin-right: 91.66667%;
   }
-
-  /* line 840, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
 
   .sp-inserter-col-sm-offset-12 {
     margin-right: 100%;
@@ -2090,7 +1736,6 @@ body .sp-inserter-root {
 }
 
 @media (min-width: 992px) {
-  /* line 817, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
 
   .sp-inserter-col-md-1,
   .sp-inserter-col-md-2,
@@ -2107,307 +1752,205 @@ body .sp-inserter-root {
     float: right;
   }
 
-  /* line 825, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
-
   .sp-inserter-col-md-1 {
     width: 8.33333%;
   }
-
-  /* line 825, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
 
   .sp-inserter-col-md-2 {
     width: 16.66667%;
   }
 
-  /* line 825, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
-
   .sp-inserter-col-md-3 {
     width: 25%;
   }
-
-  /* line 825, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
 
   .sp-inserter-col-md-4 {
     width: 33.33333%;
   }
 
-  /* line 825, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
-
   .sp-inserter-col-md-5 {
     width: 41.66667%;
   }
-
-  /* line 825, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
 
   .sp-inserter-col-md-6 {
     width: 50%;
   }
 
-  /* line 825, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
-
   .sp-inserter-col-md-7 {
     width: 58.33333%;
   }
-
-  /* line 825, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
 
   .sp-inserter-col-md-8 {
     width: 66.66667%;
   }
 
-  /* line 825, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
-
   .sp-inserter-col-md-9 {
     width: 75%;
   }
-
-  /* line 825, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
 
   .sp-inserter-col-md-10 {
     width: 83.33333%;
   }
 
-  /* line 825, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
-
   .sp-inserter-col-md-11 {
     width: 91.66667%;
   }
-
-  /* line 825, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
 
   .sp-inserter-col-md-12 {
     width: 100%;
   }
 
-  /* line 835, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
-
   .sp-inserter-col-md-pull-0 {
     left: 0%;
   }
-
-  /* line 835, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
 
   .sp-inserter-col-md-pull-1 {
     left: 8.33333%;
   }
 
-  /* line 835, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
-
   .sp-inserter-col-md-pull-2 {
     left: 16.66667%;
   }
-
-  /* line 835, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
 
   .sp-inserter-col-md-pull-3 {
     left: 25%;
   }
 
-  /* line 835, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
-
   .sp-inserter-col-md-pull-4 {
     left: 33.33333%;
   }
-
-  /* line 835, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
 
   .sp-inserter-col-md-pull-5 {
     left: 41.66667%;
   }
 
-  /* line 835, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
-
   .sp-inserter-col-md-pull-6 {
     left: 50%;
   }
-
-  /* line 835, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
 
   .sp-inserter-col-md-pull-7 {
     left: 58.33333%;
   }
 
-  /* line 835, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
-
   .sp-inserter-col-md-pull-8 {
     left: 66.66667%;
   }
-
-  /* line 835, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
 
   .sp-inserter-col-md-pull-9 {
     left: 75%;
   }
 
-  /* line 835, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
-
   .sp-inserter-col-md-pull-10 {
     left: 83.33333%;
   }
-
-  /* line 835, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
 
   .sp-inserter-col-md-pull-11 {
     left: 91.66667%;
   }
 
-  /* line 835, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
-
   .sp-inserter-col-md-pull-12 {
     left: 100%;
   }
-
-  /* line 830, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
 
   .sp-inserter-col-md-push-0 {
     right: 0%;
   }
 
-  /* line 830, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
-
   .sp-inserter-col-md-push-1 {
     right: 8.33333%;
   }
-
-  /* line 830, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
 
   .sp-inserter-col-md-push-2 {
     right: 16.66667%;
   }
 
-  /* line 830, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
-
   .sp-inserter-col-md-push-3 {
     right: 25%;
   }
-
-  /* line 830, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
 
   .sp-inserter-col-md-push-4 {
     right: 33.33333%;
   }
 
-  /* line 830, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
-
   .sp-inserter-col-md-push-5 {
     right: 41.66667%;
   }
-
-  /* line 830, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
 
   .sp-inserter-col-md-push-6 {
     right: 50%;
   }
 
-  /* line 830, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
-
   .sp-inserter-col-md-push-7 {
     right: 58.33333%;
   }
-
-  /* line 830, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
 
   .sp-inserter-col-md-push-8 {
     right: 66.66667%;
   }
 
-  /* line 830, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
-
   .sp-inserter-col-md-push-9 {
     right: 75%;
   }
-
-  /* line 830, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
 
   .sp-inserter-col-md-push-10 {
     right: 83.33333%;
   }
 
-  /* line 830, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
-
   .sp-inserter-col-md-push-11 {
     right: 91.66667%;
   }
-
-  /* line 830, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
 
   .sp-inserter-col-md-push-12 {
     right: 100%;
   }
 
-  /* line 840, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
-
   .sp-inserter-col-md-offset-0 {
     margin-right: 0%;
   }
-
-  /* line 840, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
 
   .sp-inserter-col-md-offset-1 {
     margin-right: 8.33333%;
   }
 
-  /* line 840, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
-
   .sp-inserter-col-md-offset-2 {
     margin-right: 16.66667%;
   }
-
-  /* line 840, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
 
   .sp-inserter-col-md-offset-3 {
     margin-right: 25%;
   }
 
-  /* line 840, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
-
   .sp-inserter-col-md-offset-4 {
     margin-right: 33.33333%;
   }
-
-  /* line 840, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
 
   .sp-inserter-col-md-offset-5 {
     margin-right: 41.66667%;
   }
 
-  /* line 840, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
-
   .sp-inserter-col-md-offset-6 {
     margin-right: 50%;
   }
-
-  /* line 840, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
 
   .sp-inserter-col-md-offset-7 {
     margin-right: 58.33333%;
   }
 
-  /* line 840, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
-
   .sp-inserter-col-md-offset-8 {
     margin-right: 66.66667%;
   }
-
-  /* line 840, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
 
   .sp-inserter-col-md-offset-9 {
     margin-right: 75%;
   }
 
-  /* line 840, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
-
   .sp-inserter-col-md-offset-10 {
     margin-right: 83.33333%;
   }
 
-  /* line 840, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
-
   .sp-inserter-col-md-offset-11 {
     margin-right: 91.66667%;
   }
-
-  /* line 840, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
 
   .sp-inserter-col-md-offset-12 {
     margin-right: 100%;
@@ -2415,7 +1958,6 @@ body .sp-inserter-root {
 }
 
 @media (min-width: 1200px) {
-  /* line 817, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
 
   .sp-inserter-col-lg-1,
   .sp-inserter-col-lg-2,
@@ -2432,314 +1974,210 @@ body .sp-inserter-root {
     float: right;
   }
 
-  /* line 825, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
-
   .sp-inserter-col-lg-1 {
     width: 8.33333%;
   }
-
-  /* line 825, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
 
   .sp-inserter-col-lg-2 {
     width: 16.66667%;
   }
 
-  /* line 825, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
-
   .sp-inserter-col-lg-3 {
     width: 25%;
   }
-
-  /* line 825, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
 
   .sp-inserter-col-lg-4 {
     width: 33.33333%;
   }
 
-  /* line 825, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
-
   .sp-inserter-col-lg-5 {
     width: 41.66667%;
   }
-
-  /* line 825, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
 
   .sp-inserter-col-lg-6 {
     width: 50%;
   }
 
-  /* line 825, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
-
   .sp-inserter-col-lg-7 {
     width: 58.33333%;
   }
-
-  /* line 825, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
 
   .sp-inserter-col-lg-8 {
     width: 66.66667%;
   }
 
-  /* line 825, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
-
   .sp-inserter-col-lg-9 {
     width: 75%;
   }
-
-  /* line 825, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
 
   .sp-inserter-col-lg-10 {
     width: 83.33333%;
   }
 
-  /* line 825, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
-
   .sp-inserter-col-lg-11 {
     width: 91.66667%;
   }
-
-  /* line 825, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
 
   .sp-inserter-col-lg-12 {
     width: 100%;
   }
 
-  /* line 835, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
-
   .sp-inserter-col-lg-pull-0 {
     left: 0%;
   }
-
-  /* line 835, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
 
   .sp-inserter-col-lg-pull-1 {
     left: 8.33333%;
   }
 
-  /* line 835, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
-
   .sp-inserter-col-lg-pull-2 {
     left: 16.66667%;
   }
-
-  /* line 835, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
 
   .sp-inserter-col-lg-pull-3 {
     left: 25%;
   }
 
-  /* line 835, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
-
   .sp-inserter-col-lg-pull-4 {
     left: 33.33333%;
   }
-
-  /* line 835, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
 
   .sp-inserter-col-lg-pull-5 {
     left: 41.66667%;
   }
 
-  /* line 835, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
-
   .sp-inserter-col-lg-pull-6 {
     left: 50%;
   }
-
-  /* line 835, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
 
   .sp-inserter-col-lg-pull-7 {
     left: 58.33333%;
   }
 
-  /* line 835, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
-
   .sp-inserter-col-lg-pull-8 {
     left: 66.66667%;
   }
-
-  /* line 835, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
 
   .sp-inserter-col-lg-pull-9 {
     left: 75%;
   }
 
-  /* line 835, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
-
   .sp-inserter-col-lg-pull-10 {
     left: 83.33333%;
   }
-
-  /* line 835, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
 
   .sp-inserter-col-lg-pull-11 {
     left: 91.66667%;
   }
 
-  /* line 835, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
-
   .sp-inserter-col-lg-pull-12 {
     left: 100%;
   }
-
-  /* line 830, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
 
   .sp-inserter-col-lg-push-0 {
     right: 0%;
   }
 
-  /* line 830, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
-
   .sp-inserter-col-lg-push-1 {
     right: 8.33333%;
   }
-
-  /* line 830, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
 
   .sp-inserter-col-lg-push-2 {
     right: 16.66667%;
   }
 
-  /* line 830, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
-
   .sp-inserter-col-lg-push-3 {
     right: 25%;
   }
-
-  /* line 830, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
 
   .sp-inserter-col-lg-push-4 {
     right: 33.33333%;
   }
 
-  /* line 830, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
-
   .sp-inserter-col-lg-push-5 {
     right: 41.66667%;
   }
-
-  /* line 830, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
 
   .sp-inserter-col-lg-push-6 {
     right: 50%;
   }
 
-  /* line 830, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
-
   .sp-inserter-col-lg-push-7 {
     right: 58.33333%;
   }
-
-  /* line 830, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
 
   .sp-inserter-col-lg-push-8 {
     right: 66.66667%;
   }
 
-  /* line 830, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
-
   .sp-inserter-col-lg-push-9 {
     right: 75%;
   }
-
-  /* line 830, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
 
   .sp-inserter-col-lg-push-10 {
     right: 83.33333%;
   }
 
-  /* line 830, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
-
   .sp-inserter-col-lg-push-11 {
     right: 91.66667%;
   }
-
-  /* line 830, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
 
   .sp-inserter-col-lg-push-12 {
     right: 100%;
   }
 
-  /* line 840, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
-
   .sp-inserter-col-lg-offset-0 {
     margin-right: 0%;
   }
-
-  /* line 840, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
 
   .sp-inserter-col-lg-offset-1 {
     margin-right: 8.33333%;
   }
 
-  /* line 840, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
-
   .sp-inserter-col-lg-offset-2 {
     margin-right: 16.66667%;
   }
-
-  /* line 840, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
 
   .sp-inserter-col-lg-offset-3 {
     margin-right: 25%;
   }
 
-  /* line 840, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
-
   .sp-inserter-col-lg-offset-4 {
     margin-right: 33.33333%;
   }
-
-  /* line 840, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
 
   .sp-inserter-col-lg-offset-5 {
     margin-right: 41.66667%;
   }
 
-  /* line 840, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
-
   .sp-inserter-col-lg-offset-6 {
     margin-right: 50%;
   }
-
-  /* line 840, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
 
   .sp-inserter-col-lg-offset-7 {
     margin-right: 58.33333%;
   }
 
-  /* line 840, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
-
   .sp-inserter-col-lg-offset-8 {
     margin-right: 66.66667%;
   }
-
-  /* line 840, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
 
   .sp-inserter-col-lg-offset-9 {
     margin-right: 75%;
   }
 
-  /* line 840, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
-
   .sp-inserter-col-lg-offset-10 {
     margin-right: 83.33333%;
   }
-
-  /* line 840, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
 
   .sp-inserter-col-lg-offset-11 {
     margin-right: 91.66667%;
   }
 
-  /* line 840, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
-
   .sp-inserter-col-lg-offset-12 {
     margin-right: 100%;
   }
 }
-
-/* line 10, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_forms.scss */
 
 .sp-inserter-root fieldset {
   padding: 0;
@@ -2747,8 +2185,6 @@ body .sp-inserter-root {
   border: 0;
   min-width: 0;
 }
-
-/* line 20, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_forms.scss */
 
 .sp-inserter-root legend {
   display: block;
@@ -2762,23 +2198,17 @@ body .sp-inserter-root {
   border-bottom: 1px solid #e5e5e5;
 }
 
-/* line 32, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_forms.scss */
-
 .sp-inserter-root label {
   display: inline-block;
   margin-bottom: 5px;
   font-weight: bold;
 }
 
-/* line 46, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_forms.scss */
-
 .sp-inserter-root input[type="search"] {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-
-/* line 51, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_forms.scss */
 
 .sp-inserter-root input[type="radio"],
 .sp-inserter-root input[type="checkbox"] {
@@ -2788,27 +2218,19 @@ body .sp-inserter-root {
   line-height: normal;
 }
 
-/* line 59, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_forms.scss */
-
 .sp-inserter-root input[type="file"] {
   display: block;
 }
-
-/* line 64, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_forms.scss */
 
 .sp-inserter-root input[type="range"] {
   display: block;
   width: 100%;
 }
 
-/* line 70, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_forms.scss */
-
 .sp-inserter-root select[multiple],
 .sp-inserter-root select[size] {
   height: auto;
 }
-
-/* line 76, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_forms.scss */
 
 .sp-inserter-root input[type="file"]:focus,
 .sp-inserter-root input[type="radio"]:focus,
@@ -2818,8 +2240,6 @@ body .sp-inserter-root {
   outline-offset: -2px;
 }
 
-/* line 83, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_forms.scss */
-
 .sp-inserter-root output {
   display: block;
   padding-top: 7px;
@@ -2827,8 +2247,6 @@ body .sp-inserter-root {
   line-height: 1.42857;
   color: #555555;
 }
-
-/* line 114, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_forms.scss */
 
 .sp-inserter-form-control {
   display: block;
@@ -2848,8 +2266,6 @@ body .sp-inserter-root {
   transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
 }
 
-/* line 915, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
-
 .sp-inserter-form-control:focus {
   border-color: #66afe9;
   outline: 0;
@@ -2857,26 +2273,18 @@ body .sp-inserter-root {
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6);
 }
 
-/* line 57, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
-
 .sp-inserter-form-control::-moz-placeholder {
   color: #999999;
   opacity: 1;
 }
 
-/* line 59, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
-
 .sp-inserter-form-control:-ms-input-placeholder {
   color: #999999;
 }
 
-/* line 60, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
-
 .sp-inserter-form-control::-webkit-input-placeholder {
   color: #999999;
 }
-
-/* line 140, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_forms.scss */
 
 .sp-inserter-form-control[disabled],
 .sp-inserter-form-control[readonly],
@@ -2886,31 +2294,21 @@ fieldset[disabled] .sp-inserter-form-control {
   opacity: 1;
 }
 
-/* line 152, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_forms.scss */
-
 textarea.sp-inserter-form-control {
   height: auto;
 }
-
-/* line 164, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_forms.scss */
 
 .sp-inserter-root input[type="search"] {
   -webkit-appearance: none;
 }
 
-/* line 174, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_forms.scss */
-
 .sp-inserter-root input[type="date"] {
   line-height: 34px;
 }
 
-/* line 184, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_forms.scss */
-
 .sp-inserter-form-group {
   margin-bottom: 15px;
 }
-
-/* line 193, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_forms.scss */
 
 .sp-inserter-radio,
 .sp-inserter-checkbox {
@@ -2921,16 +2319,12 @@ textarea.sp-inserter-form-control {
   padding-right: 20px;
 }
 
-/* line 200, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_forms.scss */
-
 .sp-inserter-radio label,
 .sp-inserter-checkbox label {
   display: inline;
   font-weight: normal;
   cursor: pointer;
 }
-
-/* line 206, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_forms.scss */
 
 .sp-inserter-radio input[type="radio"],
 .sp-inserter-radio-inline input[type="radio"],
@@ -2940,14 +2334,10 @@ textarea.sp-inserter-form-control {
   margin-right: -20px;
 }
 
-/* line 213, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_forms.scss */
-
 .sp-inserter-radio + .sp-inserter-radio,
 .sp-inserter-checkbox + .sp-inserter-checkbox {
   margin-top: -5px;
 }
-
-/* line 219, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_forms.scss */
 
 .sp-inserter-radio-inline,
 .sp-inserter-checkbox-inline {
@@ -2959,15 +2349,11 @@ textarea.sp-inserter-form-control {
   cursor: pointer;
 }
 
-/* line 228, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_forms.scss */
-
 .sp-inserter-radio-inline + .sp-inserter-radio-inline,
 .sp-inserter-checkbox-inline + .sp-inserter-checkbox-inline {
   margin-top: 0;
   margin-right: 10px;
 }
-
-/* line 243, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_forms.scss */
 
 input[type="radio"][disabled],
 fieldset[disabled] input[type="radio"],
@@ -2984,8 +2370,6 @@ fieldset[disabled]-.sp-inserter-checkbox-inline {
   cursor: not-allowed;
 }
 
-/* line 930, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
-
 .sp-inserter-input-sm,
 .sp-inserter-input-group-sm > .sp-inserter-form-control,
 .sp-inserter-input-group-sm > .sp-inserter-input-group-addon,
@@ -2997,8 +2381,6 @@ fieldset[disabled]-.sp-inserter-checkbox-inline {
   border-radius: 3px;
 }
 
-/* line 938, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
-
 select.sp-inserter-input-sm,
 .sp-inserter-input-group-sm > select.sp-inserter-form-control,
 .sp-inserter-input-group-sm > select.sp-inserter-input-group-addon,
@@ -3006,8 +2388,6 @@ select.sp-inserter-input-sm,
   height: 30px;
   line-height: 30px;
 }
-
-/* line 943, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
 
 textarea.sp-inserter-input-sm,
 .sp-inserter-input-group-sm > textarea.sp-inserter-form-control,
@@ -3020,8 +2400,6 @@ select[multiple].sp-inserter-input-sm,
   height: auto;
 }
 
-/* line 930, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
-
 .sp-inserter-input-lg,
 .sp-inserter-input-group-lg > .sp-inserter-form-control,
 .sp-inserter-input-group-lg > .sp-inserter-input-group-addon,
@@ -3033,8 +2411,6 @@ select[multiple].sp-inserter-input-sm,
   border-radius: 6px;
 }
 
-/* line 938, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
-
 select.sp-inserter-input-lg,
 .sp-inserter-input-group-lg > select.sp-inserter-form-control,
 .sp-inserter-input-group-lg > select.sp-inserter-input-group-addon,
@@ -3042,8 +2418,6 @@ select.sp-inserter-input-lg,
   height: 46px;
   line-height: 46px;
 }
-
-/* line 943, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
 
 textarea.sp-inserter-input-lg,
 .sp-inserter-input-group-lg > textarea.sp-inserter-form-control,
@@ -3056,19 +2430,13 @@ select[multiple].sp-inserter-input-lg,
   height: auto;
 }
 
-/* line 264, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_forms.scss */
-
 .sp-inserter-has-feedback {
   position: relative;
 }
 
-/* line 269, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_forms.scss */
-
 .sp-inserter-has-feedback .sp-inserter-form-control {
   padding-left: 42.5px;
 }
-
-/* line 274, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_forms.scss */
 
 .sp-inserter-has-feedback .sp-inserter-form-control-feedback {
   position: absolute;
@@ -3081,8 +2449,6 @@ select[multiple].sp-inserter-input-lg,
   text-align: center;
 }
 
-/* line 870, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
-
 .sp-inserter-has-success .sp-inserter-help-block,
 .sp-inserter-has-success .sp-inserter-control-label,
 .sp-inserter-has-success .sp-inserter-radio,
@@ -3092,15 +2458,11 @@ select[multiple].sp-inserter-input-lg,
   color: #3c763d;
 }
 
-/* line 879, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
-
 .sp-inserter-has-success .sp-inserter-form-control {
   border-color: #3c763d;
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
 }
-
-/* line 882, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
 
 .sp-inserter-has-success .sp-inserter-form-control:focus {
   border-color: #2b542c;
@@ -3108,21 +2470,15 @@ select[multiple].sp-inserter-input-lg,
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #67b168;
 }
 
-/* line 889, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
-
 .sp-inserter-has-success .sp-inserter-input-group-addon {
   color: #3c763d;
   border-color: #3c763d;
   background-color: #dff0d8;
 }
 
-/* line 895, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
-
 .sp-inserter-has-success .sp-inserter-form-control-feedback {
   color: #3c763d;
 }
-
-/* line 870, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
 
 .sp-inserter-has-warning .sp-inserter-help-block,
 .sp-inserter-has-warning .sp-inserter-control-label,
@@ -3133,15 +2489,11 @@ select[multiple].sp-inserter-input-lg,
   color: #8a6d3b;
 }
 
-/* line 879, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
-
 .sp-inserter-has-warning .sp-inserter-form-control {
   border-color: #8a6d3b;
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
 }
-
-/* line 882, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
 
 .sp-inserter-has-warning .sp-inserter-form-control:focus {
   border-color: #66512c;
@@ -3149,21 +2501,15 @@ select[multiple].sp-inserter-input-lg,
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #c0a16b;
 }
 
-/* line 889, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
-
 .sp-inserter-has-warning .sp-inserter-input-group-addon {
   color: #8a6d3b;
   border-color: #8a6d3b;
   background-color: #fcf8e3;
 }
 
-/* line 895, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
-
 .sp-inserter-has-warning .sp-inserter-form-control-feedback {
   color: #8a6d3b;
 }
-
-/* line 870, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
 
 .sp-inserter-has-error .sp-inserter-help-block,
 .sp-inserter-has-error .sp-inserter-control-label,
@@ -3174,15 +2520,11 @@ select[multiple].sp-inserter-input-lg,
   color: #a94442;
 }
 
-/* line 879, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
-
 .sp-inserter-has-error .sp-inserter-form-control {
   border-color: #a94442;
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
 }
-
-/* line 882, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
 
 .sp-inserter-has-error .sp-inserter-form-control:focus {
   border-color: #843534;
@@ -3190,27 +2532,19 @@ select[multiple].sp-inserter-input-lg,
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #ce8483;
 }
 
-/* line 889, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
-
 .sp-inserter-has-error .sp-inserter-input-group-addon {
   color: #a94442;
   border-color: #a94442;
   background-color: #f2dede;
 }
 
-/* line 895, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
-
 .sp-inserter-has-error .sp-inserter-form-control-feedback {
   color: #a94442;
 }
 
-/* line 303, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_forms.scss */
-
 .sp-inserter-form-control-static {
   margin-bottom: 0;
 }
-
-/* line 313, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_forms.scss */
 
 .sp-inserter-help-block {
   display: block;
@@ -3220,7 +2554,6 @@ select[multiple].sp-inserter-input-lg,
 }
 
 @media (min-width: 768px) {
-  /* line 338, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_forms.scss */
 
   .sp-inserter-form-inline .sp-inserter-form-group {
     display: inline-block;
@@ -3228,28 +2561,20 @@ select[multiple].sp-inserter-input-lg,
     vertical-align: middle;
   }
 
-  /* line 345, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_forms.scss */
-
   .sp-inserter-form-inline .sp-inserter-form-control {
     display: inline-block;
     width: auto;
     vertical-align: middle;
   }
 
-  /* line 351, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_forms.scss */
-
   .sp-inserter-form-inline .sp-inserter-input-group > .sp-inserter-form-control {
     width: 100%;
   }
-
-  /* line 355, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_forms.scss */
 
   .sp-inserter-form-inline .sp-inserter-control-label {
     margin-bottom: 0;
     vertical-align: middle;
   }
-
-  /* line 363, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_forms.scss */
 
   .sp-inserter-form-inline .sp-inserter-radio,
   .sp-inserter-form-inline .sp-inserter-checkbox {
@@ -3260,22 +2585,16 @@ select[multiple].sp-inserter-input-lg,
     vertical-align: middle;
   }
 
-  /* line 371, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_forms.scss */
-
   .sp-inserter-form-inline .sp-inserter-radio input[type="radio"],
   .sp-inserter-form-inline .sp-inserter-checkbox input[type="checkbox"] {
     float: none;
     margin-right: 0;
   }
 
-  /* line 381, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_forms.scss */
-
   .sp-inserter-form-inline .sp-inserter-has-feedback .sp-inserter-form-control-feedback {
     top: 0;
   }
 }
-
-/* line 396, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_forms.scss */
 
 .sp-inserter-form-horizontal .sp-inserter-control-label,
 .sp-inserter-form-horizontal .sp-inserter-radio,
@@ -3287,21 +2606,15 @@ select[multiple].sp-inserter-input-lg,
   padding-top: 7px;
 }
 
-/* line 407, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_forms.scss */
-
 .sp-inserter-form-horizontal .sp-inserter-radio,
 .sp-inserter-form-horizontal .sp-inserter-checkbox {
   min-height: 27px;
 }
 
-/* line 413, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_forms.scss */
-
 .sp-inserter-form-horizontal .sp-inserter-form-group {
   margin-right: -15px;
   margin-left: -15px;
 }
-
-/* line 20, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
 
 .sp-inserter-form-horizontal .sp-inserter-form-group:before,
 .sp-inserter-form-horizontal .sp-inserter-form-group:after {
@@ -3309,34 +2622,25 @@ select[multiple].sp-inserter-input-lg,
   display: table;
 }
 
-/* line 25, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
-
 .sp-inserter-form-horizontal .sp-inserter-form-group:after {
   clear: both;
 }
-
-/* line 417, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_forms.scss */
 
 .sp-inserter-form-horizontal .sp-inserter-form-control-static {
   padding-top: 7px;
 }
 
 @media (min-width: 768px) {
-  /* line 423, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_forms.scss */
 
   .sp-inserter-form-horizontal .sp-inserter-control-label {
     text-align: left;
   }
 }
 
-/* line 432, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_forms.scss */
-
 .sp-inserter-form-horizontal .sp-inserter-has-feedback .sp-inserter-form-control-feedback {
   top: 0;
   left: 15px;
 }
-
-/* line 7, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_panels.scss */
 
 .sp-inserter-panel {
   margin-bottom: 20px;
@@ -3347,13 +2651,9 @@ select[multiple].sp-inserter-input-lg,
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
 }
 
-/* line 16, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_panels.scss */
-
 .sp-inserter-panel-body {
   padding: 15px;
 }
-
-/* line 20, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
 
 .sp-inserter-panel-body:before,
 .sp-inserter-panel-body:after {
@@ -3361,13 +2661,9 @@ select[multiple].sp-inserter-input-lg,
   display: table;
 }
 
-/* line 25, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
-
 .sp-inserter-panel-body:after {
   clear: both;
 }
-
-/* line 22, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_panels.scss */
 
 .sp-inserter-panel-heading {
   padding: 10px 15px;
@@ -3376,13 +2672,9 @@ select[multiple].sp-inserter-input-lg,
   border-top-right-radius: 3px;
 }
 
-/* line 27, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_panels.scss */
-
 .sp-inserter-panel-heading > .sp-inserter-dropdown .sp-inserter-dropdown-toggle {
   color: inherit;
 }
-
-/* line 33, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_panels.scss */
 
 .sp-inserter-panel-title {
   margin-top: 0;
@@ -3391,13 +2683,9 @@ select[multiple].sp-inserter-input-lg,
   color: inherit;
 }
 
-/* line 39, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_panels.scss */
-
 .sp-inserter-panel-title > a {
   color: inherit;
 }
-
-/* line 45, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_panels.scss */
 
 .sp-inserter-panel-footer {
   padding: 10px 15px;
@@ -3407,20 +2695,14 @@ select[multiple].sp-inserter-input-lg,
   border-bottom-right-radius: 3px;
 }
 
-/* line 59, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_panels.scss */
-
 .sp-inserter-panel > .sp-inserter-list-group {
   margin-bottom: 0;
 }
-
-/* line 62, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_panels.scss */
 
 .sp-inserter-panel > .sp-inserter-list-group .sp-inserter-list-group-item {
   border-width: 1px 0;
   border-radius: 0;
 }
-
-/* line 69, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_panels.scss */
 
 .sp-inserter-panel > .sp-inserter-list-group:first-child .sp-inserter-list-group-item:first-child {
   border-top: 0;
@@ -3428,36 +2710,26 @@ select[multiple].sp-inserter-input-lg,
   border-top-right-radius: 3px;
 }
 
-/* line 76, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_panels.scss */
-
 .sp-inserter-panel > .sp-inserter-list-group:last-child .sp-inserter-list-group-item:last-child {
   border-bottom: 0;
   border-bottom-left-radius: 3px;
   border-bottom-right-radius: 3px;
 }
 
-/* line 85, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_panels.scss */
-
 .sp-inserter-panel-heading + .sp-inserter-list-group .sp-inserter-list-group-item:first-child {
   border-top-width: 0;
 }
-
-/* line 97, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_panels.scss */
 
 .sp-inserter-panel > .sp-inserter-table,
 .sp-inserter-panel > .sp-inserter-table-responsive > .sp-inserter-table {
   margin-bottom: 0;
 }
 
-/* line 102, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_panels.scss */
-
 .sp-inserter-panel > .sp-inserter-table:first-child,
 .sp-inserter-panel > .sp-inserter-table-responsive:first-child > .sp-inserter-table:first-child {
   border-top-left-radius: 3px;
   border-top-right-radius: 3px;
 }
-
-/* line 109, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_panels.scss */
 
 .sp-inserter-panel > .sp-inserter-table:first-child > thead:first-child > tr:first-child td:first-child,
 .sp-inserter-panel > .sp-inserter-table:first-child > thead:first-child > tr:first-child th:first-child,
@@ -3470,8 +2742,6 @@ select[multiple].sp-inserter-input-lg,
   border-top-right-radius: 3px;
 }
 
-/* line 113, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_panels.scss */
-
 .sp-inserter-panel > .sp-inserter-table:first-child > thead:first-child > tr:first-child td:last-child,
 .sp-inserter-panel > .sp-inserter-table:first-child > thead:first-child > tr:first-child th:last-child,
 .sp-inserter-panel > .sp-inserter-table:first-child > tbody:first-child > tr:first-child td:last-child,
@@ -3483,15 +2753,11 @@ select[multiple].sp-inserter-input-lg,
   border-top-left-radius: 3px;
 }
 
-/* line 121, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_panels.scss */
-
 .sp-inserter-panel > .sp-inserter-table:last-child,
 .sp-inserter-panel > .sp-inserter-table-responsive:last-child > .sp-inserter-table:last-child {
   border-bottom-left-radius: 3px;
   border-bottom-right-radius: 3px;
 }
-
-/* line 128, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_panels.scss */
 
 .sp-inserter-panel > .sp-inserter-table:last-child > tbody:last-child > tr:last-child td:first-child,
 .sp-inserter-panel > .sp-inserter-table:last-child > tbody:last-child > tr:last-child th:first-child,
@@ -3504,8 +2770,6 @@ select[multiple].sp-inserter-input-lg,
   border-bottom-right-radius: 3px;
 }
 
-/* line 132, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_panels.scss */
-
 .sp-inserter-panel > .sp-inserter-table:last-child > tbody:last-child > tr:last-child td:last-child,
 .sp-inserter-panel > .sp-inserter-table:last-child > tbody:last-child > tr:last-child th:last-child,
 .sp-inserter-panel > .sp-inserter-table:last-child > tfoot:last-child > tr:last-child td:last-child,
@@ -3517,28 +2781,20 @@ select[multiple].sp-inserter-input-lg,
   border-bottom-left-radius: 3px;
 }
 
-/* line 139, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_panels.scss */
-
 .sp-inserter-panel > .sp-inserter-panel-body + .sp-inserter-table,
 .sp-inserter-panel > .sp-inserter-panel-body + .sp-inserter-table-responsive {
   border-top: 1px solid #ddd;
 }
-
-/* line 143, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_panels.scss */
 
 .sp-inserter-panel > .sp-inserter-table > tbody:first-child > tr:first-child th,
 .sp-inserter-panel > .sp-inserter-table > tbody:first-child > tr:first-child td {
   border-top: 0;
 }
 
-/* line 147, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_panels.scss */
-
 .sp-inserter-panel > .sp-inserter-table-bordered,
 .sp-inserter-panel > .sp-inserter-table-responsive > .sp-inserter-table-bordered {
   border: 0;
 }
-
-/* line 154, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_panels.scss */
 
 .sp-inserter-panel > .sp-inserter-table-bordered > thead > tr > th:first-child,
 .sp-inserter-panel > .sp-inserter-table-bordered > thead > tr > td:first-child,
@@ -3555,8 +2811,6 @@ select[multiple].sp-inserter-input-lg,
   border-right: 0;
 }
 
-/* line 158, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_panels.scss */
-
 .sp-inserter-panel > .sp-inserter-table-bordered > thead > tr > th:last-child,
 .sp-inserter-panel > .sp-inserter-table-bordered > thead > tr > td:last-child,
 .sp-inserter-panel > .sp-inserter-table-bordered > tbody > tr > th:last-child,
@@ -3572,8 +2826,6 @@ select[multiple].sp-inserter-input-lg,
   border-left: 0;
 }
 
-/* line 167, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_panels.scss */
-
 .sp-inserter-panel > .sp-inserter-table-bordered > thead > tr:first-child > td,
 .sp-inserter-panel > .sp-inserter-table-bordered > thead > tr:first-child > th,
 .sp-inserter-panel > .sp-inserter-table-bordered > tbody > tr:first-child > td,
@@ -3584,8 +2836,6 @@ select[multiple].sp-inserter-input-lg,
 .sp-inserter-panel > .sp-inserter-table-responsive > .sp-inserter-table-bordered > tbody > tr:first-child > th {
   border-bottom: 0;
 }
-
-/* line 176, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_panels.scss */
 
 .sp-inserter-panel > .sp-inserter-table-bordered > tbody > tr:last-child > td,
 .sp-inserter-panel > .sp-inserter-table-bordered > tbody > tr:last-child > th,
@@ -3598,20 +2848,14 @@ select[multiple].sp-inserter-input-lg,
   border-bottom: 0;
 }
 
-/* line 183, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_panels.scss */
-
 .sp-inserter-panel > .sp-inserter-table-responsive {
   border: 0;
   margin-bottom: 0;
 }
 
-/* line 195, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_panels.scss */
-
 .sp-inserter-panel-group {
   margin-bottom: 20px;
 }
-
-/* line 199, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_panels.scss */
 
 .sp-inserter-panel-group .sp-inserter-panel {
   margin-bottom: 0;
@@ -3619,43 +2863,29 @@ select[multiple].sp-inserter-input-lg,
   overflow: hidden;
 }
 
-/* line 203, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_panels.scss */
-
 .sp-inserter-panel-group .sp-inserter-panel + .sp-inserter-panel {
   margin-top: 5px;
 }
-
-/* line 208, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_panels.scss */
 
 .sp-inserter-panel-group .sp-inserter-panel-heading {
   border-bottom: 0;
 }
 
-/* line 210, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_panels.scss */
-
 .sp-inserter-panel-group .sp-inserter-panel-heading + .sp-inserter-panel-collapse .sp-inserter-panel-body {
   border-top: 1px solid #ddd;
 }
-
-/* line 214, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_panels.scss */
 
 .sp-inserter-panel-group .sp-inserter-panel-footer {
   border-top: 0;
 }
 
-/* line 216, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_panels.scss */
-
 .sp-inserter-panel-group .sp-inserter-panel-footer + .sp-inserter-panel-collapse .sp-inserter-panel-body {
   border-bottom: 1px solid #ddd;
 }
 
-/* line 224, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_panels.scss */
-
 .sp-inserter-panel-default {
   border-color: #ddd;
 }
-
-/* line 407, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
 
 .sp-inserter-panel-default > .sp-inserter-panel-heading {
   color: #333333;
@@ -3663,25 +2893,17 @@ select[multiple].sp-inserter-input-lg,
   border-color: #ddd;
 }
 
-/* line 412, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
-
 .sp-inserter-panel-default > .sp-inserter-panel-heading + .sp-inserter-panel-collapse .sp-inserter-panel-body {
   border-top-color: #ddd;
 }
-
-/* line 417, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
 
 .sp-inserter-panel-default > .sp-inserter-panel-footer + .sp-inserter-panel-collapse .sp-inserter-panel-body {
   border-bottom-color: #ddd;
 }
 
-/* line 227, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_panels.scss */
-
 .sp-inserter-panel-primary {
   border-color: #428bca;
 }
-
-/* line 407, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
 
 .sp-inserter-panel-primary > .sp-inserter-panel-heading {
   color: #fff;
@@ -3689,25 +2911,17 @@ select[multiple].sp-inserter-input-lg,
   border-color: #428bca;
 }
 
-/* line 412, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
-
 .sp-inserter-panel-primary > .sp-inserter-panel-heading + .sp-inserter-panel-collapse .sp-inserter-panel-body {
   border-top-color: #428bca;
 }
-
-/* line 417, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
 
 .sp-inserter-panel-primary > .sp-inserter-panel-footer + .sp-inserter-panel-collapse .sp-inserter-panel-body {
   border-bottom-color: #428bca;
 }
 
-/* line 230, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_panels.scss */
-
 .sp-inserter-panel-success {
   border-color: #d6e9c6;
 }
-
-/* line 407, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
 
 .sp-inserter-panel-success > .sp-inserter-panel-heading {
   color: #3c763d;
@@ -3715,25 +2929,17 @@ select[multiple].sp-inserter-input-lg,
   border-color: #d6e9c6;
 }
 
-/* line 412, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
-
 .sp-inserter-panel-success > .sp-inserter-panel-heading + .sp-inserter-panel-collapse .sp-inserter-panel-body {
   border-top-color: #d6e9c6;
 }
-
-/* line 417, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
 
 .sp-inserter-panel-success > .sp-inserter-panel-footer + .sp-inserter-panel-collapse .sp-inserter-panel-body {
   border-bottom-color: #d6e9c6;
 }
 
-/* line 233, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_panels.scss */
-
 .sp-inserter-panel-info {
   border-color: #bce8f1;
 }
-
-/* line 407, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
 
 .sp-inserter-panel-info > .sp-inserter-panel-heading {
   color: #31708f;
@@ -3741,25 +2947,17 @@ select[multiple].sp-inserter-input-lg,
   border-color: #bce8f1;
 }
 
-/* line 412, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
-
 .sp-inserter-panel-info > .sp-inserter-panel-heading + .sp-inserter-panel-collapse .sp-inserter-panel-body {
   border-top-color: #bce8f1;
 }
-
-/* line 417, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
 
 .sp-inserter-panel-info > .sp-inserter-panel-footer + .sp-inserter-panel-collapse .sp-inserter-panel-body {
   border-bottom-color: #bce8f1;
 }
 
-/* line 236, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_panels.scss */
-
 .sp-inserter-panel-warning {
   border-color: #faebcc;
 }
-
-/* line 407, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
 
 .sp-inserter-panel-warning > .sp-inserter-panel-heading {
   color: #8a6d3b;
@@ -3767,25 +2965,17 @@ select[multiple].sp-inserter-input-lg,
   border-color: #faebcc;
 }
 
-/* line 412, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
-
 .sp-inserter-panel-warning > .sp-inserter-panel-heading + .sp-inserter-panel-collapse .sp-inserter-panel-body {
   border-top-color: #faebcc;
 }
-
-/* line 417, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
 
 .sp-inserter-panel-warning > .sp-inserter-panel-footer + .sp-inserter-panel-collapse .sp-inserter-panel-body {
   border-bottom-color: #faebcc;
 }
 
-/* line 239, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_panels.scss */
-
 .sp-inserter-panel-danger {
   border-color: #ebccd1;
 }
-
-/* line 407, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
 
 .sp-inserter-panel-danger > .sp-inserter-panel-heading {
   color: #a94442;
@@ -3793,19 +2983,13 @@ select[multiple].sp-inserter-input-lg,
   border-color: #ebccd1;
 }
 
-/* line 412, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
-
 .sp-inserter-panel-danger > .sp-inserter-panel-heading + .sp-inserter-panel-collapse .sp-inserter-panel-body {
   border-top-color: #ebccd1;
 }
 
-/* line 417, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
-
 .sp-inserter-panel-danger > .sp-inserter-panel-footer + .sp-inserter-panel-collapse .sp-inserter-panel-body {
   border-bottom-color: #ebccd1;
 }
-
-/* line 9, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_alerts.scss */
 
 .sp-inserter-alert {
   padding: 15px;
@@ -3814,39 +2998,27 @@ select[multiple].sp-inserter-input-lg,
   border-radius: 4px;
 }
 
-/* line 16, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_alerts.scss */
-
 .sp-inserter-alert h4 {
   margin-top: 0;
   color: inherit;
 }
 
-/* line 22, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_alerts.scss */
-
 .sp-inserter-alert .sp-inserter-alert-link {
   font-weight: bold;
 }
-
-/* line 27, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_alerts.scss */
 
 .sp-inserter-alert > p,
 .sp-inserter-alert > ul {
   margin-bottom: 0;
 }
 
-/* line 31, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_alerts.scss */
-
 .sp-inserter-alert > p + p {
   margin-top: 5px;
 }
 
-/* line 40, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_alerts.scss */
-
 .sp-inserter-alert-dismissable {
   padding-left: 35px;
 }
-
-/* line 44, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_alerts.scss */
 
 .sp-inserter-alert-dismissable .sp-inserter-close {
   position: relative;
@@ -3855,27 +3027,19 @@ select[multiple].sp-inserter-input-lg,
   color: inherit;
 }
 
-/* line 56, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_alerts.scss */
-
 .sp-inserter-alert-success {
   background-color: #dff0d8;
   border-color: #d6e9c6;
   color: #3c763d;
 }
 
-/* line 430, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
-
 .sp-inserter-alert-success hr {
   border-top-color: #c9e2b3;
 }
 
-/* line 433, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
-
 .sp-inserter-alert-success .sp-inserter-alert-link {
   color: #2b542c;
 }
-
-/* line 59, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_alerts.scss */
 
 .sp-inserter-alert-info {
   background-color: #d9edf7;
@@ -3883,19 +3047,13 @@ select[multiple].sp-inserter-input-lg,
   color: #31708f;
 }
 
-/* line 430, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
-
 .sp-inserter-alert-info hr {
   border-top-color: #a6e1ec;
 }
 
-/* line 433, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
-
 .sp-inserter-alert-info .sp-inserter-alert-link {
   color: #245269;
 }
-
-/* line 62, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_alerts.scss */
 
 .sp-inserter-alert-warning {
   background-color: #fcf8e3;
@@ -3903,19 +3061,13 @@ select[multiple].sp-inserter-input-lg,
   color: #8a6d3b;
 }
 
-/* line 430, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
-
 .sp-inserter-alert-warning hr {
   border-top-color: #f7e1b5;
 }
 
-/* line 433, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
-
 .sp-inserter-alert-warning .sp-inserter-alert-link {
   color: #66512c;
 }
-
-/* line 65, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_alerts.scss */
 
 .sp-inserter-alert-danger {
   background-color: #f2dede;
@@ -3923,13 +3075,9 @@ select[multiple].sp-inserter-input-lg,
   color: #a94442;
 }
 
-/* line 430, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
-
 .sp-inserter-alert-danger hr {
   border-top-color: #e4b9c0;
 }
-
-/* line 433, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
 
 .sp-inserter-alert-danger .sp-inserter-alert-link {
   color: #843534;
@@ -3955,8 +3103,6 @@ select[multiple].sp-inserter-input-lg,
   }
 }
 
-/* line 27, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_progress-bars.scss */
-
 .sp-inserter-progress {
   overflow: hidden;
   height: 20px;
@@ -3966,8 +3112,6 @@ select[multiple].sp-inserter-input-lg,
   -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
   box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
 }
-
-/* line 37, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_progress-bars.scss */
 
 .sp-inserter-progress-bar {
   float: right;
@@ -3984,74 +3128,52 @@ select[multiple].sp-inserter-input-lg,
   transition: width 0.6s ease;
 }
 
-/* line 51, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_progress-bars.scss */
-
 .sp-inserter-progress-striped .sp-inserter-progress-bar {
   background-image: -webkit-linear-gradient(-45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
   background-image: linear-gradient(-45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
   background-size: 40px 40px;
 }
 
-/* line 57, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_progress-bars.scss */
-
 .sp-inserter-progress.sp-inserter-active .sp-inserter-progress-bar {
   -webkit-animation: progress-bar-stripes 2s linear infinite;
   animation: progress-bar-stripes 2s linear infinite;
 }
 
-/* line 66, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_progress-bars.scss */
-
 .sp-inserter-progress-bar-success {
   background-color: #5cb85c;
 }
-
-/* line 626, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
 
 .sp-inserter-progress-striped .sp-inserter-progress-bar-success {
   background-image: -webkit-linear-gradient(-45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
   background-image: linear-gradient(-45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
 }
 
-/* line 70, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_progress-bars.scss */
-
 .sp-inserter-progress-bar-info {
   background-color: #5bc0de;
 }
-
-/* line 626, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
 
 .sp-inserter-progress-striped .sp-inserter-progress-bar-info {
   background-image: -webkit-linear-gradient(-45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
   background-image: linear-gradient(-45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
 }
 
-/* line 74, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_progress-bars.scss */
-
 .sp-inserter-progress-bar-warning {
   background-color: #f0ad4e;
 }
-
-/* line 626, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
 
 .sp-inserter-progress-striped .sp-inserter-progress-bar-warning {
   background-image: -webkit-linear-gradient(-45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
   background-image: linear-gradient(-45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
 }
 
-/* line 78, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_progress-bars.scss */
-
 .sp-inserter-progress-bar-danger {
   background-color: #d9534f;
 }
-
-/* line 626, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
 
 .sp-inserter-progress-striped .sp-inserter-progress-bar-danger {
   background-image: -webkit-linear-gradient(-45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
   background-image: linear-gradient(-45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
 }
-
-/* line 7, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_badges.scss */
 
 .sp-inserter-badge {
   display: inline-block;
@@ -4068,28 +3190,20 @@ select[multiple].sp-inserter-input-lg,
   border-radius: 10px;
 }
 
-/* line 22, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_badges.scss */
-
 .sp-inserter-badge:empty {
   display: none;
 }
-
-/* line 27, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_badges.scss */
 
 .sp-inserter-btn .sp-inserter-badge {
   position: relative;
   top: -1px;
 }
 
-/* line 31, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_badges.scss */
-
 .sp-inserter-btn-xs .sp-inserter-badge,
 .sp-inserter-btn-group-xs > .sp-inserter-btn .sp-inserter-badge {
   top: 0;
   padding: 1px 5px;
 }
-
-/* line 39, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_badges.scss */
 
 a.sp-inserter-badge:hover,
 a.sp-inserter-badge:focus {
@@ -4098,21 +3212,15 @@ a.sp-inserter-badge:focus {
   cursor: pointer;
 }
 
-/* line 48, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_badges.scss */
-
 a.sp-inserter-list-group-item.sp-inserter-active > .sp-inserter-badge,
 .sp-inserter-nav-pills > .sp-inserter-active > a > .sp-inserter-badge {
   color: #428bca;
   background-color: #fff;
 }
 
-/* line 53, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_badges.scss */
-
 .sp-inserter-nav-pills > li > a > .sp-inserter-badge {
   margin-right: 3px;
 }
-
-/* line 9, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_buttons.scss */
 
 .sp-inserter-btn {
   display: inline-block;
@@ -4134,8 +3242,6 @@ a.sp-inserter-list-group-item.sp-inserter-active > .sp-inserter-badge,
   user-select: none;
 }
 
-/* line 25, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_buttons.scss */
-
 .sp-inserter-btn:focus,
 .sp-inserter-btn:active:focus,
 .sp-inserter-btn.sp-inserter-active:focus {
@@ -4144,15 +3250,11 @@ a.sp-inserter-list-group-item.sp-inserter-active > .sp-inserter-badge,
   outline-offset: -2px;
 }
 
-/* line 30, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_buttons.scss */
-
 .sp-inserter-btn:hover,
 .sp-inserter-btn:focus {
   color: #333;
   text-decoration: none;
 }
-
-/* line 36, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_buttons.scss */
 
 .sp-inserter-btn:active,
 .sp-inserter-btn.sp-inserter-active {
@@ -4161,8 +3263,6 @@ a.sp-inserter-list-group-item.sp-inserter-active > .sp-inserter-badge,
   -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
   box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
 }
-
-/* line 43, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_buttons.scss */
 
 .sp-inserter-btn.sp-inserter-disabled,
 .sp-inserter-btn[disabled],
@@ -4175,15 +3275,11 @@ fieldset[disabled] .sp-inserter-btn {
   box-shadow: none;
 }
 
-/* line 57, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_buttons.scss */
-
 .sp-inserter-btn-default {
   color: #333;
   background-color: #fff;
   border-color: #ccc;
 }
-
-/* line 505, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
 
 .sp-inserter-btn-default:hover,
 .sp-inserter-btn-default:focus,
@@ -4194,28 +3290,20 @@ fieldset[disabled] .sp-inserter-btn {
   border-color: #adadad;
 }
 
-/* line 513, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
-
 .sp-inserter-open .sp-inserter-btn-default.sp-inserter-dropdown-toggle {
   color: #333;
   background-color: #ebebeb;
   border-color: #adadad;
 }
 
-/* line 518, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
-
 .sp-inserter-btn-default:active,
 .sp-inserter-btn-default.sp-inserter-active {
   background-image: none;
 }
 
-/* line 522, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
-
 .sp-inserter-open .sp-inserter-btn-default.sp-inserter-dropdown-toggle {
   background-image: none;
 }
-
-/* line 528, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
 
 .sp-inserter-btn-default.sp-inserter-disabled,
 .sp-inserter-btn-default.sp-inserter-disabled:hover,
@@ -4236,22 +3324,16 @@ fieldset[disabled] .sp-inserter-btn-default.sp-inserter-active {
   border-color: #ccc;
 }
 
-/* line 538, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
-
 .sp-inserter-btn-default .sp-inserter-badge {
   color: #fff;
   background-color: #333;
 }
-
-/* line 60, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_buttons.scss */
 
 .sp-inserter-btn-primary {
   color: #fff;
   background-color: #428bca;
   border-color: #357ebd;
 }
-
-/* line 505, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
 
 .sp-inserter-btn-primary:hover,
 .sp-inserter-btn-primary:focus,
@@ -4262,28 +3344,20 @@ fieldset[disabled] .sp-inserter-btn-default.sp-inserter-active {
   border-color: #285e8e;
 }
 
-/* line 513, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
-
 .sp-inserter-open .sp-inserter-btn-primary.sp-inserter-dropdown-toggle {
   color: #fff;
   background-color: #3276b1;
   border-color: #285e8e;
 }
 
-/* line 518, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
-
 .sp-inserter-btn-primary:active,
 .sp-inserter-btn-primary.sp-inserter-active {
   background-image: none;
 }
 
-/* line 522, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
-
 .sp-inserter-open .sp-inserter-btn-primary.sp-inserter-dropdown-toggle {
   background-image: none;
 }
-
-/* line 528, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
 
 .sp-inserter-btn-primary.sp-inserter-disabled,
 .sp-inserter-btn-primary.sp-inserter-disabled:hover,
@@ -4304,22 +3378,16 @@ fieldset[disabled] .sp-inserter-btn-primary.sp-inserter-active {
   border-color: #357ebd;
 }
 
-/* line 538, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
-
 .sp-inserter-btn-primary .sp-inserter-badge {
   color: #428bca;
   background-color: #fff;
 }
-
-/* line 64, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_buttons.scss */
 
 .sp-inserter-btn-success {
   color: #fff;
   background-color: #5cb85c;
   border-color: #4cae4c;
 }
-
-/* line 505, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
 
 .sp-inserter-btn-success:hover,
 .sp-inserter-btn-success:focus,
@@ -4330,28 +3398,20 @@ fieldset[disabled] .sp-inserter-btn-primary.sp-inserter-active {
   border-color: #398439;
 }
 
-/* line 513, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
-
 .sp-inserter-open .sp-inserter-btn-success.sp-inserter-dropdown-toggle {
   color: #fff;
   background-color: #47a447;
   border-color: #398439;
 }
 
-/* line 518, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
-
 .sp-inserter-btn-success:active,
 .sp-inserter-btn-success.sp-inserter-active {
   background-image: none;
 }
 
-/* line 522, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
-
 .sp-inserter-open .sp-inserter-btn-success.sp-inserter-dropdown-toggle {
   background-image: none;
 }
-
-/* line 528, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
 
 .sp-inserter-btn-success.sp-inserter-disabled,
 .sp-inserter-btn-success.sp-inserter-disabled:hover,
@@ -4372,22 +3432,16 @@ fieldset[disabled] .sp-inserter-btn-success.sp-inserter-active {
   border-color: #4cae4c;
 }
 
-/* line 538, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
-
 .sp-inserter-btn-success .sp-inserter-badge {
   color: #5cb85c;
   background-color: #fff;
 }
-
-/* line 68, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_buttons.scss */
 
 .sp-inserter-btn-info {
   color: #fff;
   background-color: #5bc0de;
   border-color: #46b8da;
 }
-
-/* line 505, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
 
 .sp-inserter-btn-info:hover,
 .sp-inserter-btn-info:focus,
@@ -4398,28 +3452,20 @@ fieldset[disabled] .sp-inserter-btn-success.sp-inserter-active {
   border-color: #269abc;
 }
 
-/* line 513, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
-
 .sp-inserter-open .sp-inserter-btn-info.sp-inserter-dropdown-toggle {
   color: #fff;
   background-color: #39b3d7;
   border-color: #269abc;
 }
 
-/* line 518, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
-
 .sp-inserter-btn-info:active,
 .sp-inserter-btn-info.sp-inserter-active {
   background-image: none;
 }
 
-/* line 522, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
-
 .sp-inserter-open .sp-inserter-btn-info.sp-inserter-dropdown-toggle {
   background-image: none;
 }
-
-/* line 528, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
 
 .sp-inserter-btn-info.sp-inserter-disabled,
 .sp-inserter-btn-info.sp-inserter-disabled:hover,
@@ -4440,22 +3486,16 @@ fieldset[disabled] .sp-inserter-btn-info.sp-inserter-active {
   border-color: #46b8da;
 }
 
-/* line 538, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
-
 .sp-inserter-btn-info .sp-inserter-badge {
   color: #5bc0de;
   background-color: #fff;
 }
-
-/* line 72, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_buttons.scss */
 
 .sp-inserter-btn-warning {
   color: #fff;
   background-color: #f0ad4e;
   border-color: #eea236;
 }
-
-/* line 505, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
 
 .sp-inserter-btn-warning:hover,
 .sp-inserter-btn-warning:focus,
@@ -4466,28 +3506,20 @@ fieldset[disabled] .sp-inserter-btn-info.sp-inserter-active {
   border-color: #d58512;
 }
 
-/* line 513, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
-
 .sp-inserter-open .sp-inserter-btn-warning.sp-inserter-dropdown-toggle {
   color: #fff;
   background-color: #ed9c28;
   border-color: #d58512;
 }
 
-/* line 518, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
-
 .sp-inserter-btn-warning:active,
 .sp-inserter-btn-warning.sp-inserter-active {
   background-image: none;
 }
 
-/* line 522, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
-
 .sp-inserter-open .sp-inserter-btn-warning.sp-inserter-dropdown-toggle {
   background-image: none;
 }
-
-/* line 528, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
 
 .sp-inserter-btn-warning.sp-inserter-disabled,
 .sp-inserter-btn-warning.sp-inserter-disabled:hover,
@@ -4508,22 +3540,16 @@ fieldset[disabled] .sp-inserter-btn-warning.sp-inserter-active {
   border-color: #eea236;
 }
 
-/* line 538, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
-
 .sp-inserter-btn-warning .sp-inserter-badge {
   color: #f0ad4e;
   background-color: #fff;
 }
-
-/* line 76, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_buttons.scss */
 
 .sp-inserter-btn-danger {
   color: #fff;
   background-color: #d9534f;
   border-color: #d43f3a;
 }
-
-/* line 505, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
 
 .sp-inserter-btn-danger:hover,
 .sp-inserter-btn-danger:focus,
@@ -4534,28 +3560,20 @@ fieldset[disabled] .sp-inserter-btn-warning.sp-inserter-active {
   border-color: #ac2925;
 }
 
-/* line 513, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
-
 .sp-inserter-open .sp-inserter-btn-danger.sp-inserter-dropdown-toggle {
   color: #fff;
   background-color: #d2322d;
   border-color: #ac2925;
 }
 
-/* line 518, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
-
 .sp-inserter-btn-danger:active,
 .sp-inserter-btn-danger.sp-inserter-active {
   background-image: none;
 }
 
-/* line 522, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
-
 .sp-inserter-open .sp-inserter-btn-danger.sp-inserter-dropdown-toggle {
   background-image: none;
 }
-
-/* line 528, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
 
 .sp-inserter-btn-danger.sp-inserter-disabled,
 .sp-inserter-btn-danger.sp-inserter-disabled:hover,
@@ -4576,14 +3594,10 @@ fieldset[disabled] .sp-inserter-btn-danger.sp-inserter-active {
   border-color: #d43f3a;
 }
 
-/* line 538, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
-
 .sp-inserter-btn-danger .sp-inserter-badge {
   color: #d9534f;
   background-color: #fff;
 }
-
-/* line 85, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_buttons.scss */
 
 .sp-inserter-btn-link {
   color: #428bca;
@@ -4591,8 +3605,6 @@ fieldset[disabled] .sp-inserter-btn-danger.sp-inserter-active {
   cursor: pointer;
   border-radius: 0;
 }
-
-/* line 91, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_buttons.scss */
 
 .sp-inserter-btn-link,
 .sp-inserter-btn-link:active,
@@ -4603,8 +3615,6 @@ fieldset[disabled] .sp-inserter-btn-link {
   box-shadow: none;
 }
 
-/* line 98, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_buttons.scss */
-
 .sp-inserter-btn-link,
 .sp-inserter-btn-link:hover,
 .sp-inserter-btn-link:focus,
@@ -4612,16 +3622,12 @@ fieldset[disabled] .sp-inserter-btn-link {
   border-color: transparent;
 }
 
-/* line 104, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_buttons.scss */
-
 .sp-inserter-btn-link:hover,
 .sp-inserter-btn-link:focus {
   color: #2a6496;
   text-decoration: underline;
   background-color: transparent;
 }
-
-/* line 112, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_buttons.scss */
 
 .sp-inserter-btn-link[disabled]:hover,
 .sp-inserter-btn-link[disabled]:focus,
@@ -4631,8 +3637,6 @@ fieldset[disabled] .sp-inserter-btn-link:focus {
   text-decoration: none;
 }
 
-/* line 124, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_buttons.scss */
-
 .sp-inserter-btn-lg,
 .sp-inserter-btn-group-lg > .sp-inserter-btn {
   padding: 10px 16px;
@@ -4640,8 +3644,6 @@ fieldset[disabled] .sp-inserter-btn-link:focus {
   line-height: 1.33;
   border-radius: 6px;
 }
-
-/* line 128, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_buttons.scss */
 
 .sp-inserter-btn-sm,
 .sp-inserter-btn-group-sm > .sp-inserter-btn {
@@ -4651,8 +3653,6 @@ fieldset[disabled] .sp-inserter-btn-link:focus {
   border-radius: 3px;
 }
 
-/* line 132, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_buttons.scss */
-
 .sp-inserter-btn-xs,
 .sp-inserter-btn-group-xs > .sp-inserter-btn {
   padding: 1px 5px;
@@ -4661,8 +3661,6 @@ fieldset[disabled] .sp-inserter-btn-link:focus {
   border-radius: 3px;
 }
 
-/* line 140, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_buttons.scss */
-
 .sp-inserter-btn-block {
   display: block;
   width: 100%;
@@ -4670,21 +3668,15 @@ fieldset[disabled] .sp-inserter-btn-link:focus {
   padding-left: 0;
 }
 
-/* line 148, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_buttons.scss */
-
 .sp-inserter-btn-block + .sp-inserter-btn-block {
   margin-top: 5px;
 }
-
-/* line 156, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_buttons.scss */
 
 input[type="submit"].sp-inserter-btn-block,
 input[type="reset"].sp-inserter-btn-block,
 input[type="button"].sp-inserter-btn-block {
   width: 100%;
 }
-
-/* line 7, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_tooltip.scss */
 
 .sp-inserter-tooltip {
   position: absolute;
@@ -4697,42 +3689,30 @@ input[type="button"].sp-inserter-btn-block {
   filter: alpha(opacity=0);
 }
 
-/* line 16, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_tooltip.scss */
-
 .sp-inserter-tooltip.sp-inserter-in {
   opacity: 0.9;
   filter: alpha(opacity=90);
 }
-
-/* line 17, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_tooltip.scss */
 
 .sp-inserter-tooltip.sp-inserter-top {
   margin-top: -3px;
   padding: 5px 0;
 }
 
-/* line 18, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_tooltip.scss */
-
 .sp-inserter-tooltip.sp-inserter-right {
   margin-right: 3px;
   padding: 0 5px;
 }
-
-/* line 19, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_tooltip.scss */
 
 .sp-inserter-tooltip.sp-inserter-bottom {
   margin-top: 3px;
   padding: 5px 0;
 }
 
-/* line 20, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_tooltip.scss */
-
 .sp-inserter-tooltip.sp-inserter-left {
   margin-right: -3px;
   padding: 0 5px;
 }
-
-/* line 24, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_tooltip.scss */
 
 .sp-inserter-tooltip-inner {
   max-width: 200px;
@@ -4744,8 +3724,6 @@ input[type="button"].sp-inserter-btn-block {
   border-radius: 4px;
 }
 
-/* line 35, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_tooltip.scss */
-
 .sp-inserter-tooltip-arrow {
   position: absolute;
   width: 0;
@@ -4753,8 +3731,6 @@ input[type="button"].sp-inserter-btn-block {
   border-color: transparent;
   border-style: solid;
 }
-
-/* line 43, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_tooltip.scss */
 
 .sp-inserter-tooltip.sp-inserter-top .sp-inserter-tooltip-arrow {
   bottom: 0;
@@ -4764,8 +3740,6 @@ input[type="button"].sp-inserter-btn-block {
   border-top-color: #000;
 }
 
-/* line 50, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_tooltip.scss */
-
 .sp-inserter-tooltip.sp-inserter-top-left .sp-inserter-tooltip-arrow {
   bottom: 0;
   right: 5px;
@@ -4773,16 +3747,12 @@ input[type="button"].sp-inserter-btn-block {
   border-top-color: #000;
 }
 
-/* line 56, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_tooltip.scss */
-
 .sp-inserter-tooltip.sp-inserter-top-right .sp-inserter-tooltip-arrow {
   bottom: 0;
   left: 5px;
   border-width: 5px 5px 0;
   border-top-color: #000;
 }
-
-/* line 62, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_tooltip.scss */
 
 .sp-inserter-tooltip.sp-inserter-right .sp-inserter-tooltip-arrow {
   top: 50%;
@@ -4792,8 +3762,6 @@ input[type="button"].sp-inserter-btn-block {
   border-left-color: #000;
 }
 
-/* line 69, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_tooltip.scss */
-
 .sp-inserter-tooltip.sp-inserter-left .sp-inserter-tooltip-arrow {
   top: 50%;
   left: 0;
@@ -4801,8 +3769,6 @@ input[type="button"].sp-inserter-btn-block {
   border-width: 5px 5px 5px 0;
   border-right-color: #000;
 }
-
-/* line 76, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_tooltip.scss */
 
 .sp-inserter-tooltip.sp-inserter-bottom .sp-inserter-tooltip-arrow {
   top: 0;
@@ -4812,8 +3778,6 @@ input[type="button"].sp-inserter-btn-block {
   border-bottom-color: #000;
 }
 
-/* line 83, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_tooltip.scss */
-
 .sp-inserter-tooltip.sp-inserter-bottom-left .sp-inserter-tooltip-arrow {
   top: 0;
   right: 5px;
@@ -4821,16 +3785,12 @@ input[type="button"].sp-inserter-btn-block {
   border-bottom-color: #000;
 }
 
-/* line 89, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_tooltip.scss */
-
 .sp-inserter-tooltip.sp-inserter-bottom-right .sp-inserter-tooltip-arrow {
   top: 0;
   left: 5px;
   border-width: 0 5px 5px;
   border-bottom-color: #000;
 }
-
-/* line 7, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_dropdowns.scss */
 
 .sp-inserter-caret {
   display: inline-block;
@@ -4843,19 +3803,13 @@ input[type="button"].sp-inserter-btn-block {
   border-right: 4px solid transparent;
 }
 
-/* line 19, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_dropdowns.scss */
-
 .sp-inserter-dropdown {
   position: relative;
 }
 
-/* line 24, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_dropdowns.scss */
-
 .sp-inserter-dropdown-toggle:focus {
   outline: 0;
 }
-
-/* line 29, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_dropdowns.scss */
 
 .sp-inserter-dropdown-menu {
   position: absolute;
@@ -4878,14 +3832,10 @@ input[type="button"].sp-inserter-btn-block {
   background-clip: padding-box;
 }
 
-/* line 51, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_dropdowns.scss */
-
 .sp-inserter-dropdown-menu.sp-inserter-pull-right {
   left: 0;
   right: auto;
 }
-
-/* line 57, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_dropdowns.scss */
 
 .sp-inserter-dropdown-menu .sp-inserter-divider {
   height: 1px;
@@ -4893,8 +3843,6 @@ input[type="button"].sp-inserter-btn-block {
   overflow: hidden;
   background-color: #e5e5e5;
 }
-
-/* line 62, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_dropdowns.scss */
 
 .sp-inserter-dropdown-menu > li > a {
   display: block;
@@ -4906,16 +3854,12 @@ input[type="button"].sp-inserter-btn-block {
   white-space: nowrap;
 }
 
-/* line 75, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_dropdowns.scss */
-
 .sp-inserter-dropdown-menu > li > a:hover,
 .sp-inserter-dropdown-menu > li > a:focus {
   text-decoration: none;
   color: #262626;
   background-color: #f5f5f5;
 }
-
-/* line 85, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_dropdowns.scss */
 
 .sp-inserter-dropdown-menu > .sp-inserter-active > a,
 .sp-inserter-dropdown-menu > .sp-inserter-active > a:hover,
@@ -4926,15 +3870,11 @@ input[type="button"].sp-inserter-btn-block {
   background-color: #428bca;
 }
 
-/* line 100, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_dropdowns.scss */
-
 .sp-inserter-dropdown-menu > .sp-inserter-disabled > a,
 .sp-inserter-dropdown-menu > .sp-inserter-disabled > a:hover,
 .sp-inserter-dropdown-menu > .sp-inserter-disabled > a:focus {
   color: #999999;
 }
-
-/* line 108, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_dropdowns.scss */
 
 .sp-inserter-dropdown-menu > .sp-inserter-disabled > a:hover,
 .sp-inserter-dropdown-menu > .sp-inserter-disabled > a:focus {
@@ -4945,33 +3885,23 @@ input[type="button"].sp-inserter-btn-block {
   cursor: not-allowed;
 }
 
-/* line 121, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_dropdowns.scss */
-
 .sp-inserter-open > .sp-inserter-dropdown-menu {
   display: block;
 }
 
-/* line 126, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_dropdowns.scss */
-
 .sp-inserter-open > a {
   outline: 0;
 }
-
-/* line 135, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_dropdowns.scss */
 
 .sp-inserter-dropdown-menu-right {
   right: auto;
   left: 0;
 }
 
-/* line 145, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_dropdowns.scss */
-
 .sp-inserter-dropdown-menu-left {
   right: 0;
   left: auto;
 }
-
-/* line 151, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_dropdowns.scss */
 
 .sp-inserter-dropdown-header {
   display: block;
@@ -4980,8 +3910,6 @@ input[type="button"].sp-inserter-btn-block {
   line-height: 1.42857;
   color: #999999;
 }
-
-/* line 160, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_dropdowns.scss */
 
 .sp-inserter-dropdown-backdrop {
   position: fixed;
@@ -4992,14 +3920,10 @@ input[type="button"].sp-inserter-btn-block {
   z-index: 990;
 }
 
-/* line 170, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_dropdowns.scss */
-
 .sp-inserter-pull-right > .sp-inserter-dropdown-menu {
   left: 0;
   right: auto;
 }
-
-/* line 183, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_dropdowns.scss */
 
 .sp-inserter-dropup .sp-inserter-caret,
 .sp-inserter-navbar-fixed-bottom .sp-inserter-dropdown .sp-inserter-caret {
@@ -5007,8 +3931,6 @@ input[type="button"].sp-inserter-btn-block {
   border-bottom: 4px solid;
   content: "";
 }
-
-/* line 189, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_dropdowns.scss */
 
 .sp-inserter-dropup .sp-inserter-dropdown-menu,
 .sp-inserter-navbar-fixed-bottom .sp-inserter-dropdown .sp-inserter-dropdown-menu {
@@ -5018,14 +3940,11 @@ input[type="button"].sp-inserter-btn-block {
 }
 
 @media (min-width: 768px) {
-  /* line 203, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_dropdowns.scss */
 
   .sp-inserter-navbar-right .sp-inserter-dropdown-menu {
     left: 0;
     right: auto;
   }
-
-  /* line 208, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_dropdowns.scss */
 
   .sp-inserter-navbar-right .sp-inserter-dropdown-menu-left {
     right: 0;
@@ -5033,14 +3952,10 @@ input[type="button"].sp-inserter-btn-block {
   }
 }
 
-/* line 10, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_list-group.scss */
-
 .sp-inserter-list-group {
   margin-bottom: 20px;
   padding-right: 0;
 }
-
-/* line 21, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_list-group.scss */
 
 .sp-inserter-list-group-item {
   position: relative;
@@ -5051,14 +3966,10 @@ input[type="button"].sp-inserter-btn-block {
   border: 1px solid #ddd;
 }
 
-/* line 31, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_list-group.scss */
-
 .sp-inserter-list-group-item:first-child {
   border-top-left-radius: 4px;
   border-top-right-radius: 4px;
 }
-
-/* line 34, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_list-group.scss */
 
 .sp-inserter-list-group-item:last-child {
   margin-bottom: 0;
@@ -5066,39 +3977,27 @@ input[type="button"].sp-inserter-btn-block {
   border-bottom-right-radius: 4px;
 }
 
-/* line 40, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_list-group.scss */
-
 .sp-inserter-list-group-item > .sp-inserter-badge {
   float: left;
 }
-
-/* line 43, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_list-group.scss */
 
 .sp-inserter-list-group-item > .sp-inserter-badge + .sp-inserter-badge {
   margin-left: 5px;
 }
 
-/* line 54, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_list-group.scss */
-
 a.sp-inserter-list-group-item {
   color: #555;
 }
 
-/* line 57, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_list-group.scss */
-
 a.sp-inserter-list-group-item .sp-inserter-list-group-item-heading {
   color: #333;
 }
-
-/* line 62, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_list-group.scss */
 
 a.sp-inserter-list-group-item:hover,
 a.sp-inserter-list-group-item:focus {
   text-decoration: none;
   background-color: #f5f5f5;
 }
-
-/* line 69, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_list-group.scss */
 
 a.sp-inserter-list-group-item.sp-inserter-active,
 a.sp-inserter-list-group-item.sp-inserter-active:hover,
@@ -5109,15 +4008,11 @@ a.sp-inserter-list-group-item.sp-inserter-active:focus {
   border-color: #428bca;
 }
 
-/* line 78, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_list-group.scss */
-
 a.sp-inserter-list-group-item.sp-inserter-active .sp-inserter-list-group-item-heading,
 a.sp-inserter-list-group-item.sp-inserter-active:hover .sp-inserter-list-group-item-heading,
 a.sp-inserter-list-group-item.sp-inserter-active:focus .sp-inserter-list-group-item-heading {
   color: inherit;
 }
-
-/* line 81, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_list-group.scss */
 
 a.sp-inserter-list-group-item.sp-inserter-active .sp-inserter-list-group-item-text,
 a.sp-inserter-list-group-item.sp-inserter-active:hover .sp-inserter-list-group-item-text,
@@ -5125,34 +4020,24 @@ a.sp-inserter-list-group-item.sp-inserter-active:focus .sp-inserter-list-group-i
   color: #e1edf7;
 }
 
-/* line 469, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
-
 .sp-inserter-list-group-item-success {
   color: #3c763d;
   background-color: #dff0d8;
 }
 
-/* line 476, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
-
 a.sp-inserter-list-group-item-success {
   color: #3c763d;
 }
 
-/* line 479, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
-
 a.sp-inserter-list-group-item-success .sp-inserter-list-group-item-heading {
   color: inherit;
 }
-
-/* line 481, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
 
 a.sp-inserter-list-group-item-success:hover,
 a.sp-inserter-list-group-item-success:focus {
   color: #3c763d;
   background-color: #d0e9c6;
 }
-
-/* line 486, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
 
 a.sp-inserter-list-group-item-success.sp-inserter-active,
 a.sp-inserter-list-group-item-success.sp-inserter-active:hover,
@@ -5162,34 +4047,24 @@ a.sp-inserter-list-group-item-success.sp-inserter-active:focus {
   border-color: #3c763d;
 }
 
-/* line 469, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
-
 .sp-inserter-list-group-item-info {
   color: #31708f;
   background-color: #d9edf7;
 }
 
-/* line 476, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
-
 a.sp-inserter-list-group-item-info {
   color: #31708f;
 }
 
-/* line 479, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
-
 a.sp-inserter-list-group-item-info .sp-inserter-list-group-item-heading {
   color: inherit;
 }
-
-/* line 481, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
 
 a.sp-inserter-list-group-item-info:hover,
 a.sp-inserter-list-group-item-info:focus {
   color: #31708f;
   background-color: #c4e3f3;
 }
-
-/* line 486, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
 
 a.sp-inserter-list-group-item-info.sp-inserter-active,
 a.sp-inserter-list-group-item-info.sp-inserter-active:hover,
@@ -5199,34 +4074,24 @@ a.sp-inserter-list-group-item-info.sp-inserter-active:focus {
   border-color: #31708f;
 }
 
-/* line 469, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
-
 .sp-inserter-list-group-item-warning {
   color: #8a6d3b;
   background-color: #fcf8e3;
 }
 
-/* line 476, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
-
 a.sp-inserter-list-group-item-warning {
   color: #8a6d3b;
 }
 
-/* line 479, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
-
 a.sp-inserter-list-group-item-warning .sp-inserter-list-group-item-heading {
   color: inherit;
 }
-
-/* line 481, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
 
 a.sp-inserter-list-group-item-warning:hover,
 a.sp-inserter-list-group-item-warning:focus {
   color: #8a6d3b;
   background-color: #faf2cc;
 }
-
-/* line 486, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
 
 a.sp-inserter-list-group-item-warning.sp-inserter-active,
 a.sp-inserter-list-group-item-warning.sp-inserter-active:hover,
@@ -5236,34 +4101,24 @@ a.sp-inserter-list-group-item-warning.sp-inserter-active:focus {
   border-color: #8a6d3b;
 }
 
-/* line 469, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
-
 .sp-inserter-list-group-item-danger {
   color: #a94442;
   background-color: #f2dede;
 }
 
-/* line 476, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
-
 a.sp-inserter-list-group-item-danger {
   color: #a94442;
 }
 
-/* line 479, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
-
 a.sp-inserter-list-group-item-danger .sp-inserter-list-group-item-heading {
   color: inherit;
 }
-
-/* line 481, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
 
 a.sp-inserter-list-group-item-danger:hover,
 a.sp-inserter-list-group-item-danger:focus {
   color: #a94442;
   background-color: #ebcccc;
 }
-
-/* line 486, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
 
 a.sp-inserter-list-group-item-danger.sp-inserter-active,
 a.sp-inserter-list-group-item-danger.sp-inserter-active:hover,
@@ -5273,21 +4128,15 @@ a.sp-inserter-list-group-item-danger.sp-inserter-active:focus {
   border-color: #a94442;
 }
 
-/* line 103, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_list-group.scss */
-
 .sp-inserter-list-group-item-heading {
   margin-top: 0;
   margin-bottom: 5px;
 }
 
-/* line 107, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_list-group.scss */
-
 .sp-inserter-list-group-item-text {
   margin-bottom: 0;
   line-height: 1.3;
 }
-
-/* line 6, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_button-groups.scss */
 
 .sp-inserter-btn-group,
 .sp-inserter-btn-group-vertical {
@@ -5296,15 +4145,11 @@ a.sp-inserter-list-group-item-danger.sp-inserter-active:focus {
   vertical-align: middle;
 }
 
-/* line 11, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_button-groups.scss */
-
 .sp-inserter-btn-group > .sp-inserter-btn,
 .sp-inserter-btn-group-vertical > .sp-inserter-btn {
   position: relative;
   float: right;
 }
-
-/* line 15, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_button-groups.scss */
 
 .sp-inserter-btn-group > .sp-inserter-btn:hover,
 .sp-inserter-btn-group > .sp-inserter-btn:focus,
@@ -5317,14 +4162,10 @@ a.sp-inserter-list-group-item-danger.sp-inserter-active:focus {
   z-index: 2;
 }
 
-/* line 21, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_button-groups.scss */
-
 .sp-inserter-btn-group > .sp-inserter-btn:focus,
 .sp-inserter-btn-group-vertical > .sp-inserter-btn:focus {
   outline: none;
 }
-
-/* line 30, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_button-groups.scss */
 
 .sp-inserter-btn-group .sp-inserter-btn + .sp-inserter-btn,
 .sp-inserter-btn-group .sp-inserter-btn + .sp-inserter-btn-group,
@@ -5333,13 +4174,9 @@ a.sp-inserter-list-group-item-danger.sp-inserter-active:focus {
   margin-right: -1px;
 }
 
-/* line 39, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_button-groups.scss */
-
 .sp-inserter-btn-toolbar {
   margin-right: -5px;
 }
-
-/* line 20, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
 
 .sp-inserter-btn-toolbar:before,
 .sp-inserter-btn-toolbar:after {
@@ -5347,20 +4184,14 @@ a.sp-inserter-list-group-item-danger.sp-inserter-active:focus {
   display: table;
 }
 
-/* line 25, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
-
 .sp-inserter-btn-toolbar:after {
   clear: both;
 }
-
-/* line 43, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_button-groups.scss */
 
 .sp-inserter-btn-toolbar .sp-inserter-btn-group,
 .sp-inserter-btn-toolbar .sp-inserter-input-group {
   float: right;
 }
-
-/* line 47, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_button-groups.scss */
 
 .sp-inserter-btn-toolbar > .sp-inserter-btn,
 .sp-inserter-btn-toolbar > .sp-inserter-btn-group,
@@ -5368,26 +4199,18 @@ a.sp-inserter-list-group-item-danger.sp-inserter-active:focus {
   margin-right: 5px;
 }
 
-/* line 54, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_button-groups.scss */
-
 .sp-inserter-btn-group > .sp-inserter-btn:not(:first-child):not(:last-child):not(.sp-inserter-dropdown-toggle) {
   border-radius: 0;
 }
-
-/* line 59, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_button-groups.scss */
 
 .sp-inserter-btn-group > .sp-inserter-btn:first-child {
   margin-right: 0;
 }
 
-/* line 61, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_button-groups.scss */
-
 .sp-inserter-btn-group > .sp-inserter-btn:first-child:not(:last-child):not(.sp-inserter-dropdown-toggle) {
   border-bottom-left-radius: 0;
   border-top-left-radius: 0;
 }
-
-/* line 66, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_button-groups.scss */
 
 .sp-inserter-btn-group > .sp-inserter-btn:last-child:not(:first-child),
 .sp-inserter-btn-group > .sp-inserter-dropdown-toggle:not(:first-child) {
@@ -5395,19 +4218,13 @@ a.sp-inserter-list-group-item-danger.sp-inserter-active:focus {
   border-top-right-radius: 0;
 }
 
-/* line 72, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_button-groups.scss */
-
 .sp-inserter-btn-group > .sp-inserter-btn-group {
   float: right;
 }
 
-/* line 75, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_button-groups.scss */
-
 .sp-inserter-btn-group > .sp-inserter-btn-group:not(:first-child):not(:last-child) > .sp-inserter-btn {
   border-radius: 0;
 }
-
-/* line 79, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_button-groups.scss */
 
 .sp-inserter-btn-group > .sp-inserter-btn-group:first-child > .sp-inserter-btn:last-child,
 .sp-inserter-btn-group > .sp-inserter-btn-group:first-child > .sp-inserter-dropdown-toggle {
@@ -5415,28 +4232,20 @@ a.sp-inserter-list-group-item-danger.sp-inserter-active:focus {
   border-top-left-radius: 0;
 }
 
-/* line 84, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_button-groups.scss */
-
 .sp-inserter-btn-group > .sp-inserter-btn-group:last-child > .sp-inserter-btn:first-child {
   border-bottom-right-radius: 0;
   border-top-right-radius: 0;
 }
-
-/* line 89, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_button-groups.scss */
 
 .sp-inserter-btn-group .sp-inserter-dropdown-toggle:active,
 .sp-inserter-btn-group.sp-inserter-open .sp-inserter-dropdown-toggle {
   outline: 0;
 }
 
-/* line 108, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_button-groups.scss */
-
 .sp-inserter-btn-group > .sp-inserter-btn + .sp-inserter-dropdown-toggle {
   padding-right: 8px;
   padding-left: 8px;
 }
-
-/* line 112, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_button-groups.scss */
 
 .sp-inserter-btn-group > .sp-inserter-btn-lg + .sp-inserter-dropdown-toggle,
 .sp-inserter-btn-group-lg.sp-inserter-btn-group > .sp-inserter-btn + .sp-inserter-dropdown-toggle {
@@ -5444,27 +4253,19 @@ a.sp-inserter-list-group-item-danger.sp-inserter-active:focus {
   padding-left: 12px;
 }
 
-/* line 119, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_button-groups.scss */
-
 .sp-inserter-btn-group.sp-inserter-open .sp-inserter-dropdown-toggle {
   -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
   box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
 }
-
-/* line 123, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_button-groups.scss */
 
 .sp-inserter-btn-group.sp-inserter-open .sp-inserter-dropdown-toggle.sp-inserter-btn-link {
   -webkit-box-shadow: none;
   box-shadow: none;
 }
 
-/* line 130, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_button-groups.scss */
-
 .sp-inserter-btn .sp-inserter-caret {
   margin-right: 0;
 }
-
-/* line 134, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_button-groups.scss */
 
 .sp-inserter-btn-lg .sp-inserter-caret,
 .sp-inserter-btn-group-lg > .sp-inserter-btn .sp-inserter-caret {
@@ -5472,14 +4273,10 @@ a.sp-inserter-list-group-item-danger.sp-inserter-active:focus {
   border-bottom-width: 0;
 }
 
-/* line 139, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_button-groups.scss */
-
 .sp-inserter-dropup .sp-inserter-btn-lg .sp-inserter-caret,
 .sp-inserter-dropup .sp-inserter-btn-group-lg > .sp-inserter-btn .sp-inserter-caret {
   border-width: 0 5px 5px;
 }
-
-/* line 148, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_button-groups.scss */
 
 .sp-inserter-btn-group-vertical > .sp-inserter-btn,
 .sp-inserter-btn-group-vertical > .sp-inserter-btn-group,
@@ -5490,27 +4287,19 @@ a.sp-inserter-list-group-item-danger.sp-inserter-active:focus {
   max-width: 100%;
 }
 
-/* line 20, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
-
 .sp-inserter-btn-group-vertical > .sp-inserter-btn-group:before,
 .sp-inserter-btn-group-vertical > .sp-inserter-btn-group:after {
   content: " ";
   display: table;
 }
 
-/* line 25, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_mixins.scss */
-
 .sp-inserter-btn-group-vertical > .sp-inserter-btn-group:after {
   clear: both;
 }
 
-/* line 160, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_button-groups.scss */
-
 .sp-inserter-btn-group-vertical > .sp-inserter-btn-group > .sp-inserter-btn {
   float: none;
 }
-
-/* line 165, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_button-groups.scss */
 
 .sp-inserter-btn-group-vertical > .sp-inserter-btn + .sp-inserter-btn,
 .sp-inserter-btn-group-vertical > .sp-inserter-btn + .sp-inserter-btn-group,
@@ -5520,13 +4309,9 @@ a.sp-inserter-list-group-item-danger.sp-inserter-active:focus {
   margin-right: 0;
 }
 
-/* line 175, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_button-groups.scss */
-
 .sp-inserter-btn-group-vertical > .sp-inserter-btn:not(:first-child):not(:last-child) {
   border-radius: 0;
 }
-
-/* line 178, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_button-groups.scss */
 
 .sp-inserter-btn-group-vertical > .sp-inserter-btn:first-child:not(:last-child) {
   border-top-left-radius: 4px;
@@ -5534,21 +4319,15 @@ a.sp-inserter-list-group-item-danger.sp-inserter-active:focus {
   border-bottom-right-radius: 0;
 }
 
-/* line 182, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_button-groups.scss */
-
 .sp-inserter-btn-group-vertical > .sp-inserter-btn:last-child:not(:first-child) {
   border-bottom-right-radius: 4px;
   border-top-left-radius: 0;
   border-top-right-radius: 0;
 }
 
-/* line 187, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_button-groups.scss */
-
 .sp-inserter-btn-group-vertical > .sp-inserter-btn-group:not(:first-child):not(:last-child) > .sp-inserter-btn {
   border-radius: 0;
 }
-
-/* line 191, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_button-groups.scss */
 
 .sp-inserter-btn-group-vertical > .sp-inserter-btn-group:first-child:not(:last-child) > .sp-inserter-btn:last-child,
 .sp-inserter-btn-group-vertical > .sp-inserter-btn-group:first-child:not(:last-child) > .sp-inserter-dropdown-toggle {
@@ -5556,14 +4335,10 @@ a.sp-inserter-list-group-item-danger.sp-inserter-active:focus {
   border-bottom-right-radius: 0;
 }
 
-/* line 196, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_button-groups.scss */
-
 .sp-inserter-btn-group-vertical > .sp-inserter-btn-group:last-child:not(:first-child) > .sp-inserter-btn:first-child {
   border-top-left-radius: 0;
   border-top-right-radius: 0;
 }
-
-/* line 205, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_button-groups.scss */
 
 .sp-inserter-btn-group-justified {
   display: table;
@@ -5572,8 +4347,6 @@ a.sp-inserter-list-group-item-danger.sp-inserter-active:focus {
   border-collapse: separate;
 }
 
-/* line 210, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_button-groups.scss */
-
 .sp-inserter-btn-group-justified > .sp-inserter-btn,
 .sp-inserter-btn-group-justified > .sp-inserter-btn-group {
   float: none;
@@ -5581,20 +4354,14 @@ a.sp-inserter-list-group-item-danger.sp-inserter-active:focus {
   width: 1%;
 }
 
-/* line 216, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_button-groups.scss */
-
 .sp-inserter-btn-group-justified > .sp-inserter-btn-group .sp-inserter-btn {
   width: 100%;
 }
-
-/* line 223, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_button-groups.scss */
 
 [data-toggle="buttons"] > .sp-inserter-btn > input[type="radio"],
 [data-toggle="buttons"] > .sp-inserter-btn > input[type="checkbox"] {
   display: none;
 }
-
-/* line 7, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_input-groups.scss */
 
 .sp-inserter-input-group {
   position: relative;
@@ -5602,15 +4369,11 @@ a.sp-inserter-list-group-item-danger.sp-inserter-active:focus {
   border-collapse: separate;
 }
 
-/* line 13, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_input-groups.scss */
-
 .sp-inserter-input-group[class*="col-"] {
   float: none;
   padding-right: 0;
   padding-left: 0;
 }
-
-/* line 19, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_input-groups.scss */
 
 .sp-inserter-input-group .sp-inserter-form-control {
   position: relative;
@@ -5620,15 +4383,11 @@ a.sp-inserter-list-group-item-danger.sp-inserter-active:focus {
   margin-bottom: 0;
 }
 
-/* line 50, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_input-groups.scss */
-
 .sp-inserter-input-group-addon,
 .sp-inserter-input-group-btn,
 .sp-inserter-input-group .sp-inserter-form-control {
   display: table-cell;
 }
-
-/* line 55, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_input-groups.scss */
 
 .sp-inserter-input-group-addon:not(:first-child):not(:last-child),
 .sp-inserter-input-group-btn:not(:first-child):not(:last-child),
@@ -5636,16 +4395,12 @@ a.sp-inserter-list-group-item-danger.sp-inserter-active:focus {
   border-radius: 0;
 }
 
-/* line 60, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_input-groups.scss */
-
 .sp-inserter-input-group-addon,
 .sp-inserter-input-group-btn {
   width: 1%;
   white-space: nowrap;
   vertical-align: middle;
 }
-
-/* line 69, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_input-groups.scss */
 
 .sp-inserter-input-group-addon {
   padding: 6px 12px;
@@ -5659,8 +4414,6 @@ a.sp-inserter-list-group-item-danger.sp-inserter-active:focus {
   border-radius: 4px;
 }
 
-/* line 81, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_input-groups.scss */
-
 .sp-inserter-input-group-addon.sp-inserter-input-sm,
 .sp-inserter-input-group-sm > .sp-inserter-input-group-addon,
 .sp-inserter-input-group-sm > .sp-inserter-input-group-btn > .sp-inserter-input-group-addon.sp-inserter-btn {
@@ -5668,8 +4421,6 @@ a.sp-inserter-list-group-item-danger.sp-inserter-active:focus {
   font-size: 12px;
   border-radius: 3px;
 }
-
-/* line 86, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_input-groups.scss */
 
 .sp-inserter-input-group-addon.sp-inserter-input-lg,
 .sp-inserter-input-group-lg > .sp-inserter-input-group-addon,
@@ -5679,14 +4430,10 @@ a.sp-inserter-list-group-item-danger.sp-inserter-active:focus {
   border-radius: 6px;
 }
 
-/* line 93, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_input-groups.scss */
-
 .sp-inserter-input-group-addon input[type="radio"],
 .sp-inserter-input-group-addon input[type="checkbox"] {
   margin-top: 0;
 }
-
-/* line 100, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_input-groups.scss */
 
 .sp-inserter-input-group .sp-inserter-form-control:first-child,
 .sp-inserter-input-group-addon:first-child,
@@ -5699,13 +4446,9 @@ a.sp-inserter-list-group-item-danger.sp-inserter-active:focus {
   border-top-left-radius: 0;
 }
 
-/* line 109, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_input-groups.scss */
-
 .sp-inserter-input-group-addon:first-child {
   border-left: 0;
 }
-
-/* line 112, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_input-groups.scss */
 
 .sp-inserter-input-group .sp-inserter-form-control:last-child,
 .sp-inserter-input-group-addon:last-child,
@@ -5718,13 +4461,9 @@ a.sp-inserter-list-group-item-danger.sp-inserter-active:focus {
   border-top-right-radius: 0;
 }
 
-/* line 121, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_input-groups.scss */
-
 .sp-inserter-input-group-addon:last-child {
   border-right: 0;
 }
-
-/* line 127, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_input-groups.scss */
 
 .sp-inserter-input-group-btn {
   position: relative;
@@ -5732,19 +4471,13 @@ a.sp-inserter-list-group-item-danger.sp-inserter-active:focus {
   white-space: nowrap;
 }
 
-/* line 136, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_input-groups.scss */
-
 .sp-inserter-input-group-btn > .sp-inserter-btn {
   position: relative;
 }
 
-/* line 138, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_input-groups.scss */
-
 .sp-inserter-input-group-btn > .sp-inserter-btn + .sp-inserter-btn {
   margin-right: -1px;
 }
-
-/* line 142, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_input-groups.scss */
 
 .sp-inserter-input-group-btn > .sp-inserter-btn:hover,
 .sp-inserter-input-group-btn > .sp-inserter-btn:focus,
@@ -5752,14 +4485,10 @@ a.sp-inserter-list-group-item-danger.sp-inserter-active:focus {
   z-index: 2;
 }
 
-/* line 151, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_input-groups.scss */
-
 .sp-inserter-input-group-btn:first-child > .sp-inserter-btn,
 .sp-inserter-input-group-btn:first-child > .sp-inserter-btn-group {
   margin-left: -1px;
 }
-
-/* line 157, ../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_input-groups.scss */
 
 .sp-inserter-input-group-btn:last-child > .sp-inserter-btn,
 .sp-inserter-input-group-btn:last-child > .sp-inserter-btn-group {
@@ -5768,16 +4497,12 @@ a.sp-inserter-list-group-item-danger.sp-inserter-active:focus {
 
 /* Space out content a bit */
 
-/* line 2, ../sass/sample/_narrow-jumbotron.scss */
-
 body .sp-inserter-root {
   padding-top: 20px;
   padding-bottom: 20px;
 }
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
-
-/* line 8, ../sass/sample/_narrow-jumbotron.scss */
 
 .sp-inserter-header,
 .sp-inserter-marketing,
@@ -5788,15 +4513,11 @@ body .sp-inserter-root {
 
 /* Custom page header */
 
-/* line 16, ../sass/sample/_narrow-jumbotron.scss */
-
 .sp-inserter-header {
   border-bottom: 1px solid #e5e5e5;
 }
 
 /* Make the masthead heading the same height as the navigation */
-
-/* line 20, ../sass/sample/_narrow-jumbotron.scss */
 
 .sp-inserter-header h3 {
   padding-bottom: 19px;
@@ -5807,8 +4528,6 @@ body .sp-inserter-root {
 
 /* Custom page footer */
 
-/* line 28, ../sass/sample/_narrow-jumbotron.scss */
-
 .sp-inserter-footer {
   padding-top: 19px;
   color: #777;
@@ -5817,22 +4536,16 @@ body .sp-inserter-root {
 
 /* Customize container */
 
-/* line 35, ../sass/sample/_narrow-jumbotron.scss */
-
 .sp-inserter-container-narrow > hr {
   margin: 30px 0;
 }
 
 /* Main marketing message and sign up button */
 
-/* line 40, ../sass/sample/_narrow-jumbotron.scss */
-
 .sp-inserter-jumbotron {
   text-align: center;
   border-bottom: 1px solid #e5e5e5;
 }
-
-/* line 44, ../sass/sample/_narrow-jumbotron.scss */
 
 .sp-inserter-jumbotron .sp-inserter-btn {
   padding: 14px 24px;
@@ -5841,13 +4554,9 @@ body .sp-inserter-root {
 
 /* Supporting marketing content */
 
-/* line 50, ../sass/sample/_narrow-jumbotron.scss */
-
 .sp-inserter-marketing {
   margin: 40px 0;
 }
-
-/* line 53, ../sass/sample/_narrow-jumbotron.scss */
 
 .sp-inserter-marketing p + h4 {
   margin-top: 28px;
@@ -5858,8 +4567,6 @@ body .sp-inserter-root {
 @media screen and (min-width: 768px) {
   /* Remove the padding we set earlier */
 
-  /* line 60, ../sass/sample/_narrow-jumbotron.scss */
-
   .sp-inserter-header,
   .sp-inserter-marketing,
   .sp-inserter-footer {
@@ -5869,22 +4576,16 @@ body .sp-inserter-root {
 
   /* Space out the masthead */
 
-  /* line 67, ../sass/sample/_narrow-jumbotron.scss */
-
   .sp-inserter-header {
     margin-bottom: 30px;
   }
 
   /* Remove the bottom border on the jumbotron for visual effect */
 
-  /* line 71, ../sass/sample/_narrow-jumbotron.scss */
-
   .sp-inserter-jumbotron {
     border-bottom: 0;
   }
 }
-
-/* Magnific Popup CSS */
 
 .sp-inserter-mfp-bg {
   top: 0;
@@ -6203,8 +4904,6 @@ button::-moz-focus-inner {
   background: black;
 }
 
-/* Main image in popup */
-
 img.sp-inserter-mfp-img {
   width: auto;
   max-width: 100%;
@@ -6217,8 +4916,6 @@ img.sp-inserter-mfp-img {
   padding: 40px 0 40px;
   margin: 0 auto;
 }
-
-/* The shadow behind the image */
 
 .sp-inserter-mfp-figure {
   line-height: 0;
@@ -6276,9 +4973,6 @@ img.sp-inserter-mfp-img {
 }
 
 @media screen and (max-width: 800px) and (orientation: landscape), screen and (max-height: 300px) {
-  /**
-       * Remove all paddings around the image on small screen
-       */
 
   .sp-inserter-mfp-img-mobile .sp-inserter-mfp-image-holder {
     padding-right: 0;
