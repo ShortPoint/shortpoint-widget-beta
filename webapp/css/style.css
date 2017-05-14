@@ -118,10 +118,25 @@
 /* making editor fixed */
 .shortpoint-editor .fr-toolbar {
     position: fixed;
+    top: 15px;
+    left: 16px;
 }
 
 .shortpoint-editor .fr-wrapper {
-    padding-top: 67px;
+    padding-top: 78px;
+}
+
+/* disable fixed positioning on IE / Edge */
+[data-sap-ui-browser^="ie"] .shortpoint-editor .fr-toolbar,
+[data-sap-ui-browser^="ed"] .shortpoint-editor .fr-toolbar {
+	top: 0;
+	position: static;
+	left: 0;
+}
+
+[data-sap-ui-browser^="ie"] .shortpoint-editor .fr-wrapper,
+[data-sap-ui-browser^="ed"] .shortpoint-editor .fr-wrapper {
+	padding-top: 0;
 }
 
 /* hiding upgrade button by default */
