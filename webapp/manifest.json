@@ -6,7 +6,7 @@
 		"type": "application",
 		"i18n": "i18n/i18n.properties",
 		"applicationVersion": {
-			"version": "4.4.9"
+			"version": "4.4.10"
 		},
 		"title": "ShortPoint Widget",
 		"description": "{{appDescription}}",
