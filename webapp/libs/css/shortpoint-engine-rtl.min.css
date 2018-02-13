@@ -1,4 +1,7 @@
 @charset "UTF-8";
+.shortpoint-force-sharepoint-responsive #s4-bodyContainer {
+  width: auto !important;
+}
 @media screen and (max-width: 1044px) {
   .shortpoint-force-sharepoint-responsive {
     /* Hide unnecessary page elements */
@@ -10,8 +13,8 @@
     /* Search placement */
     /* Adjust padding for content containers */
   }
-  .shortpoint-force-sharepoint-responsive .ms-core-listMenu-horizontalBox .ms-listMenu-editLink {
-    display: none;
+  .shortpoint-force-sharepoint-responsive #s4-titlerow {
+    height: auto;
   }
   .shortpoint-force-sharepoint-responsive #s4-titlerow .ms-table,
   .shortpoint-force-sharepoint-responsive #s4-titlerow .ms-tableRow,
@@ -19,8 +22,6 @@
     display: block;
   }
   .shortpoint-force-sharepoint-responsive #siteIcon {
-    float: none;
-    /* Remove OOTB float - this allows title row elements to return to typical block elements along with the table display changes above */
     text-align: left;
     /* Alter OOTB alignment */
     display: block;
@@ -29,11 +30,9 @@
     margin-top: 20px;
   }
   .shortpoint-force-sharepoint-responsive #pageTitle {
-    position: absolute;
-    /* Remove from content flow and create precise placement based on parent container */
     top: 30px;
     /* Position from top */
-    left: 220px;
+    left: 0;
     /* Positioning from left */
     right: 20px;
     overflow: hidden;
@@ -43,7 +42,7 @@
     left: 240px;
   }
   .shortpoint-force-sharepoint-responsive .ms-breadcrumb-box {
-    height: 30px;
+    height: auto;
     /* Alter OOTB height */
     padding-top: 0;
     display: block;
@@ -57,8 +56,6 @@
   .shortpoint-force-sharepoint-responsive .ms-breadcrumb-top > .ms-core-navigation {
     display: block;
     /* Force respect of some declarations */
-    margin-top: 20px;
-    /* Create space between the site logo/title and nav bar */
   }
   .shortpoint-force-sharepoint-responsive .ms-mpSearchBox.ms-floatRight,
   .shortpoint-force-sharepoint-responsive #searchInputBox {
@@ -69,15 +66,8 @@
     padding-bottom: 60px;
     /* Alter OOTB padding */
   }
-  .shortpoint-force-sharepoint-responsive #contentRow {
-    padding-top: 80px;
-    /* Alter OOTB padding */
-  }
   .shortpoint-force-sharepoint-responsive .ms-belltown-searcharea {
     padding-top: 0;
-  }
-  .shortpoint-force-sharepoint-responsive .ms-core-listMenu-root > li {
-    padding: 2px 0;
   }
   .shortpoint-force-sharepoint-responsive .ms-core-listMenu-horizontalBox {
     float: none;
@@ -144,6 +134,7 @@
     display: inline-block;
     /* Switch from a table cell display to an inline block level display, which allows other elements to be to the right or left */
     width: auto;
+    max-width: 100%;
   }
   .shortpoint-force-sharepoint-responsive #layoutsTable > tbody, .shortpoint-force-sharepoint-responsive #layoutsTable > tbody > tr {
     display: block;
@@ -161,6 +152,9 @@
     /* Set the parent as the Flexbox container */
     /* Set the order of the Flexbox items */
     /* Remove the content area border */
+  }
+  .shortpoint-force-sharepoint-responsive #siteIcon {
+    float: none;
   }
   .shortpoint-force-sharepoint-responsive #contentRow {
     display: -ms-flexbox;
@@ -251,156 +245,23 @@
     padding-right: 0;
   }
 }
-@media screen and (max-width: 470px) {
+@media screen and (max-width: 480px) {
   .shortpoint-force-sharepoint-responsive {
-    /* Hide Edit Links (icon and text) */
-    /* Adjust menu placement from previous responsive changes */
     	/* move page title up, and title row items
     	 * to allow when adding minus margin on sections to be visible on top
     	 * to remain on top even on small devices ( fixes SP-1533 )
        */
-    /* Remove unnecessary branding from global nav */
-    /* Add "Menu" text before nav list - necessary to prevent mobile user accidentally jumping to first nav item when menu is activated */
-    /* Reset global navigation item formatting */
-    /* Reset positioning of level 2 navigation items */
-    /* Hide level 3 navigation items */
-    /* Remove drop down arrows on navigation items with dynamic children menus */
-    /* Insert stacked lines icon to designate global navigation */
-    /* Hide stacked lines icon on hover */
-    /* Hide global navigation items */
-    /* Display global navigation box on hover */
-    /* Display global navigation items on hover */
-    /* display menu subitems correctly */
-  }
-  .shortpoint-force-sharepoint-responsive div[id$="TopNavigationMenu"] li.static.ms-listMenu-editLink,
-  .shortpoint-force-sharepoint-responsive div[id$="TopNavigationMenu"] ul.root:hover li.ms-listMenu-editLink {
-    display: none;
-  }
-  .shortpoint-force-sharepoint-responsive .ms-breadcrumb-box {
-    height: 40px;
-    /* Increase height previously set */
-    margin: 10px 0 5px -15px;
-    /* Move nav closer to logo and edge of page */
+    /* search box overlap content on small screens */
   }
   .shortpoint-force-sharepoint-responsive #pageTitle {
-    top: 20px;
+    margin-left: 15px;
+    position: static;
   }
   .shortpoint-force-sharepoint-responsive #s4-titlerow {
-    margin-top: -22px;
-    padding-top: 0;
-    /* trying to keep title on the same place as before */
-    position: relative;
-    top: 30px;
+    height: auto;
   }
-  .shortpoint-force-sharepoint-responsive div[id$="TopNavigationMenu"] ul.root {
-    border: 0;
-  }
-  .shortpoint-force-sharepoint-responsive div[id$="TopNavigationMenu"] ul.root > li.static:first-child:before {
-    content: "Menu";
-    display: block;
-    padding: 1em;
-    background: #ccc;
-  }
-  .shortpoint-force-sharepoint-responsive div[id$="TopNavigationMenu"] li.static a.static,
-  .shortpoint-force-sharepoint-responsive div[id$="TopNavigationMenu"] li.static a.dynamic {
-    min-width: 100px;
-    /* Optional */
-    width: auto;
-    /* Can also set to an absolute value */
-    padding: 1em 1.5em;
-    border-top: 0;
-    border-bottom: 1px solid #dfdfdf;
-    margin-right: 0;
-    display: block;
-    font-size: .8rem;
-    line-height: 1.5;
-    position: relative;
-  }
-  .shortpoint-force-sharepoint-responsive div[id$="TopNavigationMenu"] li.static:last-child a.dynamic, .shortpoint-force-sharepoint-responsive div[id$="TopNavigationMenu"] li.static:last-child a.static,
-  .shortpoint-force-sharepoint-responsive div[id$="TopNavigationMenu"] li.dynamic:last-child a.dynamic,
-  .shortpoint-force-sharepoint-responsive div[id$="TopNavigationMenu"] li.dynamic:last-child a.static {
-    border-bottom: 0;
-  }
-  .shortpoint-force-sharepoint-responsive div[id$="TopNavigationMenu"] li.static:last-child > a {
-    border-bottom: 0;
-  }
-  .shortpoint-force-sharepoint-responsive div[id$="TopNavigationMenu"] li.static a:hover {
-    background: rgba(205, 230, 247, 0.5);
-  }
-  .shortpoint-force-sharepoint-responsive div[id$="TopNavigationMenu"] ul.dynamic {
-    border: 0;
-    box-shadow: none;
-    left: 0;
-    top: 0;
-    position: relative;
-    padding: 0;
-    padding-left: 1.5em;
-    display: block;
-    width: auto !important;
-    /* !important required to override inline style */
-    left: 0 !important;
-    /* !important required to override inline style */
-    top: 0 !important;
-    /* !important required to override inline style */
-  }
-  .shortpoint-force-sharepoint-responsive div[id$="TopNavigationMenu"] ul.dynamic ul.dynamic {
-    display: none;
-  }
-  .shortpoint-force-sharepoint-responsive #s4-titlerow div[id$="TopNavigationMenu"] .dynamic-children.additional-background {
-    background-image: none;
-  }
-  .shortpoint-force-sharepoint-responsive div[id$="TopNavigationMenu"] ul.root:before {
-    content: "\f0c9";
-    font-family: FontAwesome;
-    background: white;
-    font-size: 1.4rem;
-    width: 2.6rem;
-    height: 1.4rem;
-    padding: .3rem 0;
-    display: block;
-    border-radius: 5px;
-    text-align: center;
-    border: 1px solid #ccc;
-    margin: 0 15px;
-  }
-  .shortpoint-force-sharepoint-responsive div[id$="TopNavigationMenu"] ul.root:hover:before {
-    display: none;
-  }
-  .shortpoint-force-sharepoint-responsive div[id$="TopNavigationMenu"] ul.root > li {
-    display: none;
-  }
-  .shortpoint-force-sharepoint-responsive div[id$="TopNavigationMenu"] ul.root:hover {
-    background: white;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    margin: -10px 0 0 15px;
-    position: absolute;
-    z-index: 100;
-    width: calc(100% - 40px);
-  }
-  .shortpoint-force-sharepoint-responsive div[id$="TopNavigationMenu"] ul.root:hover > li {
-    display: block;
-    padding-top: 0;
-  }
-  .shortpoint-force-sharepoint-responsive div[id$="TopNavigationMenu"] ul.root:hover > li > ul {
-    display: block;
-  }
-  .shortpoint-force-sharepoint-responsive div[id$="TopNavigationMenu"] ul.root:hover > li > ul > li {
-    display: block;
-    border-bottom: 1px solid #dfdfdf;
-  }
-  .shortpoint-force-sharepoint-responsive div[id$="TopNavigationMenu"] ul.root:hover > li > ul li.dynamic-children {
-    display: block;
-    border-bottom: 1px solid #dfdfdf;
-  }
-  .shortpoint-force-sharepoint-responsive div[id$="TopNavigationMenu"] ul.root:hover > li > ul li.dynamic-children > span.menu-item {
-    display: block;
-    padding: 10px 20px;
-    margin: 0;
-    border-bottom: 1px solid #dfdfdf;
-  }
-  .shortpoint-force-sharepoint-responsive #siteIcon {
-    visibility: hidden;
+  .shortpoint-force-sharepoint-responsive #s4-bodyContainer #contentRow {
+    padding-top: 19px;
   }
   .shortpoint-force-sharepoint-responsive #authWrapper #pageTitle, .shortpoint-force-sharepoint-responsive #pageTitle {
     left: 20px;
@@ -470,8 +331,27 @@
   border: 0;
 }
 
+@media (max-width: 767px) {
+  .shortpoint-hidden-mobile {
+    display: none !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .shortpoint-hidden-tablet {
+    display: none !important;
+  }
+}
+@media (min-width: 992px) {
+  .shortpoint-hidden-desktop {
+    display: none !important;
+  }
+}
 .shortpoint-affix {
   position: fixed;
+}
+
+.shortpoint-capitalize {
+  text-transform: capitalize;
 }
 
 .ms-dialog #s4-workspace #contentRow {
@@ -972,6 +852,11 @@ img.fr-view.fr-bordered {
 
 .shortpoint-pre-loader {
   min-height: 50px;
+  opacity: 0;
+}
+
+.shortpoint-branding-master .shortpoint-sk-root {
+  display: none !important;
 }
 
 .shortpoint-sk-root {
@@ -1167,6 +1052,26 @@ img.fr-view.fr-bordered {
     transform: scale(1);
   }
 }
+.sp-platform-sap .shortpoint-platform_hide-sap,
+.sp-platform-sap [data-shortpoint-platform-hide="sap"] {
+  display: none !important;
+}
+
+.sp-platform-sp-2013 .shortpoint-platform_hide-sp-2013,
+.sp-platform-sp-2013 [data-shortpoint-platform-hide="sp-2013"] {
+  display: none !important;
+}
+
+.sp-platform-sp-2016 .shortpoint-platform_hide-sp-2016,
+.sp-platform-sp-2016 [data-shortpoint-platform-hide="sp-2016"] {
+  display: none !important;
+}
+
+.sp-platform-office365 .shortpoint-platform_hide-office365,
+.sp-platform-office365 [data-shortpoint-platform-hide="office-365"] {
+  display: none !important;
+}
+
 .slimScrollDiv > .shortpoint-commons-content-shadow {
   -moz-box-shadow: 0 -9px 8px -6px rgba(0, 0, 0, 0.1) inset;
   -webkit-box-shadow: 0 -9px 8px -6px rgba(0, 0, 0, 0.1) inset;
@@ -1254,8 +1159,14 @@ img.fr-view.fr-bordered {
 }
 
 @media (max-width: 768px) {
-  .shortpoint-commons-no-margin-mobile {
+  .shortpoint-commons-no-margin-mobile:not(.shortpoint-has-force-top) {
     margin: 0 !important;
+  }
+
+  .shortpoint-has-force-top.shortpoint-commons-no-margin-mobile {
+    margin-right: 0 !important;
+    margin-bottom: 0 !important;
+    margin-left: 0 !important;
   }
 
   .shortpoint-commons-no-padding-mobile {
@@ -4401,7 +4312,7 @@ img.fr-view.fr-bordered {
   line-height: 1em;
   transition: all 0.2s ease-out;
 }
-.shortpoint-icon:before, .shortpoint-icon > img {
+.shortpoint-icon:before, .shortpoint-icon > img, .shortpoint-icon > svg {
   display: block;
   position: absolute;
   left: 0;
@@ -4409,7 +4320,7 @@ img.fr-view.fr-bordered {
   text-align: center;
   z-index: 1;
 }
-.shortpoint-icon > img {
+.shortpoint-icon > img, .shortpoint-icon > svg {
   width: 100%;
 }
 
@@ -4453,8 +4364,9 @@ img.fr-view.fr-bordered {
   top: -2px;
   font-size: 0.6em;
 }
-.shortpoint-icon-circle > img, .shortpoint-icon-outline-circle > img,
-.shortpoint-icon-outline-square > img, .shortpoint-icon-square > img {
+.shortpoint-icon-circle > img, .shortpoint-icon-circle > svg, .shortpoint-icon-outline-circle > img, .shortpoint-icon-outline-circle > svg,
+.shortpoint-icon-outline-square > img,
+.shortpoint-icon-outline-square > svg, .shortpoint-icon-square > img, .shortpoint-icon-square > svg {
   height: 60% !important;
   width: 100%;
   margin-top: 20%;
@@ -5240,6 +5152,9 @@ img.mfp-img {
   -ms-user-select: none;
   -webkit-user-select: none;
   user-select: none;
+}
+.shortpoint-btn:not(.shortpoint-dynamic) {
+  margin-bottom: 3px;
 }
 .shortpoint-btn:focus {
   outline: thin dotted #333;
@@ -7591,7 +7506,7 @@ th {
 
 /* Slider */
 .slick-loading .slick-list {
-  background: #fff url('/images/ajax-loader.gif?1478707132') center center no-repeat;
+  background: #fff url('/images/ajax-loader.gif?1500988058') center center no-repeat;
 }
 
 /* Icons */
@@ -7743,6 +7658,10 @@ th {
 }
 .shortpoint-slideshows .slick-list, .shortpoint-slideshows .slick-track, .shortpoint-slideshow .slick-list, .shortpoint-slideshow .slick-track {
   height: 100%;
+}
+
+.slick-dotted.slick-slider {
+  margin-bottom: 0;
 }
 
 .shortpoint-slideshows.slick-slider {
@@ -7988,6 +7907,11 @@ th {
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
   -webkit-text-stroke: 1px black;
   filter: progid:DXImageTransform.Microsoft.dropshadow(color=#000000,offX=1,offY=1) progid:DXImageTransform.Microsoft.dropshadow(color=#000000,offX=-1,offY=1) progid:DXImageTransform.Microsoft.dropshadow(color=#000000,offX=1,offY=-1) progid:DXImageTransform.Microsoft.dropshadow(color=#000000,offX=-1,offY=-1);
+}
+
+.sp-platform-sp-2016 .ms-designer-ribbon {
+  position: relative;
+  z-index: 1;
 }
 
 .shortpoint-textshows {
@@ -8921,7 +8845,6 @@ th {
   display: inline-block;
   position: relative;
   min-height: 1px;
-  margin-bottom: 15px;
   vertical-align: top;
 }
 .shortpoint-counters-box .shortpoint-row .shortpoint-counter-box-wrap:last-child {
@@ -9067,6 +8990,37 @@ th {
   margin-bottom: 2px;
 }
 
+.shortpoint-tab-title {
+  overflow: hidden;
+}
+
+/* when columns are stacked, disable tabs height */
+@media screen and (max-width: 991px) {
+  .shortpoint-tabs-responsive + .shortpoint-tab-content > .shortpoint-tab-pane {
+    height: auto !important;
+  }
+
+  .shortpoint-tabs-bar.shortpoint-tabs-top .shortpoint-tabs-header,
+  .shortpoint-tabs-bar.shortpoint-tabs-bottom .shortpoint-tabs-header {
+    display: block;
+  }
+
+  html .shortpoint-tabs-bar.shortpoint-tabs-top .shortpoint-li,
+  html .shortpoint-tabs-bar.shortpoint-tabs-bottom .shortpoint-li {
+    border: none;
+  }
+}
+/* tablet and below, make tab buttons full width stacked on top of each other */
+@media screen and (max-width: 768px) {
+  [data-shortpoint-type="tab"] {
+    width: 100% !important;
+    text-align: center;
+  }
+
+  .shortpoint-tab-title {
+    height: auto !important;
+  }
+}
 .shortpoint-nav > .shortpoint-li.shortpoint-disabled > .shortpoint-a,
 .shortpoint-nav > .shortpoint-li.shortpoint-disabled > .shortpoint-a:hover,
 .shortpoint-nav > .shortpoint-li.shortpoint-disabled > .shortpoint-a:focus {
@@ -11508,9 +11462,25 @@ a.shortpoint-ticker-link:focus {
   width: 100%;
 }
 
+html.sp-page-add-in-dashboard .shortpoint-show-no-dashboard {
+  display: none !important;
+}
+
+html:not(.sp-page-add-in-dashboard) .shortpoint-show-dashboard {
+  display: none !important;
+}
+
 .shortpoint-icon-fa-spin {
   -webkit-animation: shortpoint-icon-fa-spin 2s infinite linear;
   animation: shortpoint-icon-fa-spin 2s infinite linear;
+}
+
+html {
+  -ms-overflow-style: none;
+}
+
+#s4-workspace {
+  -ms-overflow-style: auto;
 }
 
 #hidZone {
@@ -11523,6 +11493,18 @@ a.shortpoint-ticker-link:focus {
 #hidZone .ms-rte-wpbox {
   max-width: 100%;
   overflow: scroll;
+}
+
+.shortpoint-resize-in-progress *:not(.shortpoint-resize-keep-transition) {
+  -webkit-transition: none !important;
+  -moz-transition: none !important;
+  -o-transition: none !important;
+  transition: none !important;
+}
+
+.data-shortpoint-wrap,
+[data-shortpoint-wrap] {
+  word-break: break-all;
 }
 
 .shortpoint-copy-animated {
@@ -11629,6 +11611,11 @@ a.shortpoint-ticker-link:focus {
   background: #36A8E2;
 }
 
+@media screen and (max-width: 926px) {
+  .shortpoint-copy-toolbar {
+    display: none !important;
+  }
+}
 .shortpoint-copy-toolbar {
   background-color: #000;
   position: fixed;
@@ -11636,10 +11623,10 @@ a.shortpoint-ticker-link:focus {
   right: 0;
   width: 100%;
   color: white;
-  z-index: 1000;
+  z-index: 9999;
   opacity: 1;
   box-shadow: 0 0 10px black;
-  transition: .2s ease top, .2s ease opacity, .2s ease background-color;
+  transition: .3s ease top, .3s ease opacity, .3s ease background-color;
   box-sizing: border-box;
 }
 .shortpoint-copy-hide-toolbar .shortpoint-copy-toolbar {
@@ -11776,7 +11763,7 @@ a.shortpoint-ticker-link:focus {
 
 .shortpoint-copy-overlay {
   position: absolute;
-  z-index: 10000;
+  z-index: 9998;
   border: 1px dashed #666;
   background-color: rgba(54, 168, 226, 0.5);
   display: flex;
@@ -11795,6 +11782,35 @@ a.shortpoint-ticker-link:focus {
 .shortpoint-copy-helpers {
   left: 0;
   text-align: left;
+}
+
+.shortpoint-branding-wrap {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+#spb-panel-main-module,
+.shortpoint-branding-iframe {
+  height: 100vh;
+}
+
+.shortpoint-branding-iframe {
+  width: 100%;
+  transition: width 0.5s ease-out;
+}
+.shortpoint-branding-iframe.shortpoint-branding-iframe-tablet {
+  width: 800px;
+  box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.5);
+}
+.shortpoint-branding-iframe.shortpoint-branding-iframe-phone {
+  width: 478px;
+  box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.5);
+}
+
+.shortpoint-branding-iframe-wrap {
+  flex: 1 auto;
+  text-align: center;
+  background-color: #f2f2f2;
 }
 
 /*!

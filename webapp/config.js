@@ -1,5 +1,5 @@
 (function() {
-	var version = "4.4.10";
+	var version = "4.5.1";
 	var sNamespace = "shortpoint-widget-beta";
 
 	var versionBuster = version.replace(/\./g, "00");
@@ -13,7 +13,7 @@
 	    // required only in Web IDE testing
 	    webapp = "webapp";
 	}
-	
+
 	// debugging only
 	// --------------
 	// var root = prefix + "/" + webapp;
@@ -46,6 +46,7 @@
 			autoInit: false,
 			scrollWrapperSelector: ".shortpoint-scroll-container",
 			platform: "sap",
+			version: version,
 			connectionTypes: oConnectionTypes
 		};
 
