@@ -1,1 +1,1 @@
-sap.ui.define(["sap/ui/core/mvc/Controller","../config"],function(a,b){"use strict";return a.extend(b.namespace+".controller.App",{onInit:function(){window.app=window.app||[],window.app.push(this)},onAfterRendering:function(){this.byId("editMode").$().hide()}})});
+sap.ui.define(["sap/ui/core/mvc/Controller","../config"],function(a,b){"use strict";return a.extend(b.namespace+".controller.App",{onInit:function(){window.shortpointApp=window.shortpointApp||[],window.shortpointApp.push(this)},onAfterRendering:function(){this.byId("editMode").$().hide()}})});
