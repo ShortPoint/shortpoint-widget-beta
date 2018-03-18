@@ -239,10 +239,5 @@
         }
       }
     ]
-  },
-  "hcpdeploy": {
-    "account": "a76336e4e",
-    "name": "shortpointwidgetbeta",
-    "lastVersionWeTriedToDeploy": "1.0.2"
   }
 }
