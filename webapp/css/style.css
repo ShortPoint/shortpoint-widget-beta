@@ -286,7 +286,6 @@
  * hide some editor buttons in case of trial
  */
 [data-shortpoint-lt="trial"] [data-cmd="upgrade"],
-[data-shortpoint-lt="trial"] [data-cmd="accountSettings"],
 [data-cmd="demoContent"] {
 	display: none !important;
 }
