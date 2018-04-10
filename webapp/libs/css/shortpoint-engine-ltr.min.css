@@ -7398,7 +7398,9 @@ th {
   display: table;
   table-layout: fixed;
 }
-.shortpoint-imageframe img {
+.shortpoint-imageframe .shortpoint-imageframe-wrap img,
+.shortpoint-imageframe > * > img,
+.shortpoint-imageframe > img {
   width: 100%;
   height: auto;
   display: block;
@@ -7506,7 +7508,7 @@ th {
 
 /* Slider */
 .slick-loading .slick-list {
-  background: #fff url('/images/ajax-loader.gif?1500988058') center center no-repeat;
+  background: #fff url('/images/ajax-loader.gif?1518862274') center center no-repeat;
 }
 
 /* Icons */
@@ -10052,6 +10054,7 @@ th {
   position: absolute;
   width: 100%;
   transition: all 0.2s ease;
+  display: inline-block;
 }
 .shortpoint-tile-style-sarah .shortpoint-tile-description-wrap {
   left: 100%;
