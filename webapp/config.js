@@ -1,34 +1,26 @@
 (function() {
-	var version = "4.5.2";
+	var version = "4.5.3";
 	var sNamespace = "shortpoint-widget-beta";
-
+	
 	var versionBuster = version.replace(/\./g, "00");
 	var prefix = jQuery.sap.getModulePath( sNamespace );
 	if (prefix === ".") {
 	    prefix = "";
 	}
-
+	
 	var webapp = "";
 	if(!sap.ushell || !sap.ushell.Container){
 	    // required only in Web IDE testing
 	    webapp = "webapp";
 	}
-
-	// debugging only
-	// --------------
-	// var root = prefix + "/" + webapp;
-	// jQuery.sap.registerModulePath("shortpoint-root", root);
-	// jQuery.sap.registerModulePath("shortpoint-libs", "//localhost:8080");
-
-	// production only
-	// ---------------
+	
 	var root = prefix + "/~" + versionBuster + "~/" + webapp;
 	jQuery.sap.registerModulePath("shortpoint-root", root);
 	jQuery.sap.registerModulePath("shortpoint-libs", root + "/libs");
-
+	
 	sap.ui.define(["./connections"], function (connections) {
 		"use strict";
-
+		
 		// map connections
 		var oConnectionTypes = connections.map(function (item) {
 			return {
@@ -38,20 +30,20 @@
 				id: item.id
 			};
 		});
-
+	
 		/**
 		 * ShortPoint configuration
 		 */
-		var oShortpointPreConfig = {
+		var oShortpointPreConfig = { 
 			autoInit: false,
 			scrollWrapperSelector: ".shortpoint-scroll-container",
 			platform: "sap",
 			version: version,
 			connectionTypes: oConnectionTypes
 		};
-
+	
 		window.shortpoint_pre_config = oShortpointPreConfig; // eslint-disable-line camelcase
-
+	
 		/**
 		 * expose all configurations
 		 */

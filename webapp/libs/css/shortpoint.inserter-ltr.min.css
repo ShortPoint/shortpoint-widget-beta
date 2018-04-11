@@ -3,7 +3,7 @@
  * inserter 0.9.0
  * -------------------------
  * Copyright 2018, all rights reserved
- * build timestamp Wednesday, February 7th, 2018, 9:22:04 PM
+ * build timestamp Tuesday, April 10th, 2018, 11:47:33 PM
  * -------------------------
  */
 /*
@@ -11032,6 +11032,41 @@ body.fr-fullscreen {
 /* line 1, ../sass/components/_fabric-people-picker.scss */
 .shortpoint-people-picker-menu.ms-ContextualHost {
   z-index: 1100;
+}
+
+/* line 2, ../sass/components/_inline-function.scss */
+.sp-inserter-inline-func .sp-inserter-inline-func_start {
+  margin-bottom: 0;
+}
+/* line 5, ../sass/components/_inline-function.scss */
+.sp-inserter-inline-func .sp-inserter-inline-func_start code {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+/* line 12, ../sass/components/_inline-function.scss */
+.sp-inserter-inline-func .sp-inserter-inline-func_end code {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+/* line 21, ../sass/components/_inline-function.scss */
+.sp-inserter-inline-func .sp-inserter-inline-func_start, .sp-inserter-inline-func .sp-inserter-inline-func_start code,
+.sp-inserter-inline-func .sp-inserter-inline-func_end,
+.sp-inserter-inline-func .sp-inserter-inline-func_end code {
+  display: block;
+}
+/* line 25, ../sass/components/_inline-function.scss */
+.sp-inserter-inline-func .sp-inserter-inline-func_start code,
+.sp-inserter-inline-func .sp-inserter-inline-func_end code {
+  border: 1px solid rgba(199, 37, 78, 0.4);
+  position: relative;
+}
+/* line 31, ../sass/components/_inline-function.scss */
+.sp-inserter-inline-func textarea {
+  font-family: monospace;
+  border-radius: 0;
+  resize: vertical;
+  margin-bottom: -1px;
+  margin-top: -1px;
 }
 
 /* line 3, ../sass/_edit-mode.scss */
