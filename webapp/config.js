@@ -30,6 +30,17 @@
 				id: item.id
 			};
 		});
+
+		// add rest api connection
+		oConnectionTypes.push({
+			name: 'REST API',
+			adapter: 'rest',
+			id: 'dynamic_rest',
+			data: {
+					url: '',
+					editableUrl: true
+			}
+		});		
 	
 		/**
 		 * ShortPoint configuration
