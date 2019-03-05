@@ -299,3 +299,10 @@
     left: 0;
     z-index: 100;
 }
+
+ /* Support 5500 */
+ /* Hide preloaders until we figure out what is causing them to sometimes not go away */
+ .shortpoint-sk-root {
+  display: none !important;
+ }
+ 
