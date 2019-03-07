@@ -1,5 +1,5 @@
 (function() {
-	var version = "4.5.7";
+	var version = "4.6.2";
 	var sNamespace = "shortpoint-widget-beta";
 	
 	var versionBuster = version.replace(/\./g, "00");
@@ -30,6 +30,25 @@
 				id: item.id
 			};
 		});
+
+		// add rest api connection
+		oConnectionTypes.push({
+			name: 'REST API',
+			adapter: 'rest',
+			id: 'dynamic_rest',
+			data: {
+					url: '',
+					editableUrl: true
+			}
+		}, {
+			name: 'RSS Feeds',
+			adapter: 'rss',
+			id: 'dynamic_rss',
+			data: {
+				url: '',
+				editableUrl: true
+			}
+		});		
 	
 		/**
 		 * ShortPoint configuration
