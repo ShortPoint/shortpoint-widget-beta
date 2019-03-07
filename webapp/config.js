@@ -40,6 +40,14 @@
 					url: '',
 					editableUrl: true
 			}
+		}, {
+			name: 'RSS Feeds',
+			adapter: 'rss',
+			id: 'dynamic_rss',
+			data: {
+				url: '',
+				editableUrl: true
+			}
 		});		
 	
 		/**
