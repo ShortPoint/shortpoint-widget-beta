@@ -1,5 +1,5 @@
 (function() {
-	var version = "4.6.2";
+	var version = "4.6.8";
 	var sNamespace = "shortpoint-widget-beta";
 	
 	var versionBuster = version.replace(/\./g, "00");
@@ -12,7 +12,41 @@
 	if(!sap.ushell || !sap.ushell.Container){
 	    // required only in Web IDE testing
 	    webapp = "webapp";
-	}
+  }
+  
+  // Placeholder for SharePoint _spPageContextInfo object with default values so our build won't fail on SAP
+	window._spPageContextInfo = {
+		"webServerRelativeUrl": "/",
+		"webAbsoluteUrl": location.origin,
+		"siteAbsoluteUrl": location.origin,
+		"serverRequestPath": "",
+		"layoutsUrl": "",
+		"webTitle": "",
+		"webTemplate": "",
+		"tenantAppVersion": "",
+		"isAppWeb": false,
+		"webLogoUrl": "",
+		"webLanguage": 0,
+		"currentLanguage": 0,
+		"currentUICultureName": "en-US",
+		"currentCultureName": "en-US",
+		"clientServerTimeDelta": 0,
+		"siteClientTag": "",
+		"crossDomainPhotosEnabled": false,
+		"webUIVersion": 0,
+		"webPermMasks": {
+			"High": 0,
+			"Low": 0
+		},
+		"pageListId": "",
+		"pageItemId": 0,
+		"pagePersonalizationScope": 0,
+		"userId": 0,
+		"systemUserKey": "",
+		"alertsEnabled": false,
+		"siteServerRelativeUrl": "/",
+		"allowSilverlightPrompt": ""
+	};
 	
 	var root = prefix + "/~" + versionBuster + "~/" + webapp;
 	jQuery.sap.registerModulePath("shortpoint-root", root);
