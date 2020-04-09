@@ -1,6 +1,7 @@
 (function() {
-	var version = "4.6.2";	var sNamespace = "shortpoint-widget-beta";
-
+	var version = "4.7.6";
+	var sNamespace = "shortpoint-widget-beta";
+	
 	var versionBuster = version.replace(/\./g, "00");
 	var prefix = jQuery.sap.getModulePath( sNamespace );
 	if (prefix === ".") {
