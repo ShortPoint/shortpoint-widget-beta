@@ -1,5 +1,5 @@
 (function() {
-	var version = "4.7.5";
+	var version = "4.7.6";
 	var sNamespace = "shortpoint-widget-beta";
 	
 	var versionBuster = version.replace(/\./g, "00");
