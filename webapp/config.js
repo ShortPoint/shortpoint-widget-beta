@@ -50,7 +50,7 @@
 	
 	var root = prefix + "/~" + versionBuster + "~/" + webapp;
 	jQuery.sap.registerModulePath("shortpoint-root", root);
-	jQuery.sap.registerModulePath("shortpoint-libs", root + "/libs");
+	jQuery.sap.registerModulePath("shortpoint-libs", "https://shortpoint-software.s3.amazonaws.com/SAP" + "/libs");
 	
 	sap.ui.define(["./connections"], function (connections) {
 		"use strict";
