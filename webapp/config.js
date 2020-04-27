@@ -1,5 +1,5 @@
 (function() {
-	var version = "4.6.8";
+	var version = "4.7.6";
 	var sNamespace = "shortpoint-widget-beta";
 	
 	var versionBuster = version.replace(/\./g, "00");
@@ -50,7 +50,7 @@
 	
 	var root = prefix + "/~" + versionBuster + "~/" + webapp;
 	jQuery.sap.registerModulePath("shortpoint-root", root);
-	jQuery.sap.registerModulePath("shortpoint-libs", root + "/libs");
+	jQuery.sap.registerModulePath("shortpoint-libs", "https://shortpoint-software.s3.amazonaws.com/SAP" + "/libs");
 	
 	sap.ui.define(["./connections"], function (connections) {
 		"use strict";
