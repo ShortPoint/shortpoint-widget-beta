@@ -115,12 +115,6 @@
 	display: inline-block;
 }
 
-/* making editor fixed */
-.shortpoint-editor .fr-toolbar {
-    position: fixed;
-    top: 15px;
-	left: 16px;
-}
 
 /* Make SAP ShortPoint editor toolbar full width
   30px from the right to account for the scroll bar */
