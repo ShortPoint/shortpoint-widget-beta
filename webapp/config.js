@@ -92,7 +92,8 @@
 			scrollWrapperSelector: ".shortpoint-scroll-container",
 			platform: "sap",
 			version: version,
-			connectionTypes: oConnectionTypes
+			connectionTypes: oConnectionTypes,
+			rerenderOnThemeChange: false,
 		};
 	
 		window.shortpoint_pre_config = oShortpointPreConfig; // eslint-disable-line camelcase
