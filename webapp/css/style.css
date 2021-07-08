@@ -126,7 +126,7 @@
   30px from the right to account for the scroll bar */
 .sp-platform-sap .shortpoint-editor .fr-toolbar {
 	width: auto !important;
-	right: 30px;
+	/* right: 30px; */
 }
 
 /* Make SAP ShortPoint editor toolbar account for the height of 
@@ -136,7 +136,11 @@
 }
 
 .shortpoint-editor .fr-wrapper {
-    padding-top: 78px;
+    /* padding-top: 78px; */
+}
+
+.fr-toolbar.fr-top {
+	top: 0 !important;
 }
 
 /* disable fixed positioning on IE / Edge */
