@@ -6,7 +6,7 @@
 		"type": "application",
 		"i18n": "i18n/i18n.properties",
 		"applicationVersion": {
-			"version": "4.7.8"
+			"version": "4.7.9"
 		},
 		"title": "ShortPoint Widget",
 		"description": "{{appDescription}}",
@@ -64,7 +64,7 @@
 		"resources": {
 			"css": [
 				{
-					"uri": "https://d2zzvnmppezkx.cloudfront.net/sap/4.7.8/libs/css/style.css"
+					"uri": "https://d2zzvnmppezkx.cloudfront.net/sap/4.7.9/libs/css/style.css"
 				}
 			]
 		},
