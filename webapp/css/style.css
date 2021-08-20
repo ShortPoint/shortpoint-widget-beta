@@ -320,7 +320,6 @@
  /* Support 5500 */
  /* Hide preloaders until we figure out what is causing them to sometimes not go away */
  .shortpoint-sk-root, .shortpoint-sk-wrap, .shrotpoint-sk-circle {
-	display: none !important;
-   }
-   
+  display: none !important;
+ }
  
