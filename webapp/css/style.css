@@ -116,17 +116,17 @@
 }
 
 /* making editor fixed */
-.shortpoint-editor .fr-toolbar {
+/* .shortpoint-editor .fr-toolbar {
     position: fixed;
     top: 15px;
 	left: 16px;
-}
+} */
 
 /* Make SAP ShortPoint editor toolbar full width
   30px from the right to account for the scroll bar */
 .sp-platform-sap .shortpoint-editor .fr-toolbar {
 	width: auto !important;
-	right: 30px;
+	/* right: 30px; */
 }
 
 /* Make SAP ShortPoint editor toolbar account for the height of 
@@ -136,7 +136,11 @@
 }
 
 .shortpoint-editor .fr-wrapper {
-    padding-top: 78px;
+    /* padding-top: 78px; */
+}
+
+.fr-toolbar.fr-top {
+	top: 0 !important;
 }
 
 /* disable fixed positioning on IE / Edge */
@@ -315,7 +319,8 @@
 
  /* Support 5500 */
  /* Hide preloaders until we figure out what is causing them to sometimes not go away */
- .shortpoint-sk-root {
-  display: none !important;
- }
+ .shortpoint-sk-root, .shortpoint-sk-wrap, .shrotpoint-sk-circle {
+	display: none !important;
+   }
+   
  
