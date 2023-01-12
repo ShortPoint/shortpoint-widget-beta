@@ -1,0 +1,325 @@
+/* Enter your custom styles here */
+.shortpoint-editor {
+    resize: none;
+    width: calc(100% - 4px);
+    background: transparent;
+    color: black;
+    overflow: hidden;
+    border: medium none;
+}
+
+.shortpoint-edit-toolbar {
+	position: absolute;
+	top: 0;
+	right: 0;
+	display: none;
+	z-index: 1000;
+}
+
+.shortpoint-editor-on .shortpoint-edit-toolbar {
+	display: block;
+}
+
+.shortpoint-edit-toolbar button {
+	float: right;
+	margin-right: -1px;
+	margin-top: -1px;
+}
+
+.shortpoint-hidden-div {
+    display: none;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+.sp-inserter-root .sp-inserter-account-module .sp-inserter-form-group {
+	margin-bottom: 5px;
+	padding: 0;
+}
+
+/* fixing eraser icon */
+.fa.fa-eraser {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    transform: translate(0,0);
+}
+
+.fa.fa-eraser:after {
+    content: "\f12d";
+}
+
+.shortpoint-custom-cmd {
+    text-decoration: none;
+    display: block;
+}
+
+.fr-command.fr-btn[data-cmd="upgrade"],
+.fr-command.fr-btn[data-cmd="demoContent"],
+.fr-command.fr-btn[data-cmd="accountSettings"] {
+    width: auto;
+}
+
+.fr-command.fr-btn[data-cmd="saveShortPoint"] i,
+.fr-command.fr-btn[data-cmd="demoContent"] i,
+.fr-command.fr-btn[data-cmd="accountSettings"] i {
+	width: auto;
+	font-size: 25px;
+}
+
+.fr-command .fr-logo-image {
+	margin: 12px 11.5px 10px;
+}
+
+.fr-command.fr-btn[data-cmd="logo"] .shortpoint-custom-cmd .fr-btn-text-small {
+    margin-top: 14px;
+}
+
+.fr-command .shortpoint-editor-gray-label {
+	padding-right: 5px;
+}
+.fr-command .shortpoint-editor-gray-label label {
+    color: #aaa;
+    font-size: 90%;
+    position: relative;
+    display: inline-block;
+    top: -1px;
+}
+
+.fr-command.fr-btn[data-cmd="saveShortPoint"] i,
+.fr-command.fr-btn[data-cmd="demoContent"] i,
+.fr-command.fr-btn[data-cmd="accountSettings"] i,
+.fr-command.fr-btn[data-cmd="feedback"] i {
+	color: #209FD9;
+}
+.fr-command.fr-btn[data-cmd="demoContent"]:after {
+	border-top-color: #209FD9 !important;
+}
+
+.fr-command.fr-btn[data-cmd="upgrade"],
+.fr-command.fr-btn[data-cmd="feedback"],
+.fr-command.fr-btn[data-cmd="accountSettings"] {
+    float: right;
+}
+
+.fr-command.fr-btn[data-cmd="upgrade"] a {
+    color: orange;
+    padding: 5px 0;
+}
+
+.fr-toolbar .fr-command.fr-btn i {
+	display: inline-block;
+}
+
+/* making editor fixed */
+/* .shortpoint-editor .fr-toolbar {
+    position: fixed;
+    top: 15px;
+	left: 16px;
+} */
+
+/* Make SAP ShortPoint editor toolbar full width
+  30px from the right to account for the scroll bar */
+.sp-platform-sap .shortpoint-editor .fr-toolbar {
+	width: auto !important;
+	/* right: 30px; */
+}
+
+/* Make SAP ShortPoint editor toolbar account for the height of 
+ the sticky menu in Basic Layout Set site types */
+.page-sticky-menu-placeholder ~ .sapMPageEnableScrolling .shortpoint-editor .fr-toolbar{
+	top: 85px !important;
+}
+
+.shortpoint-editor .fr-wrapper {
+    /* padding-top: 78px; */
+}
+
+.fr-toolbar.fr-top {
+	top: 0 !important;
+}
+
+/* disable fixed positioning on IE / Edge */
+[data-sap-ui-browser^="ie"] .shortpoint-editor .fr-toolbar,
+[data-sap-ui-browser^="ed"] .shortpoint-editor .fr-toolbar {
+	top: 0;
+	position: static;
+	left: 0;
+}
+
+[data-sap-ui-browser^="ie"] .shortpoint-editor .fr-wrapper,
+[data-sap-ui-browser^="ed"] .shortpoint-editor .fr-wrapper {
+	padding-top: 0;
+}
+
+/* hiding upgrade button by default */
+.fr-command.fr-btn[data-cmd="upgrade"] {
+	display: none;
+}
+
+.shortpoint-upgrade-available .fr-command.fr-btn[data-cmd="upgrade"] {
+	display: block;
+}
+
+/* fixes section not fully-white */
+.shortpoint-editor .fr-element {
+	overflow-x: visible;
+}
+
+/* hotfix SP-1459 only for FF */
+[data-sap-ui-browser*="ff"] .shortpoint-display2[data-display-type="section"] > .shortpoint-display-toolbar-wrap {
+	margin-bottom: 0;
+}
+
+/* hotfix for SP-2164, to be fixed later */
+.shortpoint-dynamic {
+    opacity: 1;
+}
+
+/**
+ * because all demo content is designed on SharePoint 
+ * platform, colors are not applied inline, 
+ * and most used color is white
+ */
+.ms-rteThemeForeColor-1-0 {
+	color: white;
+}
+
+.spi-license-invalid [data-cmd="demoContent"],
+.spi-license-invalid [data-cmd="insertSection"],
+.spi-license-invalid [data-cmd="insertShortPoint"],
+.spi-license-invalid [data-cmd="upgrade"],
+.spi-license-invalid [data-cmd="html"] {
+	opacity: 0.5;
+	cursor: default;
+	color: #bdbdbd;
+}
+
+/**
+ * license info box 
+ */
+
+/* by default its hidden */
+.fr-command.fr-btn[data-cmd="licenseInfo"] {
+	display: none;
+}
+
+.fr-command.fr-btn[data-cmd="licenseInfo"] .shortpoint-icon {
+	margin: 0;
+    position: relative;
+    top: -2px;
+    margin-right: 10px;
+}
+
+.fr-command.fr-btn[data-cmd="licenseInfo"] a {
+	cursor: pointer;
+}
+
+.fr-command.fr-btn[data-cmd="licenseInfo"] a:hover {
+	text-decoration: underline;
+}
+
+.fr-command.fr-btn[data-cmd="licenseInfo"] {
+	display: none;
+}
+
+.spi-license-info-show .fr-command.fr-btn[data-cmd="licenseInfo"] {
+	display: inline-block;
+    width: calc( 100% - 550px );
+    position: absolute;
+    left: 220px;
+}
+
+.spi-license-info {
+	margin-left: 10px;
+    margin-bottom: 0;
+    position: relative;
+    top: 10px;
+    border-radius: 3px;
+}
+
+.spi-license-info-show .spi-license-info {
+	padding: 5px 10px;
+}
+
+.spi-license-info.sp-inserter-alert-danger {
+	background-color: #FFE8E6;
+	color: #FF1B2D;
+	border: 1px solid #FFDDD9;
+}
+
+.fr-command.fr-btn[data-cmd="licenseInfo"]:hover {
+	cursor: default;
+	background-color: transparent;
+}
+
+@media screen and (max-width: 800px) {
+	.fr-toolbar .fr-command.fr-btn[data-cmd="licenseInfo"] {
+		display: block;
+	    width: calc( 100% - 10px );
+	    position: relative;
+	    padding: 0;
+	    position: relative;
+	    margin-left: 0;
+	    margin-bottom: 15px;
+	    left: 0;
+	}
+}
+
+/**
+ * subscription module
+ */
+
+.spi-sap-subscription-root .spi-success .shortpoint-icon,
+.spi-sap-subscription-root .spi-info .shortpoint-icon, 
+.spi-sap-subscription-root .spi-danger .shortpoint-icon {
+	font-size: 18px;
+	margin-right: 10px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.spi-subscription-text-wrap {
+	display: inline-block;
+}
+
+.spi-sap-subscription-root .spi-success .shortpoint-icon {
+	color: #72A954;
+}
+
+.spi-sap-subscription-root .spi-info .shortpoint-icon {
+	color: #00A8DE;
+}
+
+.spi-sap-subscription-root .spi-danger .shortpoint-icon {
+	color: #FA2F2E;
+}
+
+/**
+ * hide some editor buttons in case of trial
+ */
+[data-shortpoint-lt="trial"] [data-cmd="upgrade"],
+[data-cmd="demoContent"] {
+	display: none !important;
+}
+
+/**
+ * web ide fixes
+ */
+.ide-edit-button {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+ /* Support 5500 */
+ /* Hide preloaders until we figure out what is causing them to sometimes not go away */
+ .shortpoint-sk-root {
+  display: none !important;
+ }
+ 
