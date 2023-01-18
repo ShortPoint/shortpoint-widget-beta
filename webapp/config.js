@@ -1,5 +1,5 @@
 (function() {
-	var version = "4.7.7";
+	var version = "4.8.1";
 	var sNamespace = "shortpoint-widget-beta";
 	
 	var versionBuster = version.replace(/\./g, "00");
@@ -50,7 +50,7 @@
 	
 	var root = prefix + "/~" + versionBuster + "~/" + webapp;
 	jQuery.sap.registerModulePath("shortpoint-root", root);
-	jQuery.sap.registerModulePath("shortpoint-libs", "https://d2zzvnmppezkx.cloudfront.net/sap/4.7.7" + "/libs");
+	jQuery.sap.registerModulePath("shortpoint-libs", "https://d2zzvnmppezkx.cloudfront.net/sap/4.8.1" + "/libs");
 	
 	sap.ui.define(["./connections"], function (connections) {
 		"use strict";
@@ -92,7 +92,8 @@
 			scrollWrapperSelector: ".shortpoint-scroll-container",
 			platform: "sap",
 			version: version,
-			connectionTypes: oConnectionTypes
+			connectionTypes: oConnectionTypes,
+			rerenderOnThemeChange: false,
 		};
 	
 		window.shortpoint_pre_config = oShortpointPreConfig; // eslint-disable-line camelcase
