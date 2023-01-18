@@ -8,3 +8,8 @@ sap-ui-cachebuster-info.json
 preview.json
 cp.project.properties.json
 /dist/
+extended_runnable_file.html
+.*/extended_runnable_file.html
+changes_preview.js
+fioriHtmlRunner.html
+.*/fioriHtmlRunner.html

@@ -1,7 +1,4 @@
-# ShortPoint Widget Beta ![Updated On 19-05-2016](https://img.shields.io/badge/Updated%20On-19--05--2016-brightgreen.svg) ![v3.3.0 Beta](https://img.shields.io/badge/version-3.3.0-brightgreen.svg) ![Beta Release](https://img.shields.io/badge/Beta-Release-red.svg)
-
-**Note: ShortPoint Widget for SAP HANA Cloud Portal is still in beta. Just make sure to get latest updates. This version need an update before 31-07-2016. If we have your email, we will send you update notification. Otherwise, make sure to sync the code from the repository before 31-07-2016**
-
+# ShortPoint Widget Beta ![Updated On 13-02-2017](https://img.shields.io/badge/Updated%20On-13--02--2017-brightgreen.svg) ![v4.4.0](https://img.shields.io/badge/version-4.4.0-brightgreen.svg)
 
 > Design Sites & Site Templates Like A Pro
 No Coding, external tools, customizations. It works everywhere. Just install and start designing your modern SAP HCP sites.
